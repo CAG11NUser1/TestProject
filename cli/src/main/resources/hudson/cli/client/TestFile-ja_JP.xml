@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iclocalization>
 	<Service_Fulfillment_Region>
-		<title>Service Fulfillment status by Region</title>
-		<desc>Report on Service Fulfillment status by Region</desc>
+		<title>リージョン別の Service Fulfillment ステータス</title>
+		<desc>リージョン別の Service Fulfillment ステータス</desc>
 	</Service_Fulfillment_Region>
 	<Service_Provision>
-		<title>Service Provisioning</title>
-		<desc>Report on Service Provisioning</desc>
+		<title>サービス プロビジョニング</title>
+		<desc>サービス プロビジョニング</desc>
 	</Service_Provision>
 	<Service_Deactive>
-		<title>Services Cancelled and Deactivated</title>
-		<desc>Report on Cancellations and Deactivations</desc>
+		<title>サービスがキャンセルされ、非アクティブ化</title>
+		<desc>レポートをキャンセルおよび非アクティブ化</desc>
 	</Service_Deactive>
     <Full_Reports>
-		<title>More Reports</title>
-		<desc>Full list of Fulfillment reports</desc>
+		<title>詳細レポート</title>
+		<desc>フルフィルメント レポートの完全なリスト</desc>
 	</Full_Reports>		
 </iclocalization>
