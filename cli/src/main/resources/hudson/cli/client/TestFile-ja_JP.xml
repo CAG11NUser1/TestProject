@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iclocalization>
 	<Service_Fulfillment_Region>
-		<title>リージョン別の Service Fulfillment ステータス</title>
+		<title>リージョン別の Service Fulfillment ステータス</title> 
 		<desc>リージョン別の Service Fulfillment ステータス</desc>
 	</Service_Fulfillment_Region>
 	<Service_Provision>
@@ -23,6 +23,11 @@
 	</Full_Reports>		
 	
 		  <Full_Reports>
+		<title>詳細レポート</title>
+		<desc>フルフィルメント レポートの完全なリスト</desc>
+	</Full_Reports>	
+	
+			  <Full_Reports>
 		<title>詳細レポート</title>
 		<desc>フルフィルメント レポートの完全なリスト</desc>
 	</Full_Reports>	
