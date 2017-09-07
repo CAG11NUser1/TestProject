@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iclocalization>
 	<Service_Fulfillment_Region>
-		<title>Statut d’exécution de service par région</title>
+		<title>Statut d’exécution de service par région</title> 
 		<desc>Statut d’exécution de service par région</desc>
 	</Service_Fulfillment_Region>
 	<Service_Provision>
@@ -25,6 +25,11 @@
 		  <Full_Reports>
 		<title>Plus de rapports</title>
 		<desc>Liste complète des rapports exécution de</desc>
+	</Full_Reports>	
+	
+			  <Full_Reports>
+		<title>More Reports 2</title>
+		<desc>Full list of Fulfillment reports 2</desc>
 	</Full_Reports>	
 	
 </iclocalization>
