@@ -1,25 +1,15 @@
 {
-  "login.dialog.redirecting": {
-    "id": "login.dialog.redirecting",
-    "description": "Redirecting keyword",
-    "defaultMessage": "REDIRECTING..."
-  },
-  "login.dialog.authenticate": {
-    "id": "login.dialog.authenticate",
-    "description": "Authenticate keyword",
-    "defaultMessage": "AUTHENTICATE"
-  }
-  
-  "login.dialog.authenticate": {
-    "id": "login.dialog.authenticate",
-    "description": "Authenticate keyword",
-    "defaultMessage": "AUTHENTICATE"
-  }
- "login.dialog.authenticate": {
-    "id": "login.dialog.authenticate 1",
-    "description": "Authenticate keyword 1",
-    "defaultMessage": "AUTHENTICATE 1"
-  }
+	"login.dialog.redirecting": {
+		"id": "login.dialog.redirecting",
+		"description": "Redirecting keyword",
+		"defaultMessage": "REDIRECTING..."
+	},
+	"login.dialog.authenticate": {
+		"id": "login.dialog.authenticate",
+		"description": "Authenticate keyword",
+		"defaultMessage": "AUTHENTICATE"
+	}
+
 
 
 }
