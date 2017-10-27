@@ -5,6 +5,11 @@
     "defaultMessage": "REDIRECTION..."
   },
   "login.dialog.authenticate": {
+    "id": "Login.Dialog.Authenticate",
+    "description": "Authentifier keyword1_updated",
+    "defaultMessage": "AUTHENTIFIER"
+  },
+  "login.dialog.authenticate1": {
     "id": "login.dialog.authenticate1",
     "description": "Authentifier keyword1_updated",
     "defaultMessage": "Authentifier keyword1_updated"
