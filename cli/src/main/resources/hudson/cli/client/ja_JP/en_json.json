@@ -5,8 +5,8 @@
     "defaultMessage": "リダイレクトしています."
   },
   "login.dialog.authenticate": {
-    "id": "login.dialog.authenticate",
-    "description": "Authenticate keyword1",
-    "defaultMessage": "認証"
+    "id": "login.dialog.authenticate1",
+    "description": "キーワードを認証します。",
+    "defaultMessage": "キーワードを認証します。"
   }
 }
