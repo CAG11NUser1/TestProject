@@ -1,0 +1,12 @@
+{
+  "login.dialog.redirecting": {
+    "id": "login.dialog.redirecting",
+    "description": "キーワードのリダイレクト",
+    "defaultMessage": "リダイレクトしています."
+  },
+  "login.dialog.authenticate": {
+    "id": "login.dialog.authenticate",
+    "description": "Authenticate keyword1",
+    "defaultMessage": "認証"
+  }
+}
