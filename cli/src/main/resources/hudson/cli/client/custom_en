@@ -1,0 +1,1539 @@
+# InstallAnywhere Localization File
+#
+# External strings for locale: English (en)
+# See the 'ProjectLocalizationInfo.txt' file in this same directory for information 
+#     regarding mappings between the properties shown below and your InstallAnywhere
+#     project.
+#
+# External/Locale property names can take one of three forms:
+#     <ActionName>.<ReferenceID>.<ActionProperty>          (e.g., Installer.858175031081.productName)
+#     <ActionName>.<ReferenceID>.<ActionProperty>.<Index>  (e.g., Installer.858175031081.installLabels.01)
+#         - where the <ActionProperty> is a Vector and the <Index> represents the place within the
+#           Vector where the value of the property should be inserted
+#     _ia.<SomeProperty>                                   (e.g., _ia.MyCustomCodePanelProperty)
+#         - where <SomeProperty> is used as an identifier for a localized value by custom code
+#
+# External/Locale property values should be plain text strings.  Special or i18n characters
+#     that cannot be represented by ASCII characters should be written using escaped unicode.
+#     - see the utility 'native2ascii' distributed with your JDK
+#
+# Product Name: CA APM Integration for CA Infrastructure Management
+# Project File: e:\builds\9142J\engineering\products\introscope\install\iaProjects\iaEnterprise2009SP1\Introscope_SuperAgent.iap_xml
+# Generated:    Mon Jan 28 13:21:57 IST 2013
+
+
+# ASCIIFileManipulator.02ebe3e1a710.additionalText=The EM host can not be null. A valid EM web server port setting is an integer from 1 to 65535. 
+ASCIIFileManipulator.02ebe3e1a710.additionalText=The EM host can not be null. A valid EM web server port setting is an integer from 1 to 65535. 
+
+# ASCIIFileManipulator.02ec3212a71f.additionalText=The EM host can not be null. A valid EM port setting is an integer from 1 to 65535. 
+ASCIIFileManipulator.02ec3212a71f.additionalText=The EM host can not be null. A valid EM port setting is an integer from 1 to 65535. 
+
+# ASCIIFileManipulator.390c4897a4f4.additionalText=# Java Executable\r\nwrapper.java.command=../../jre/bin/java.exe
+ASCIIFileManipulator.390c4897a4f4.additionalText=# Java Executable\r\nwrapper.java.command=../../jre/bin/java.exe
+
+# ASCIIFileManipulator.62edd400ab84.additionalText=The Introscope and TESS username cannot be null.
+ASCIIFileManipulator.62edd400ab84.additionalText=The Introscope and TESS username cannot be null.
+
+# ASCIIFileManipulator.62f3078dac13.additionalText=The Application Delivery Analysis hostnames cannot be null.
+ASCIIFileManipulator.62f3078dac13.additionalText=The Application Delivery Analysis hostnames cannot be null.
+
+# ASCIIFileManipulator.908624f2b40a.additionalText=Invalid CA EULA Specified\r\n----------------------\r\nNo value was entered for the CA EULA file.\r\nEdit the responsefile so that the ca-eulaFile property refers to a valid End User License Agreement whose terms have been accepted, then rerun the silent installer.
+ASCIIFileManipulator.908624f2b40a.additionalText=Invalid CA EULA Specified\r\n----------------------\r\nNo value was entered for the CA EULA file.\r\nEdit the responsefile so that the ca-eulaFile property refers to a valid End User License Agreement whose terms have been accepted, then rerun the silent installer.
+
+# ASCIIFileManipulator.908624f2b41d.additionalText=Invalid CA EULA Specified\r\n----------------------\r\n$ca-eulaFile$ is not a valid CA End User License Agreement file.\r\nEdit the responsefile so that the ca-eulaFile property refers to a valid CA End User License Agreement file, then rerun the silent installer.
+ASCIIFileManipulator.908624f2b41d.additionalText=Invalid CA EULA Specified\r\n----------------------\r\n$ca-eulaFile$ is not a valid CA End User License Agreement file.\r\nEdit the responsefile so that the ca-eulaFile property refers to a valid CA End User License Agreement file, then rerun the silent installer.
+
+# ASCIIFileManipulator.908624f2b425.additionalText=Invalid CA EULA Specified\r\n----------------------\r\n$ca-eulaFile$ is not a up-to-date CA End User License Agreement file.\r\nEdit the responsefile so that the ca-eulaFile property refers to a valid CA End User License Agreement file, then rerun the silent installer.
+ASCIIFileManipulator.908624f2b425.additionalText=Invalid CA EULA Specified\r\n----------------------\r\n$ca-eulaFile$ is not a up-to-date CA End User License Agreement file.\r\nEdit the responsefile so that the ca-eulaFile property refers to a valid CA End User License Agreement file, then rerun the silent installer.
+
+# ASCIIFileManipulator.908624f2b427.additionalText=Invalid CA EULA Specified\r\n----------------------\r\n$ca-eulaFile$ does not indicate acceptance of the CA End User License Agreement.\r\nEdit the responsefile so that the ca-eulaFile property refers to a valid CA End User License Agreement file whose terms have been accepted, then rerun the silent installer.\r\n\r\nTo acknowledge and accept the agreement:\r\n   - open it in a text editor and read the terms and conditions\r\n   - edit the end of the file to indicate acceptance of the license\r\n   - save the changes\r\n
+ASCIIFileManipulator.908624f2b427.additionalText=Invalid CA EULA Specified\r\n----------------------\r\n$ca-eulaFile$ does not indicate acceptance of the CA End User License Agreement.\r\nEdit the responsefile so that the ca-eulaFile property refers to a valid CA End User License Agreement file whose terms have been accepted, then rerun the silent installer.\r\n\r\nTo acknowledge and accept the agreement:\r\n   - open it in a text editor and read the terms and conditions\r\n   - edit the end of the file to indicate acceptance of the license\r\n   - save the changes\r\n
+
+# ASCIIFileManipulator.908624f3b410.additionalText=Invalid CA EULA Specified\r\n----------------------\r\nThe file $ca-eulaFile$ could not be found.\r\nEdit the responsefile so that the ca-eulaFile property refers to a valid End User License Agreement whose terms have been accepted, then rerun the silent installer.
+ASCIIFileManipulator.908624f3b410.additionalText=Invalid CA EULA Specified\r\n----------------------\r\nThe file $ca-eulaFile$ could not be found.\r\nEdit the responsefile so that the ca-eulaFile property refers to a valid End User License Agreement whose terms have been accepted, then rerun the silent installer.
+
+# ASCIIFileManipulator.9133a9ac947a.additionalText=A valid CA Performance Center Integration Pack web server port setting is an integer from 1 to 65535. 
+ASCIIFileManipulator.9133a9ac947a.additionalText=A valid CA Performance Center Integration Pack web server port setting is an integer from 1 to 65535. 
+
+# ASCIIFileManipulator.915127d59853.additionalText=
+ASCIIFileManipulator.915127d59853.additionalText=
+
+# ASCIIFileManipulator.91ca46fd9e7e.additionalText=#!/bin/bash\r\nJAVA_HOME=$USER_INSTALL_DIR$$/$jre\r\nJETTY_HOME=$USER_INSTALL_DIR$$/$CAPCIntegrationPack
+ASCIIFileManipulator.91ca46fd9e7e.additionalText=#!/bin/bash\r\nJAVA_HOME=$USER_INSTALL_DIR$$/$jre\r\nJETTY_HOME=$USER_INSTALL_DIR$$/$CAPCIntegrationPack
+
+# ASCIIFileManipulator.bb03f8f5b561.additionalText=
+ASCIIFileManipulator.bb03f8f5b561.additionalText=
+
+# ASCIIFileManipulator.d611405386cc.additionalText=No Integration Pack is selected to install. Please select at least one Integration Pack to install.
+ASCIIFileManipulator.d611405386cc.additionalText=No Integration Pack is selected to install. Please select at least one Integration Pack to install.
+
+# Billboard.a3315ae4a7cc.imageName=introscopeInstallerBillboard1.gif
+Billboard.a3315ae4a7cc.imageName=introscopeInstallerBillboard1.gif
+
+# Billboard.a3315ae4a7cc.imagePath=$INTROSCOPE_INSTALLER_SOURCE_FILES$\\engineering\\products\\introscope\\data\\defaultinstall\\images\\
+Billboard.a3315ae4a7cc.imagePath=$INTROSCOPE_INSTALLER_SOURCE_FILES$\\engineering\\products\\introscope\\data\\defaultinstall\\images\\
+
+# Billboard.a3316804a7cc.imageName=introscopeInstallerBillboard2.gif
+Billboard.a3316804a7cc.imageName=introscopeInstallerBillboard2.gif
+
+# Billboard.a3316804a7cc.imagePath=$INTROSCOPE_INSTALLER_SOURCE_FILES$\\engineering\\products\\introscope\\data\\defaultinstall\\images\\
+Billboard.a3316804a7cc.imagePath=$INTROSCOPE_INSTALLER_SOURCE_FILES$\\engineering\\products\\introscope\\data\\defaultinstall\\images\\
+
+# Billboard.a33175b0a7cc.imageName=introscopeInstallerBillboard3.gif
+Billboard.a33175b0a7cc.imageName=introscopeInstallerBillboard3.gif
+
+# Billboard.a33175b0a7cc.imagePath=$INTROSCOPE_INSTALLER_SOURCE_FILES$\\engineering\\products\\introscope\\data\\defaultinstall\\images\\
+Billboard.a33175b0a7cc.imagePath=$INTROSCOPE_INSTALLER_SOURCE_FILES$\\engineering\\products\\introscope\\data\\defaultinstall\\images\\
+
+# Billboard.a331836ba7cc.imageName=introscopeInstallerBillboard4.gif
+Billboard.a331836ba7cc.imageName=introscopeInstallerBillboard4.gif
+
+# Billboard.a331836ba7cc.imagePath=$INTROSCOPE_INSTALLER_SOURCE_FILES$\\engineering\\products\\introscope\\data\\defaultinstall\\images\\
+Billboard.a331836ba7cc.imagePath=$INTROSCOPE_INSTALLER_SOURCE_FILES$\\engineering\\products\\introscope\\data\\defaultinstall\\images\\
+
+# ChooseInstallSetAction.250853a098f0.bundlesTitle=Choose Install Set
+ChooseInstallSetAction.250853a098f0.bundlesTitle=Choose Install Set
+
+# ChooseInstallSetAction.250853a098f0.imageName=customIcon.png
+ChooseInstallSetAction.250853a098f0.imageName=customIcon.png
+
+# ChooseInstallSetAction.250853a098f0.imagePath=com/zerog/ia/installer/images/
+ChooseInstallSetAction.250853a098f0.imagePath=com/zerog/ia/installer/images/
+
+# ChooseInstallSetAction.250853a098f0.title=Choose Install Set
+ChooseInstallSetAction.250853a098f0.title=Choose Install Set
+
+# ChooseInstallSetActionConsole.25216092aa70.bundlesTitle=Choose Product Features
+ChooseInstallSetActionConsole.25216092aa70.bundlesTitle=Choose Product Features
+
+# ChooseInstallSetActionConsole.25216092aa70.title=Choose Install Set
+ChooseInstallSetActionConsole.25216092aa70.title=Choose Install Set
+
+# CreateDialog.8779d63fbaaa.prompt=Select the integration pack to install.
+CreateDialog.8779d63fbaaa.prompt=Select the integration pack to install.
+
+# CreateDialog.8779d63fbaaa.title=Integration Packs
+CreateDialog.8779d63fbaaa.title=Integration Packs
+
+# EntryAtom.02ebe3e1a70a.defaultValue=localhost
+EntryAtom.02ebe3e1a70a.defaultValue=localhost
+
+# EntryAtom.02ebe3e1a70a.label=EM Host
+EntryAtom.02ebe3e1a70a.label=EM Host
+
+# EntryAtom.02ec3201a71a.defaultValue=localhost
+EntryAtom.02ec3201a71a.defaultValue=localhost
+
+# EntryAtom.02ec3201a71a.label=EM Host
+EntryAtom.02ec3201a71a.label=EM Host
+
+# EntryAtom.c6fca30fac92.defaultValue=
+EntryAtom.c6fca30fac92.defaultValue=
+
+# EntryAtom.c6fca30fac92.label=Type 'back' to go back and change your responses
+EntryAtom.c6fca30fac92.label=Type 'back' to go back and change your responses
+
+# EntryAtomBiDi.254d2ec1b104.label=$displayNameCAPCIntegrationPack$
+EntryAtomBiDi.254d2ec1b104.label=$displayNameCAPCIntegrationPack$
+
+# EntryAtomBiDi.254d2ec2b104.label=$displayNameSAIntegrationPack$
+EntryAtomBiDi.254d2ec2b104.label=$displayNameSAIntegrationPack$
+
+# EntryAtomNonBiDi.02ebe3e1a70d.defaultValue=8081
+EntryAtomNonBiDi.02ebe3e1a70d.defaultValue=8081
+
+# EntryAtomNonBiDi.02ebe3e1a70d.label=EM Web Server Port
+EntryAtomNonBiDi.02ebe3e1a70d.label=EM Web Server Port
+
+# EntryAtomNonBiDi.02f9f0c4a83b.defaultValue=5001
+EntryAtomNonBiDi.02f9f0c4a83b.defaultValue=5001
+
+# EntryAtomNonBiDi.02f9f0c4a83b.label=EM Port
+EntryAtomNonBiDi.02f9f0c4a83b.label=EM Port
+
+# EntryAtomNonBiDi.254d61b8b104.label=$displayNameCAPCIntegrationPack$
+EntryAtomNonBiDi.254d61b8b104.label=$displayNameCAPCIntegrationPack$
+
+# EntryAtomNonBiDi.254d61b9b104.label=$displayNameSAIntegrationPack$
+EntryAtomNonBiDi.254d61b9b104.label=$displayNameSAIntegrationPack$
+
+# EntryAtomNonBiDi.492bd81f8dd9.defaultValue=Admin
+EntryAtomNonBiDi.492bd81f8dd9.defaultValue=Admin
+
+# EntryAtomNonBiDi.492bd81f8dd9.label=Introscope Username
+EntryAtomNonBiDi.492bd81f8dd9.label=Introscope Username
+
+# EntryAtomNonBiDi.4942fd648fc1.defaultValue=cemadmin
+EntryAtomNonBiDi.4942fd648fc1.defaultValue=cemadmin
+
+# EntryAtomNonBiDi.4942fd648fc1.label=TESS Username
+EntryAtomNonBiDi.4942fd648fc1.label=TESS Username
+
+# EntryAtomNonBiDi.95f6800ba439.defaultValue=8082
+EntryAtomNonBiDi.95f6800ba439.defaultValue=8082
+
+# EntryAtomNonBiDi.95f6800ba439.label=CAPC Integration Pack Web Server Port
+EntryAtomNonBiDi.95f6800ba439.label=CAPC Integration Pack Web Server Port
+
+# EntryAtomNonBiDi.b092f3a3ac43.defaultValue=$NULL$
+EntryAtomNonBiDi.b092f3a3ac43.defaultValue=$NULL$
+
+# EntryAtomNonBiDi.b092f3a3ac43.label=CA EULA File Path and Filename
+EntryAtomNonBiDi.b092f3a3ac43.label=CA EULA File Path and Filename
+
+# EntryAtomNonBiDi.e9856498ae98.defaultValue=$superAgentHosts$
+EntryAtomNonBiDi.e9856498ae98.defaultValue=$superAgentHosts$
+
+# EntryAtomNonBiDi.e9856498ae98.label=Application Delivery Analysis Console Hosts
+EntryAtomNonBiDi.e9856498ae98.label=Application Delivery Analysis Console Hosts
+
+# GetPasswordConsole.256d2dca8501.additionalText=Specify the Introscope password.
+GetPasswordConsole.256d2dca8501.additionalText=Specify the Introscope password.
+
+# GetPasswordConsole.256d2dca8501.prompt=Please Enter the Introscope Password:
+GetPasswordConsole.256d2dca8501.prompt=Please Enter the Introscope Password:
+
+# GetPasswordConsole.256d2dca8501.stepTitle=Introscope Password
+GetPasswordConsole.256d2dca8501.stepTitle=Introscope Password
+
+# GetPasswordConsole.494683fc8fc3.additionalText=Specify the TESS password.
+GetPasswordConsole.494683fc8fc3.additionalText=Specify the TESS password.
+
+# GetPasswordConsole.494683fc8fc3.prompt=Please Enter the TESS Password:
+GetPasswordConsole.494683fc8fc3.prompt=Please Enter the TESS Password:
+
+# GetPasswordConsole.494683fc8fc3.stepTitle=TESS Password
+GetPasswordConsole.494683fc8fc3.stepTitle=TESS Password
+
+# GetUserInput.02ebe3e2a703.prompt=Specify the hostname and web server port of the Introscope Enterprise Manager to which $displayNameCAPCIntegrationPack$ will connect.
+GetUserInput.02ebe3e2a703.prompt=Specify the hostname and web server port of the Introscope Enterprise Manager to which $displayNameCAPCIntegrationPack$ will connect.
+
+# GetUserInput.02ebe3e2a703.title=Enterprise Manager Connection Settings
+GetUserInput.02ebe3e2a703.title=Enterprise Manager Connection Settings
+
+# GetUserInput.02ec3202a713.prompt=Specify the hostname and port of the Introscope Enterprise Manager to which $displayNameSAIntegrationPack$ will connect.
+GetUserInput.02ec3202a713.prompt=Specify the hostname and port of the Introscope Enterprise Manager to which $displayNameSAIntegrationPack$ will connect.
+
+# GetUserInput.02ec3202a713.title=Enterprise Manager Connection Settings
+GetUserInput.02ec3202a713.title=Enterprise Manager Connection Settings
+
+# GetUserInput.256d2dba84e7.prompt=Specify the Introscope and TESS account of the Introscope Enterprise Manager to which this integration pack will connect. 
+GetUserInput.256d2dba84e7.prompt=Specify the Introscope and TESS account of the Introscope Enterprise Manager to which this integration pack will connect. 
+
+# GetUserInput.256d2dba84e7.title=Introscope and TESS Account Settings
+GetUserInput.256d2dba84e7.title=Introscope and TESS Account Settings
+
+# GetUserInput.25ad2b7b90d9.prompt=Specify the hostname or IP address of all the Application Delivery Analysis console to which this integration pack will connect. \r\nThe hostname list must be separated by comma or space.
+GetUserInput.25ad2b7b90d9.prompt=Specify the hostname or IP address of all the Application Delivery Analysis console to which this integration pack will connect. \r\nThe hostname list must be separated by comma or space.
+
+# GetUserInput.25ad2b7b90d9.title=Application Delivery Analysis Console Hostname Settings
+GetUserInput.25ad2b7b90d9.title=Application Delivery Analysis Console Hostname Settings
+
+# GetUserInput.3e2b7c89bb55.prompt=Specify whether to configure the CA Performance Center Integration Pack as a Windows Service during the installation process. 
+GetUserInput.3e2b7c89bb55.prompt=Specify whether to configure the CA Performance Center Integration Pack as a Windows Service during the installation process. 
+
+# GetUserInput.3e2b7c89bb55.title=Windows Service Settings
+GetUserInput.3e2b7c89bb55.title=Windows Service Settings
+
+# GetUserInput.9133a9ad946c.prompt=Specify the web server port the CA Performance Center Integration Pack will use.
+GetUserInput.9133a9ad946c.prompt=Specify the web server port the CA Performance Center Integration Pack will use.
+
+# GetUserInput.9133a9ad946c.title=CAPC Integration Pack Connection Settings
+GetUserInput.9133a9ad946c.title=CAPC Integration Pack Connection Settings
+
+# GetUserInput.d99abf7698e8.prompt=Specify whether to configure the $displayNameSAIntegrationPack$ as a Windows Service during the installation process. 
+GetUserInput.d99abf7698e8.prompt=Specify whether to configure the $displayNameSAIntegrationPack$ as a Windows Service during the installation process. 
+
+# GetUserInput.d99abf7698e8.title=Windows Service Settings
+GetUserInput.d99abf7698e8.title=Windows Service Settings
+
+# GetUserInputConsole.02ebe3e2a709.prompt=Specify the hostname of the Introscope Enterprise Manager to which $displayNameCAPCIntegrationPack$ will connect.
+GetUserInputConsole.02ebe3e2a709.prompt=Specify the hostname of the Introscope Enterprise Manager to which $displayNameCAPCIntegrationPack$ will connect.
+
+# GetUserInputConsole.02ebe3e2a709.title=Enterprise Manager Connection Settings
+GetUserInputConsole.02ebe3e2a709.title=Enterprise Manager Connection Settings
+
+# GetUserInputConsole.02ebe3e2a70c.prompt=Specify the web server port of the Introscope Enterprise Manager to which this integration pack will connect.
+GetUserInputConsole.02ebe3e2a70c.prompt=Specify the web server port of the Introscope Enterprise Manager to which this integration pack will connect.
+
+# GetUserInputConsole.02ebe3e2a70c.title=Enterprise Manager Connection Settings
+GetUserInputConsole.02ebe3e2a70c.title=Enterprise Manager Connection Settings
+
+# GetUserInputConsole.02ec3202a719.prompt=Specify the hostname of the Introscope Enterprise Manager to which $displayNameSAIntegrationPack$ will connect.
+GetUserInputConsole.02ec3202a719.prompt=Specify the hostname of the Introscope Enterprise Manager to which $displayNameSAIntegrationPack$ will connect.
+
+# GetUserInputConsole.02ec3202a719.title=Enterprise Manager Connection Settings
+GetUserInputConsole.02ec3202a719.title=Enterprise Manager Connection Settings
+
+# GetUserInputConsole.02ec3202a71c.prompt=Specify the port of the Introscope Enterprise Manager to which $displayNameSAIntegrationPack$ will connect.
+GetUserInputConsole.02ec3202a71c.prompt=Specify the port of the Introscope Enterprise Manager to which $displayNameSAIntegrationPack$ will connect.
+
+# GetUserInputConsole.02ec3202a71c.title=Enterprise Manager Connection Settings
+GetUserInputConsole.02ec3202a71c.title=Enterprise Manager Connection Settings
+
+# GetUserInputConsole.256d2db984f8.prompt=Specify the TESS username of the Introscope Enterprise Manager to which this integration pack will connect. 
+GetUserInputConsole.256d2db984f8.prompt=Specify the TESS username of the Introscope Enterprise Manager to which this integration pack will connect. 
+
+# GetUserInputConsole.256d2db984f8.title=TESS Username
+GetUserInputConsole.256d2db984f8.title=TESS Username
+
+# GetUserInputConsole.256d2dba84f4.prompt=Specify the Introscope username of the Introscope Enterprise Manager to which this integration pack will connect. 
+GetUserInputConsole.256d2dba84f4.prompt=Specify the Introscope username of the Introscope Enterprise Manager to which this integration pack will connect. 
+
+# GetUserInputConsole.256d2dba84f4.title=Introscope Username
+GetUserInputConsole.256d2dba84f4.title=Introscope Username
+
+# GetUserInputConsole.4d75620f9f9e.prompt=Specify the hostname or IP address of all the Application Delivery Analysis console to which this integration pack will connect. \r\nThe hostname list must be separated by comma or space.
+GetUserInputConsole.4d75620f9f9e.prompt=Specify the hostname or IP address of all the Application Delivery Analysis console to which this integration pack will connect. \r\nThe hostname list must be separated by comma or space.
+
+# GetUserInputConsole.4d75620f9f9e.title=Application Delivery Analysis Console Hostnames
+GetUserInputConsole.4d75620f9f9e.title=Application Delivery Analysis Console Hostnames
+
+# GetUserInputConsole.877f7568bad5.prompt=Select the integration pack to install.
+GetUserInputConsole.877f7568bad5.prompt=Select the integration pack to install.
+
+# GetUserInputConsole.877f7568bad5.title=Integration Packs
+GetUserInputConsole.877f7568bad5.title=Integration Packs
+
+# GetUserInputConsole.908528139f06.prompt=Please specify the CA End User License Agreement (EULA) file path and filename. The CA EULA file path may be specified with an absolute or relative path. Relative paths are resolved relative to the installer launch directory.\r\n\r\nThis agreement must be acknowledged and accepted by the end user in order for installation to proceed. To acknowledge and accept the agreement:\r\n   - open it in a text editor and read the terms and conditions \r\n   - edit the end of the file to indicate acceptance of the license \r\n   - save the changes
+GetUserInputConsole.908528139f06.prompt=Please specify the CA End User License Agreement (EULA) file path and filename. The CA EULA file path may be specified with an absolute or relative path. Relative paths are resolved relative to the installer launch directory.\r\n\r\nThis agreement must be acknowledged and accepted by the end user in order for installation to proceed. To acknowledge and accept the agreement:\r\n   - open it in a text editor and read the terms and conditions \r\n   - edit the end of the file to indicate acceptance of the license \r\n   - save the changes
+
+# GetUserInputConsole.908528139f06.title=Specify CA End User License Agreement File Path and Filename
+GetUserInputConsole.908528139f06.title=Specify CA End User License Agreement File Path and Filename
+
+# GetUserInputConsole.9133a9ac9476.prompt=Specify the web server port the CA Performance Center Integration Pack will use.
+GetUserInputConsole.9133a9ac9476.prompt=Specify the web server port the CA Performance Center Integration Pack will use.
+
+# GetUserInputConsole.9133a9ac9476.title=CA Performance Center Integration Pack Connection Settings
+GetUserInputConsole.9133a9ac9476.title=CA Performance Center Integration Pack Connection Settings
+
+# GetUserInputConsole.c6fc0b70ac92.prompt=To proceed with uninstallation, type 'continue'. \r\nTo cancel uninstallation, type 'quit'.
+GetUserInputConsole.c6fc0b70ac92.prompt=To proceed with uninstallation, type 'continue'. \r\nTo cancel uninstallation, type 'quit'.
+
+# GetUserInputConsole.c6fc0b70ac92.title=Confirm Uninstallation
+GetUserInputConsole.c6fc0b70ac92.title=Confirm Uninstallation
+
+# GUIComponentData.02ebe3e2a704.defaultValue=localhost
+GUIComponentData.02ebe3e2a704.defaultValue=localhost
+
+# GUIComponentData.02ebe3e2a704.label=EM Host
+GUIComponentData.02ebe3e2a704.label=EM Host
+
+# GUIComponentData.02ebe3e2a705.defaultValue=8081
+GUIComponentData.02ebe3e2a705.defaultValue=8081
+
+# GUIComponentData.02ebe3e2a705.label=EM Web Server Port
+GUIComponentData.02ebe3e2a705.label=EM Web Server Port
+
+# GUIComponentData.02ec3202a714.defaultValue=localhost
+GUIComponentData.02ec3202a714.defaultValue=localhost
+
+# GUIComponentData.02ec3202a714.label=EM Host
+GUIComponentData.02ec3202a714.label=EM Host
+
+# GUIComponentData.02ec3202a715.defaultValue=5001
+GUIComponentData.02ec3202a715.defaultValue=5001
+
+# GUIComponentData.02ec3202a715.label=EM Port
+GUIComponentData.02ec3202a715.label=EM Port
+
+# GUIComponentData.256d2dba84e8.defaultValue=Admin
+GUIComponentData.256d2dba84e8.defaultValue=Admin
+
+# GUIComponentData.256d2dba84e8.label=Introscope Username
+GUIComponentData.256d2dba84e8.label=Introscope Username
+
+# GUIComponentData.256d2dba84e9.defaultValue=
+GUIComponentData.256d2dba84e9.defaultValue=
+
+# GUIComponentData.256d2dba84e9.label=Introscope Password
+GUIComponentData.256d2dba84e9.label=Introscope Password
+
+# GUIComponentData.256d2dba84eb.defaultValue=cemadmin
+GUIComponentData.256d2dba84eb.defaultValue=cemadmin
+
+# GUIComponentData.256d2dba84eb.label=TESS Username 
+GUIComponentData.256d2dba84eb.label=TESS Username 
+
+# GUIComponentData.256d2dba84ec.defaultValue=
+GUIComponentData.256d2dba84ec.defaultValue=
+
+# GUIComponentData.256d2dba84ec.label=TESS Password 
+GUIComponentData.256d2dba84ec.label=TESS Password 
+
+# GUIComponentData.29483a929109.defaultValue=$superAgentHosts$
+GUIComponentData.29483a929109.defaultValue=$superAgentHosts$
+
+# GUIComponentData.29483a929109.label=Application Delivery Analysis Console Hosts
+GUIComponentData.29483a929109.label=Application Delivery Analysis Console Hosts
+
+# GUIComponentData.6d5c51d8bb58.defaultValue=Selected
+GUIComponentData.6d5c51d8bb58.defaultValue=Selected
+
+# GUIComponentData.6d5c51d8bb58.label=Yes
+GUIComponentData.6d5c51d8bb58.label=Yes
+
+# GUIComponentData.6d5c51d9bb58.defaultValue=Not Selected
+GUIComponentData.6d5c51d9bb58.defaultValue=Not Selected
+
+# GUIComponentData.6d5c51d9bb58.label=No
+GUIComponentData.6d5c51d9bb58.label=No
+
+# GUIComponentData.9112f41791c7.defaultValue=APM-CAPC
+GUIComponentData.9112f41791c7.defaultValue=APM-CAPC
+
+# GUIComponentData.9112f41791c7.label=
+GUIComponentData.9112f41791c7.label=
+
+# GUIComponentData.911650a191c7.defaultValue=APM-CAPC Service
+GUIComponentData.911650a191c7.defaultValue=APM-CAPC Service
+
+# GUIComponentData.911650a191c7.label=
+GUIComponentData.911650a191c7.label=
+
+# GUIComponentData.9133a9ad946e.defaultValue=8082
+GUIComponentData.9133a9ad946e.defaultValue=8082
+
+# GUIComponentData.9133a9ad946e.label=CAPC Integration Pack Web Server Port
+GUIComponentData.9133a9ad946e.label=CAPC Integration Pack Web Server Port
+
+# GUIComponentData.d99abf7598eb.defaultValue=ADA-APM
+GUIComponentData.d99abf7598eb.defaultValue=ADA-APM
+
+# GUIComponentData.d99abf7598eb.label=
+GUIComponentData.d99abf7598eb.label=
+
+# GUIComponentData.d99abf8698eb.defaultValue=ADA-APM Service
+GUIComponentData.d99abf8698eb.defaultValue=ADA-APM Service
+
+# GUIComponentData.d99abf8698eb.label=
+GUIComponentData.d99abf8698eb.label=
+
+# GUIComponentData.d99e0c1298f4.defaultValue=Selected
+GUIComponentData.d99e0c1298f4.defaultValue=Selected
+
+# GUIComponentData.d99e0c1298f4.label=Yes
+GUIComponentData.d99e0c1298f4.label=Yes
+
+# GUIComponentData.d99e0c1398f4.defaultValue=Not Selected
+GUIComponentData.d99e0c1398f4.defaultValue=Not Selected
+
+# GUIComponentData.d99e0c1398f4.label=No
+GUIComponentData.d99e0c1398f4.label=No
+
+# GUIGroupData.02ebe3e1a704.caption=
+GUIGroupData.02ebe3e1a704.caption=
+
+# GUIGroupData.02ebe3e1a705.caption=
+GUIGroupData.02ebe3e1a705.caption=
+
+# GUIGroupData.02ec3201a714.caption=
+GUIGroupData.02ec3201a714.caption=
+
+# GUIGroupData.02ec3201a715.caption=
+GUIGroupData.02ec3201a715.caption=
+
+# GUIGroupData.256d2db984e8.caption=
+GUIGroupData.256d2db984e8.caption=
+
+# GUIGroupData.256d2db984e9.caption=
+GUIGroupData.256d2db984e9.caption=
+
+# GUIGroupData.256d2db984eb.caption=
+GUIGroupData.256d2db984eb.caption=
+
+# GUIGroupData.256d2db984ec.caption=
+GUIGroupData.256d2db984ec.caption=
+
+# GUIGroupData.29483a919109.caption=
+GUIGroupData.29483a919109.caption=
+
+# GUIGroupData.3e2de751bb84.caption=
+GUIGroupData.3e2de751bb84.caption=
+
+# GUIGroupData.9112f41691c7.caption=Enter a unique service name, for use by the Windows registry:\r\n(up to 8 characters, no spaces)
+GUIGroupData.9112f41691c7.caption=Enter a unique service name, for use by the Windows registry:\r\n(up to 8 characters, no spaces)
+
+# GUIGroupData.911650a091c7.caption=Enter a unique display name for use in Windows control panels\r\nand with the NET START command: (spaces OK)
+GUIGroupData.911650a091c7.caption=Enter a unique display name for use in Windows control panels\r\nand with the NET START command: (spaces OK)
+
+# GUIGroupData.9133a9ac946e.caption=
+GUIGroupData.9133a9ac946e.caption=
+
+# GUIGroupData.d99abf7598e9.caption=
+GUIGroupData.d99abf7598e9.caption=
+
+# GUIGroupData.d99abf7698ea.caption=Enter a unique service name, for use by the Windows registry:\r\n(up to 8 characters, no spaces)
+GUIGroupData.d99abf7698ea.caption=Enter a unique service name, for use by the Windows registry:\r\n(up to 8 characters, no spaces)
+
+# GUIGroupData.d99abf8598eb.caption=Enter a unique display name for use in Windows control panels\r\nand with the NET START command: (spaces OK)
+GUIGroupData.d99abf8598eb.caption=Enter a unique display name for use in Windows control panels\r\nand with the NET START command: (spaces OK)
+
+# Help.a324ffeda6b0.helpText=<body bgcolor=\"#ffffff\">\n<font face=\"Arial\">\nFor help, the following resources are available.<br><br>\n<b>Web</b><br>\n<a href=\"http://support.ca.com\" >http://support.ca.com</a><br><br>\n<b>Email</b><br>\n<a href=\"mailto:support@ca.com\">support@ca.com</a><br><br>\n<b>Phone</b><br>\nGeneral support: +1 800 225 5224<br><br>\n<b>Phone Support Directory</b><br>\n<a href=\"http://www.ca.com/us/Support/phone.aspx\">http://www.ca.com/us/Support/phone.aspx</a><br><br>\n</font>\n</body>
+Help.a324ffeda6b0.helpText=<body bgcolor=\"#ffffff\">\n<font face=\"Arial\">\nFor help, the following resources are available.<br><br>\n<b>Web</b><br>\n<a href=\"http://support.ca.com\" >http://support.ca.com</a><br><br>\n<b>Email</b><br>\n<a href=\"mailto:support@ca.com\">support@ca.com</a><br><br>\n<b>Phone</b><br>\nGeneral support: +1 800 225 5224<br><br>\n<b>Phone Support Directory</b><br>\n<a href=\"http://www.ca.com/us/Support/phone.aspx\">http://www.ca.com/us/Support/phone.aspx</a><br><br>\n</font>\n</body>
+
+# Help.a324ffeda6b0.title=Introscope Help
+Help.a324ffeda6b0.title=Introscope Help
+
+# InstallBundle.2501aea2969d.bundleName=Application Delivery Analysis Extension for APM
+InstallBundle.2501aea2969d.bundleName=Application Delivery Analysis Extension for APM
+
+# InstallBundle.2501aea2969d.description=Application Delivery Analysis Extension for APM
+InstallBundle.2501aea2969d.description=Application Delivery Analysis Extension for APM
+
+# InstallBundle.f5c4df8ebf19.bundleName=CA Performance Center Integration Pack
+InstallBundle.f5c4df8ebf19.bundleName=CA Performance Center Integration Pack
+
+# InstallBundle.f5c4df8ebf19.description=CA Performance Center Integration Pack
+InstallBundle.f5c4df8ebf19.description=CA Performance Center Integration Pack
+
+# InstallCompleteActionConsole.0ee0ae4aa6c6.message=The installation completed with status of: $INSTALL_SUCCESS$. Detailed install logs will be written to the directory $INSTALL_LOG_DESTINATION$ when this console is exited. 
+InstallCompleteActionConsole.0ee0ae4aa6c6.message=The installation completed with status of: $INSTALL_SUCCESS$. Detailed install logs will be written to the directory $INSTALL_LOG_DESTINATION$ when this console is exited. 
+
+# InstallCompleteActionConsole.0ee0ae4aa6c6.title=Installation Complete
+InstallCompleteActionConsole.0ee0ae4aa6c6.title=Installation Complete
+
+# InstallDirAction.a325005ba6d9.additionalText=Specify the location where the integration pack files will be installed.\r\n
+InstallDirAction.a325005ba6d9.additionalText=Specify the location where the integration pack files will be installed.\r\n
+
+# InstallDirAction.a325005ba6d9.prompt=&Target installation directory:
+InstallDirAction.a325005ba6d9.prompt=&Target installation directory:
+
+# InstallDirAction.a325005ba6d9.stepTitle=Choose Install Folder
+InstallDirAction.a325005ba6d9.stepTitle=Choose Install Folder
+
+# InstallDirActionConsole.b27d1b63a7f2.additionalText=Specify the location where the integration pack files will be installed.
+InstallDirActionConsole.b27d1b63a7f2.additionalText=Specify the location where the integration pack files will be installed.
+
+# InstallDirActionConsole.b27d1b63a7f2.prompt=Target installation directory:
+InstallDirActionConsole.b27d1b63a7f2.prompt=Target installation directory:
+
+# InstallDirActionConsole.b27d1b63a7f2.stepTitle=Choose Install Folder
+InstallDirActionConsole.b27d1b63a7f2.stepTitle=Choose Install Folder
+
+# Installer.a324ffdea6ae.installLabels.00=Introduction
+Installer.a324ffdea6ae.installLabels.00=Introduction
+
+# Installer.a324ffdea6ae.installLabels.01=Choose Install Settings
+Installer.a324ffdea6ae.installLabels.01=Choose Install Settings
+
+# Installer.a324ffdea6ae.installLabels.02=Configure CAPC I P
+Installer.a324ffdea6ae.installLabels.02=Configure CAPC I P
+
+# Installer.a324ffdea6ae.installLabels.03=Review CAPC I P Settings
+Installer.a324ffdea6ae.installLabels.03=Review CAPC I P Settings
+
+# Installer.a324ffdea6ae.installLabels.04=Installing...
+Installer.a324ffdea6ae.installLabels.04=Installing...
+
+# Installer.a324ffdea6ae.installLabels.05=Install Complete
+Installer.a324ffdea6ae.installLabels.05=Install Complete
+
+# Installer.a324ffdea6ae.installLabels.06=Configure ADA-APM
+Installer.a324ffdea6ae.installLabels.06=Configure ADA-APM
+
+# Installer.a324ffdea6ae.installLabels.07=Review ADA-APM Settings
+Installer.a324ffdea6ae.installLabels.07=Review ADA-APM Settings
+
+# Installer.a324ffdea6ae.installLabels.08=Review Settings
+Installer.a324ffdea6ae.installLabels.08=Review Settings
+
+# Installer.a324ffdea6ae.installProgressImageName=introImage.png
+Installer.a324ffdea6ae.installProgressImageName=introImage.png
+
+# Installer.a324ffdea6ae.installProgressImagePath=com/zerog/ia/installer/images/
+Installer.a324ffdea6ae.installProgressImagePath=com/zerog/ia/installer/images/
+
+# Installer.a324ffdea6ae.panelImageName=introImage.png
+Installer.a324ffdea6ae.panelImageName=introImage.png
+
+# Installer.a324ffdea6ae.panelImagePath=com/zerog/ia/installer/images/
+Installer.a324ffdea6ae.panelImagePath=com/zerog/ia/installer/images/
+
+# Installer.a324ffdea6ae.rulesFailedMessage=The installer has determined that it cannot run on your configuration. It will now quit.
+Installer.a324ffdea6ae.rulesFailedMessage=The installer has determined that it cannot run on your configuration. It will now quit.
+
+# Installer.a324ffdea6ae.splashScreenConsolePrompt=CHOOSE LOCALE BY NUMBER
+Installer.a324ffdea6ae.splashScreenConsolePrompt=CHOOSE LOCALE BY NUMBER
+
+# Installer.a324ffdea6ae.splashScreenConsoleTitle=Choose Locale...
+Installer.a324ffdea6ae.splashScreenConsoleTitle=Choose Locale...
+
+# Installer.a324ffdea6ae.splashScreenGUIConfirm=OK
+Installer.a324ffdea6ae.splashScreenGUIConfirm=OK
+
+# Installer.a324ffdea6ae.splashScreenGUIImageName=introscopeInstallerSplash.png
+Installer.a324ffdea6ae.splashScreenGUIImageName=introscopeInstallerSplash.png
+
+# Installer.a324ffdea6ae.splashScreenGUIImagePath=$INTROSCOPE_INSTALLER_SOURCE_FILES$\\engineering\\products\\introscope\\data\\defaultinstall\\images\\
+Installer.a324ffdea6ae.splashScreenGUIImagePath=$INTROSCOPE_INSTALLER_SOURCE_FILES$\\engineering\\products\\introscope\\data\\defaultinstall\\images\\
+
+# Installer.a324ffdea6ae.splashScreenGUIInstructions=
+Installer.a324ffdea6ae.splashScreenGUIInstructions=
+
+# Installer.a324ffdea6ae.splashScreenGUITitle=
+Installer.a324ffdea6ae.splashScreenGUITitle=
+
+# InstallerInfoData.a324ffeda6b1.email=CA Technical Support
+InstallerInfoData.a324ffeda6b1.email=CA Technical Support
+
+# InstallerInfoData.a324ffeda6b1.installerName=install
+InstallerInfoData.a324ffeda6b1.installerName=install
+
+# InstallerInfoData.a324ffeda6b1.installerTitle=CA APM @@@INTROSCOPE_RELEASE_PLACE_HOLDER@@@ Integration for CA Infrastructure Management
+InstallerInfoData.a324ffeda6b1.installerTitle=CA APM @@@INTROSCOPE_RELEASE_PLACE_HOLDER@@@ Integration for CA Infrastructure Management
+
+# InstallerInfoData.a324ffeda6b1.productName=CA APM Integration for CA Infrastructure Management
+InstallerInfoData.a324ffeda6b1.productName=CA APM Integration for CA Infrastructure Management
+
+# InstallerInfoData.a324ffeda6b1.productURL=www.ca.com/apm
+InstallerInfoData.a324ffeda6b1.productURL=www.ca.com/apm
+
+# InstallerInfoData.a324ffeda6b1.supportURL=http://support.ca.com
+InstallerInfoData.a324ffeda6b1.supportURL=http://support.ca.com
+
+# InstallerInfoData.a324ffeda6b1.vendorName=CA Technologies
+InstallerInfoData.a324ffeda6b1.vendorName=CA Technologies
+
+# InstallerInfoData.a324ffeda6b1.vendorURL=www.ca.com/apm
+InstallerInfoData.a324ffeda6b1.vendorURL=www.ca.com/apm
+
+# InstallFinishAction.a325006aa6db.installErrorMessage=The installation is finished, but some errors occurred during the install.  Click Done to quit the installer, then consult the installation logs at $INSTALL_LOG_DESTINATION$ for details.
+InstallFinishAction.a325006aa6db.installErrorMessage=The installation is finished, but some errors occurred during the install.  Click Done to quit the installer, then consult the installation logs at $INSTALL_LOG_DESTINATION$ for details.
+
+# InstallFinishAction.a325006aa6db.installFatalMessage=The installation is finished, but some serious errors occurred during the install.  Click Done to quit the installer, then consult the installation logs at $INSTALL_LOG_DESTINATION$ for details.
+InstallFinishAction.a325006aa6db.installFatalMessage=The installation is finished, but some serious errors occurred during the install.  Click Done to quit the installer, then consult the installation logs at $INSTALL_LOG_DESTINATION$ for details.
+
+# InstallFinishAction.a325006aa6db.installSuccessMessage=The installation is complete. \r\nInstall logs will be written to the directory $INSTALL_LOG_DESTINATION$ when this window is closed.
+InstallFinishAction.a325006aa6db.installSuccessMessage=The installation is complete. \r\nInstall logs will be written to the directory $INSTALL_LOG_DESTINATION$ when this window is closed.
+
+# InstallFinishAction.a325006aa6db.installWarningMessage=The installation is finished, but some warnings occurred during the install.  Click Done to quit the installer, then consult the installation logs at $INSTALL_LOG_DESTINATION$ for details.
+InstallFinishAction.a325006aa6db.installWarningMessage=The installation is finished, but some warnings occurred during the install.  Click Done to quit the installer, then consult the installation logs at $INSTALL_LOG_DESTINATION$ for details.
+
+# InstallFinishAction.a325006aa6db.rebootNotNeededMessage=
+InstallFinishAction.a325006aa6db.rebootNotNeededMessage=
+
+# InstallFinishAction.a325006aa6db.rebootRecommendedMessage=You should restart the system to complete the installation.
+InstallFinishAction.a325006aa6db.rebootRecommendedMessage=You should restart the system to complete the installation.
+
+# InstallFinishAction.a325006aa6db.rebootRequiredMessage=You need to restart the system to complete the installation.
+InstallFinishAction.a325006aa6db.rebootRequiredMessage=You need to restart the system to complete the installation.
+
+# InstallFinishAction.a325006aa6db.windowTitle=Install Complete
+InstallFinishAction.a325006aa6db.windowTitle=Install Complete
+
+# InstallFrameConfigurator.a324fffda6b2.uninstallerTitle=Uninstall $PRODUCT_NAME$
+InstallFrameConfigurator.a324fffda6b2.uninstallerTitle=Uninstall $PRODUCT_NAME$
+
+# InstallSet.a325002ca6c9.description=Install all features.
+InstallSet.a325002ca6c9.description=Install all features.
+
+# InstallSet.a325002ca6c9.imageName=install_32.png
+InstallSet.a325002ca6c9.imageName=install_32.png
+
+# InstallSet.a325002ca6c9.imagePath=$INTROSCOPE_INSTALLER_SOURCE_FILES$\\engineering\\products\\introscope\\data\\defaultinstall\\images\\
+InstallSet.a325002ca6c9.imagePath=$INTROSCOPE_INSTALLER_SOURCE_FILES$\\engineering\\products\\introscope\\data\\defaultinstall\\images\\
+
+# InstallSet.a325002ca6c9.installSetName=Complete Installation
+InstallSet.a325002ca6c9.installSetName=Complete Installation
+
+# InstallSet.a32a77d4a6eb.description=Choose this option to customize the features to be installed.
+InstallSet.a32a77d4a6eb.description=Choose this option to customize the features to be installed.
+
+# InstallSet.a32a77d4a6eb.imageName=custom_install_32.png
+InstallSet.a32a77d4a6eb.imageName=custom_install_32.png
+
+# InstallSet.a32a77d4a6eb.imagePath=$INTROSCOPE_INSTALLER_SOURCE_FILES$\\engineering\\products\\introscope\\data\\defaultinstall\\images\\
+InstallSet.a32a77d4a6eb.imagePath=$INTROSCOPE_INSTALLER_SOURCE_FILES$\\engineering\\products\\introscope\\data\\defaultinstall\\images\\
+
+# InstallSet.a32a77d4a6eb.installSetName=Custom
+InstallSet.a32a77d4a6eb.installSetName=Custom
+
+# InstallSummary.03067949a964.stepPrompt=Review ADA Extension for APM Settings Before Continuing:
+InstallSummary.03067949a964.stepPrompt=Review ADA Extension for APM Settings Before Continuing:
+
+# InstallSummary.03067949a964.title=ADA Extension for APM Pre-Installation Summary
+InstallSummary.03067949a964.title=ADA Extension for APM Pre-Installation Summary
+
+# InstallSummary.031317a6a9da.stepPrompt=Review CAPC Integration Pack Settings Before Continuing:
+InstallSummary.031317a6a9da.stepPrompt=Review CAPC Integration Pack Settings Before Continuing:
+
+# InstallSummary.031317a6a9da.title=CAPC Integration Pack Pre-Installation Summary
+InstallSummary.031317a6a9da.title=CAPC Integration Pack Pre-Installation Summary
+
+# InstallSummary.d048fc32ae27.stepPrompt=Review Settings Before Continuing:
+InstallSummary.d048fc32ae27.stepPrompt=Review Settings Before Continuing:
+
+# InstallSummary.d048fc32ae27.title=Pre-Installation Summary
+InstallSummary.d048fc32ae27.title=Pre-Installation Summary
+
+# InstallSummaryConsole.03067949a96b.stepPrompt=Review ADA Extension for APM Settings Before Continuing:
+InstallSummaryConsole.03067949a96b.stepPrompt=Review ADA Extension for APM Settings Before Continuing:
+
+# InstallSummaryConsole.03067949a96b.title=ADA Extension for APM Pre-Installation Summary
+InstallSummaryConsole.03067949a96b.title=ADA Extension for APM Pre-Installation Summary
+
+# InstallSummaryConsole.031317a6a9e1.stepPrompt=Review CAPC Integration Pack Settings Before Continuing:
+InstallSummaryConsole.031317a6a9e1.stepPrompt=Review CAPC Integration Pack Settings Before Continuing:
+
+# InstallSummaryConsole.031317a6a9e1.title=CAPC Integration Pack Pre-Installation Summary
+InstallSummaryConsole.031317a6a9e1.title=CAPC Integration Pack Pre-Installation Summary
+
+# InstallSummaryConsole.c746968883e2.stepPrompt=Review Settings Before Continuing:
+InstallSummaryConsole.c746968883e2.stepPrompt=Review Settings Before Continuing:
+
+# InstallSummaryConsole.c746968883e2.title=Pre-Installation Summary
+InstallSummaryConsole.c746968883e2.title=Pre-Installation Summary
+
+# InstallUninstaller.6a49df278cfb.destinationName=Uninstall_APM_Integration_Pack_for_ADA
+InstallUninstaller.6a49df278cfb.destinationName=Uninstall_APM_Integration_Pack_for_ADA
+
+# IntroAction.a325005ba6d8.message=Welcome to the CA APM Integration for Application Delivery Analysis installer.\r\n\r\nClick Next to proceed to the next screen. \r\nTo change something in a previous screen, click Previous. \r\nClick Cancel at any time to quit the installer.\r\n\r\nAll settings configured or skipped during this install can be manually configured later.
+IntroAction.a325005ba6d8.message=Welcome to the CA APM Integration for Application Delivery Analysis installer.\r\n\r\nClick Next to proceed to the next screen. \r\nTo change something in a previous screen, click Previous. \r\nClick Cancel at any time to quit the installer.\r\n\r\nAll settings configured or skipped during this install can be manually configured later.
+
+# IntroAction.a325005ba6d8.stepTitle=Introduction
+IntroAction.a325005ba6d8.stepTitle=Introduction
+
+# IntroActionConsole.b2789d1ea7f2.message=Welcome to the CA APM Integration for Application Delivery Analysis installer.\r\n\r\nRespond to each prompt to proceed to the next screen. \r\nType 'back' to change something in a previous screen.\r\nType 'quit' at any time to quit the installer.\r\n\r\nAll settings configured or skipped during this install can be manually configured later. 
+IntroActionConsole.b2789d1ea7f2.message=Welcome to the CA APM Integration for Application Delivery Analysis installer.\r\n\r\nRespond to each prompt to proceed to the next screen. \r\nType 'back' to change something in a previous screen.\r\nType 'quit' at any time to quit the installer.\r\n\r\nAll settings configured or skipped during this install can be manually configured later. 
+
+# IntroActionConsole.b2789d1ea7f2.title=Introduction
+IntroActionConsole.b2789d1ea7f2.title=Introduction
+
+# IntroActionConsole.c6fb81e3ac92.message=You have launched the APM Integration Pack for Application Delivery Analysis uninstaller.\r\nThis will remove features installed by the APM Integration Pack for Application Delivery Analysis installer.  \r\nThe uninstaller will not remove:\r\n - files and folders created after installation\r\nYou will need to manually delete these files and folders after running the uninstaller.
+IntroActionConsole.c6fb81e3ac92.message=You have launched the APM Integration Pack for Application Delivery Analysis uninstaller.\r\nThis will remove features installed by the APM Integration Pack for Application Delivery Analysis installer.  \r\nThe uninstaller will not remove:\r\n - files and folders created after installation\r\nYou will need to manually delete these files and folders after running the uninstaller.
+
+# IntroActionConsole.c6fb81e3ac92.title=Introduction
+IntroActionConsole.c6fb81e3ac92.title=Introduction
+
+# LicenseAgrAction.9081179a8b83.resourceName=ca-eula.interactive.html
+LicenseAgrAction.9081179a8b83.resourceName=ca-eula.interactive.html
+
+# LicenseAgrAction.9081179a8b83.resourcePath=$INTROSCOPE_INSTALLER_SOURCE_FILES$\\engineering\\products\\introscope\\targets\\partial\\text\\introscopeinstaller\\license\\
+LicenseAgrAction.9081179a8b83.resourcePath=$INTROSCOPE_INSTALLER_SOURCE_FILES$\\engineering\\products\\introscope\\targets\\partial\\text\\introscopeinstaller\\license\\
+
+# LicenseAgrAction.9081179a8b83.stepPrompt=Installation and Use of $PRODUCT_NAME$ Requires Acceptance of the Following License Agreement:
+LicenseAgrAction.9081179a8b83.stepPrompt=Installation and Use of $PRODUCT_NAME$ Requires Acceptance of the Following License Agreement:
+
+# LicenseAgrAction.9081179a8b83.title=CA End User License Agreement
+LicenseAgrAction.9081179a8b83.title=CA End User License Agreement
+
+# LicenseAgrActionConsole.0f961e46aaee.resourceName=ca-eula.console.txt
+LicenseAgrActionConsole.0f961e46aaee.resourceName=ca-eula.console.txt
+
+# LicenseAgrActionConsole.0f961e46aaee.resourcePath=$INTROSCOPE_INSTALLER_SOURCE_FILES$\\engineering\\products\\introscope\\targets\\partial\\text\\introscopeinstaller\\license\\
+LicenseAgrActionConsole.0f961e46aaee.resourcePath=$INTROSCOPE_INSTALLER_SOURCE_FILES$\\engineering\\products\\introscope\\targets\\partial\\text\\introscopeinstaller\\license\\
+
+# LicenseAgrActionConsole.0f961e46aaee.stepPrompt=Installation and Use of $PRODUCT_NAME$ Requires Acceptance of the Following License Agreement:
+LicenseAgrActionConsole.0f961e46aaee.stepPrompt=Installation and Use of $PRODUCT_NAME$ Requires Acceptance of the Following License Agreement:
+
+# LicenseAgrActionConsole.0f961e46aaee.title=CA End User License Agreement
+LicenseAgrActionConsole.0f961e46aaee.title=CA End User License Agreement
+
+# MakeExecutable.3bc62685b211.destinationName=ADAConnector
+MakeExecutable.3bc62685b211.destinationName=ADAConnector
+
+# MakeRegEntry.bb0b3b20b9f3.key=HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+MakeRegEntry.bb0b3b20b9f3.key=HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+
+# MakeRegEntry.bb0b3b20b9f3.value=CA $PRODUCT_NAME$
+MakeRegEntry.bb0b3b20b9f3.value=CA $PRODUCT_NAME$
+
+# MakeRegEntry.bb0b3b20b9f3.valueName=DisplayName
+MakeRegEntry.bb0b3b20b9f3.valueName=DisplayName
+
+# MakeRegEntry.bb0b3b21b9f2.key=HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+MakeRegEntry.bb0b3b21b9f2.key=HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+
+# MakeRegEntry.bb0b3b21b9f2.value=\"$USER_INSTALL_DIR$\\UninstallerData\\ca_icon.ico\"
+MakeRegEntry.bb0b3b21b9f2.value=\"$USER_INSTALL_DIR$\\UninstallerData\\ca_icon.ico\"
+
+# MakeRegEntry.bb0b3b21b9f2.valueName=DisplayIcon
+MakeRegEntry.bb0b3b21b9f2.valueName=DisplayIcon
+
+# PromptUserConsole.02ebe3e1a70b.message=The EM host can not be null or space.
+PromptUserConsole.02ebe3e1a70b.message=The EM host can not be null or space.
+
+# PromptUserConsole.02ebe3e1a70b.option0Label=OK
+PromptUserConsole.02ebe3e1a70b.option0Label=OK
+
+# PromptUserConsole.02ebe3e1a70b.option1Label=Cancel
+PromptUserConsole.02ebe3e1a70b.option1Label=Cancel
+
+# PromptUserConsole.02ebe3e1a70b.option2Label=Details...
+PromptUserConsole.02ebe3e1a70b.option2Label=Details...
+
+# PromptUserConsole.02ebe3e1a70b.title=Re-enter Enterprise Manager Host
+PromptUserConsole.02ebe3e1a70b.title=Re-enter Enterprise Manager Host
+
+# PromptUserConsole.02ebe3e1a70e.message=A valid EM web server port setting is an integer from 1 to 65535. 
+PromptUserConsole.02ebe3e1a70e.message=A valid EM web server port setting is an integer from 1 to 65535. 
+
+# PromptUserConsole.02ebe3e1a70e.option0Label=OK
+PromptUserConsole.02ebe3e1a70e.option0Label=OK
+
+# PromptUserConsole.02ebe3e1a70e.option1Label=Cancel
+PromptUserConsole.02ebe3e1a70e.option1Label=Cancel
+
+# PromptUserConsole.02ebe3e1a70e.option2Label=Details...
+PromptUserConsole.02ebe3e1a70e.option2Label=Details...
+
+# PromptUserConsole.02ebe3e1a70e.title=Re-enter Enterprise Manager Web Server Port
+PromptUserConsole.02ebe3e1a70e.title=Re-enter Enterprise Manager Web Server Port
+
+# PromptUserConsole.02ec3201a71b.message=The EM host can not be null or space.
+PromptUserConsole.02ec3201a71b.message=The EM host can not be null or space.
+
+# PromptUserConsole.02ec3201a71b.option0Label=OK
+PromptUserConsole.02ec3201a71b.option0Label=OK
+
+# PromptUserConsole.02ec3201a71b.option1Label=Cancel
+PromptUserConsole.02ec3201a71b.option1Label=Cancel
+
+# PromptUserConsole.02ec3201a71b.option2Label=Details...
+PromptUserConsole.02ec3201a71b.option2Label=Details...
+
+# PromptUserConsole.02ec3201a71b.title=Re-enter Enterprise Manager Host
+PromptUserConsole.02ec3201a71b.title=Re-enter Enterprise Manager Host
+
+# PromptUserConsole.02ec3201a71e.message=A valid EM port setting is an integer from 1 to 65535. 
+PromptUserConsole.02ec3201a71e.message=A valid EM port setting is an integer from 1 to 65535. 
+
+# PromptUserConsole.02ec3201a71e.option0Label=OK
+PromptUserConsole.02ec3201a71e.option0Label=OK
+
+# PromptUserConsole.02ec3201a71e.option1Label=Cancel
+PromptUserConsole.02ec3201a71e.option1Label=Cancel
+
+# PromptUserConsole.02ec3201a71e.option2Label=Details...
+PromptUserConsole.02ec3201a71e.option2Label=Details...
+
+# PromptUserConsole.02ec3201a71e.title=Re-enter Enterprise Manager Port
+PromptUserConsole.02ec3201a71e.title=Re-enter Enterprise Manager Port
+
+# PromptUserConsole.256d2dba84f6.message=The Introscope username can not be null or space.
+PromptUserConsole.256d2dba84f6.message=The Introscope username can not be null or space.
+
+# PromptUserConsole.256d2dba84f6.option0Label=OK
+PromptUserConsole.256d2dba84f6.option0Label=OK
+
+# PromptUserConsole.256d2dba84f6.option1Label=Cancel
+PromptUserConsole.256d2dba84f6.option1Label=Cancel
+
+# PromptUserConsole.256d2dba84f6.option2Label=Details...
+PromptUserConsole.256d2dba84f6.option2Label=Details...
+
+# PromptUserConsole.256d2dba84f6.title=Re-enter Introscope Username
+PromptUserConsole.256d2dba84f6.title=Re-enter Introscope Username
+
+# PromptUserConsole.4944cfb48fc2.message=The TESS username can not be null or space.
+PromptUserConsole.4944cfb48fc2.message=The TESS username can not be null or space.
+
+# PromptUserConsole.4944cfb48fc2.option0Label=OK
+PromptUserConsole.4944cfb48fc2.option0Label=OK
+
+# PromptUserConsole.4944cfb48fc2.option1Label=Cancel
+PromptUserConsole.4944cfb48fc2.option1Label=Cancel
+
+# PromptUserConsole.4944cfb48fc2.option2Label=Details...
+PromptUserConsole.4944cfb48fc2.option2Label=Details...
+
+# PromptUserConsole.4944cfb48fc2.title=Re-enter TESS Username
+PromptUserConsole.4944cfb48fc2.title=Re-enter TESS Username
+
+# PromptUserConsole.4d7879539fa1.message=The Application Delivery Analysis console hostnames can not be null or space.
+PromptUserConsole.4d7879539fa1.message=The Application Delivery Analysis console hostnames can not be null or space.
+
+# PromptUserConsole.4d7879539fa1.option0Label=OK
+PromptUserConsole.4d7879539fa1.option0Label=OK
+
+# PromptUserConsole.4d7879539fa1.option1Label=Cancel
+PromptUserConsole.4d7879539fa1.option1Label=Cancel
+
+# PromptUserConsole.4d7879539fa1.option2Label=Details...
+PromptUserConsole.4d7879539fa1.option2Label=Details...
+
+# PromptUserConsole.4d7879539fa1.title=Re-enter Application Delivery Analysis Console Hostnames
+PromptUserConsole.4d7879539fa1.title=Re-enter Application Delivery Analysis Console Hostnames
+
+# PromptUserConsole.908528139f0d.message=The file $ca-eulaFile$ could not be found.
+PromptUserConsole.908528139f0d.message=The file $ca-eulaFile$ could not be found.
+
+# PromptUserConsole.908528139f0d.option0Label=Re-enter CA EULA
+PromptUserConsole.908528139f0d.option0Label=Re-enter CA EULA
+
+# PromptUserConsole.908528139f0d.option1Label=Cancel & Exit
+PromptUserConsole.908528139f0d.option1Label=Cancel & Exit
+
+# PromptUserConsole.908528139f0d.option2Label=Details...
+PromptUserConsole.908528139f0d.option2Label=Details...
+
+# PromptUserConsole.908528139f0d.title=Re-Enter CA EULA File Location
+PromptUserConsole.908528139f0d.title=Re-Enter CA EULA File Location
+
+# PromptUserConsole.908528139f18.message=$ca-eulaFile$ is not a valid CA EULA file.
+PromptUserConsole.908528139f18.message=$ca-eulaFile$ is not a valid CA EULA file.
+
+# PromptUserConsole.908528139f18.option0Label=Re-enter CA EULA
+PromptUserConsole.908528139f18.option0Label=Re-enter CA EULA
+
+# PromptUserConsole.908528139f18.option1Label=Cancel & Exit
+PromptUserConsole.908528139f18.option1Label=Cancel & Exit
+
+# PromptUserConsole.908528139f18.option2Label=Details...
+PromptUserConsole.908528139f18.option2Label=Details...
+
+# PromptUserConsole.908528139f18.title=Invalid CA EULA Specified
+PromptUserConsole.908528139f18.title=Invalid CA EULA Specified
+
+# PromptUserConsole.908528139f1e.message=$ca-eulaFile$ is not a up-to-date CA EULA file.
+PromptUserConsole.908528139f1e.message=$ca-eulaFile$ is not a up-to-date CA EULA file.
+
+# PromptUserConsole.908528139f1e.option0Label=Re-enter CA EULA
+PromptUserConsole.908528139f1e.option0Label=Re-enter CA EULA
+
+# PromptUserConsole.908528139f1e.option1Label=Cancel & Exit
+PromptUserConsole.908528139f1e.option1Label=Cancel & Exit
+
+# PromptUserConsole.908528139f1e.option2Label=Details...
+PromptUserConsole.908528139f1e.option2Label=Details...
+
+# PromptUserConsole.908528139f1e.title=Invalid CA EULA Specified
+PromptUserConsole.908528139f1e.title=Invalid CA EULA Specified
+
+# PromptUserConsole.908528139f1f.message=$ca-eulaFile$ does not indicate acceptance of the CA End User License Agreement.\r\n\r\nTo acknowledge and accept the agreement:\r\n   - open it in a text editor and read the terms and conditions\r\n   - edit the end of the file to indicate acceptance of the license\r\n   - save the changes\r\n
+PromptUserConsole.908528139f1f.message=$ca-eulaFile$ does not indicate acceptance of the CA End User License Agreement.\r\n\r\nTo acknowledge and accept the agreement:\r\n   - open it in a text editor and read the terms and conditions\r\n   - edit the end of the file to indicate acceptance of the license\r\n   - save the changes\r\n
+
+# PromptUserConsole.908528139f1f.option0Label=Re-enter CA EULA
+PromptUserConsole.908528139f1f.option0Label=Re-enter CA EULA
+
+# PromptUserConsole.908528139f1f.option1Label=Cancel & Exit
+PromptUserConsole.908528139f1f.option1Label=Cancel & Exit
+
+# PromptUserConsole.908528139f1f.option2Label=Details...
+PromptUserConsole.908528139f1f.option2Label=Details...
+
+# PromptUserConsole.908528139f1f.title=Invalid CA EULA Specified
+PromptUserConsole.908528139f1f.title=Invalid CA EULA Specified
+
+# PromptUserConsole.908528149f07.message=No value was entered for the CA EULA File. 
+PromptUserConsole.908528149f07.message=No value was entered for the CA EULA File. 
+
+# PromptUserConsole.908528149f07.option0Label=Re-enter CA EULA
+PromptUserConsole.908528149f07.option0Label=Re-enter CA EULA
+
+# PromptUserConsole.908528149f07.option1Label=Cancel & Exit
+PromptUserConsole.908528149f07.option1Label=Cancel & Exit
+
+# PromptUserConsole.908528149f07.option2Label=Details...
+PromptUserConsole.908528149f07.option2Label=Details...
+
+# PromptUserConsole.908528149f07.title=Re-Enter CA EULA File Location
+PromptUserConsole.908528149f07.title=Re-Enter CA EULA File Location
+
+# PromptUserConsole.9133a9ac9478.message=A valid CA Performance Center Integration Pack web server port setting is an integer from 1 to 65535. 
+PromptUserConsole.9133a9ac9478.message=A valid CA Performance Center Integration Pack web server port setting is an integer from 1 to 65535. 
+
+# PromptUserConsole.9133a9ac9478.option0Label=OK
+PromptUserConsole.9133a9ac9478.option0Label=OK
+
+# PromptUserConsole.9133a9ac9478.option1Label=Cancel
+PromptUserConsole.9133a9ac9478.option1Label=Cancel
+
+# PromptUserConsole.9133a9ac9478.option2Label=Details...
+PromptUserConsole.9133a9ac9478.option2Label=Details...
+
+# PromptUserConsole.9133a9ac9478.title=Re-enter CA Performance Center Integration Pack Web Server Port
+PromptUserConsole.9133a9ac9478.title=Re-enter CA Performance Center Integration Pack Web Server Port
+
+# PromptUserConsole.b20ec182a6fe.message=The Introscope Agent installer was launched using the following $prop.java.specification.version$ Java Virtual Machine: $prop.java.version$\r\n\r\nThe Introscope Agent installer requires a JVM version of 1.4.x or later.\r\n\r\nPlease relaunch the installer using a JVM that meets or exceeds the minimum requirement.
+PromptUserConsole.b20ec182a6fe.message=The Introscope Agent installer was launched using the following $prop.java.specification.version$ Java Virtual Machine: $prop.java.version$\r\n\r\nThe Introscope Agent installer requires a JVM version of 1.4.x or later.\r\n\r\nPlease relaunch the installer using a JVM that meets or exceeds the minimum requirement.
+
+# PromptUserConsole.b20ec182a6fe.option0Label=OK
+PromptUserConsole.b20ec182a6fe.option0Label=OK
+
+# PromptUserConsole.b20ec182a6fe.option1Label=Cancel
+PromptUserConsole.b20ec182a6fe.option1Label=Cancel
+
+# PromptUserConsole.b20ec182a6fe.option2Label=Details...
+PromptUserConsole.b20ec182a6fe.option2Label=Details...
+
+# PromptUserConsole.b20ec182a6fe.title=Update JVM Version
+PromptUserConsole.b20ec182a6fe.title=Update JVM Version
+
+# PromptUserConsole.b50381468836.message=Please select at least one Integration Pack to install.
+PromptUserConsole.b50381468836.message=Please select at least one Integration Pack to install.
+
+# PromptUserConsole.b50381468836.option0Label=OK
+PromptUserConsole.b50381468836.option0Label=OK
+
+# PromptUserConsole.b50381468836.option1Label=Cancel
+PromptUserConsole.b50381468836.option1Label=Cancel
+
+# PromptUserConsole.b50381468836.option2Label=Details...
+PromptUserConsole.b50381468836.option2Label=Details...
+
+# PromptUserConsole.b50381468836.title=No Integration Pack is selected to install.
+PromptUserConsole.b50381468836.title=No Integration Pack is selected to install.
+
+# PromptUserConsole.c174c3228301.message=The directory path cannot consist of whitespace.
+PromptUserConsole.c174c3228301.message=The directory path cannot consist of whitespace.
+
+# PromptUserConsole.c174c3228301.option0Label=OK
+PromptUserConsole.c174c3228301.option0Label=OK
+
+# PromptUserConsole.c174c3228301.option1Label=Cancel
+PromptUserConsole.c174c3228301.option1Label=Cancel
+
+# PromptUserConsole.c174c3228301.option2Label=Details...
+PromptUserConsole.c174c3228301.option2Label=Details...
+
+# PromptUserConsole.c174c3228301.title=Re-enter Install Folder
+PromptUserConsole.c174c3228301.title=Re-enter Install Folder
+
+# PromptUserConsole.c174c3618301.message=On Unix, the directory path may not consist of a dot, two dots or a dash.
+PromptUserConsole.c174c3618301.message=On Unix, the directory path may not consist of a dot, two dots or a dash.
+
+# PromptUserConsole.c174c3618301.option0Label=OK
+PromptUserConsole.c174c3618301.option0Label=OK
+
+# PromptUserConsole.c174c3618301.option1Label=Cancel
+PromptUserConsole.c174c3618301.option1Label=Cancel
+
+# PromptUserConsole.c174c3618301.option2Label=Details...
+PromptUserConsole.c174c3618301.option2Label=Details...
+
+# PromptUserConsole.c174c3618301.title=Re-enter Install Folder
+PromptUserConsole.c174c3618301.title=Re-enter Install Folder
+
+# PromptUserConsole.c174c7878301.message=On Unix, the directory path may not begin with a dash.
+PromptUserConsole.c174c7878301.message=On Unix, the directory path may not begin with a dash.
+
+# PromptUserConsole.c174c7878301.option0Label=OK
+PromptUserConsole.c174c7878301.option0Label=OK
+
+# PromptUserConsole.c174c7878301.option1Label=Cancel
+PromptUserConsole.c174c7878301.option1Label=Cancel
+
+# PromptUserConsole.c174c7878301.option2Label=Details...
+PromptUserConsole.c174c7878301.option2Label=Details...
+
+# PromptUserConsole.c174c7878301.title=Re-enter Install Folder
+PromptUserConsole.c174c7878301.title=Re-enter Install Folder
+
+# PromptUserConsole.d41c66f1a00c.message=The specified folder $USER_INSTALL_DIR$ is not recommended, because it already contains an existing installation.
+PromptUserConsole.d41c66f1a00c.message=The specified folder $USER_INSTALL_DIR$ is not recommended, because it already contains an existing installation.
+
+# PromptUserConsole.d41c66f1a00c.option0Label=Choose Another Folder
+PromptUserConsole.d41c66f1a00c.option0Label=Choose Another Folder
+
+# PromptUserConsole.d41c66f1a00c.option1Label=Use This Folder
+PromptUserConsole.d41c66f1a00c.option1Label=Use This Folder
+
+# PromptUserConsole.d41c66f1a00c.option2Label=Details...
+PromptUserConsole.d41c66f1a00c.option2Label=Details...
+
+# PromptUserConsole.d41c66f1a00c.title=Confirm Install Folder
+PromptUserConsole.d41c66f1a00c.title=Confirm Install Folder
+
+# ShowDialogAction.02ebe3e1a706.buttonLabel=OK
+ShowDialogAction.02ebe3e1a706.buttonLabel=OK
+
+# ShowDialogAction.02ebe3e1a706.cancelButtonLabel=Cancel
+ShowDialogAction.02ebe3e1a706.cancelButtonLabel=Cancel
+
+# ShowDialogAction.02ebe3e1a706.detailsButtonLabel=Details...
+ShowDialogAction.02ebe3e1a706.detailsButtonLabel=Details...
+
+# ShowDialogAction.02ebe3e1a706.label=Re-enter EM Host
+ShowDialogAction.02ebe3e1a706.label=Re-enter EM Host
+
+# ShowDialogAction.02ebe3e1a706.narrative=The EM host cannot be null.
+ShowDialogAction.02ebe3e1a706.narrative=The EM host cannot be null.
+
+# ShowDialogAction.02ebe3e1a706.title=Enterprise Manager Host
+ShowDialogAction.02ebe3e1a706.title=Enterprise Manager Host
+
+# ShowDialogAction.02ebe3e2a707.buttonLabel=OK
+ShowDialogAction.02ebe3e2a707.buttonLabel=OK
+
+# ShowDialogAction.02ebe3e2a707.cancelButtonLabel=Cancel
+ShowDialogAction.02ebe3e2a707.cancelButtonLabel=Cancel
+
+# ShowDialogAction.02ebe3e2a707.detailsButtonLabel=Details...
+ShowDialogAction.02ebe3e2a707.detailsButtonLabel=Details...
+
+# ShowDialogAction.02ebe3e2a707.label=Re-enter EM Web Server Port
+ShowDialogAction.02ebe3e2a707.label=Re-enter EM Web Server Port
+
+# ShowDialogAction.02ebe3e2a707.narrative=A valid EM web server port setting is an integer from 1 to 65535. 
+ShowDialogAction.02ebe3e2a707.narrative=A valid EM web server port setting is an integer from 1 to 65535. 
+
+# ShowDialogAction.02ebe3e2a707.title=Enterprise Manager Web Server Port
+ShowDialogAction.02ebe3e2a707.title=Enterprise Manager Web Server Port
+
+# ShowDialogAction.02ec3201a716.buttonLabel=OK
+ShowDialogAction.02ec3201a716.buttonLabel=OK
+
+# ShowDialogAction.02ec3201a716.cancelButtonLabel=Cancel
+ShowDialogAction.02ec3201a716.cancelButtonLabel=Cancel
+
+# ShowDialogAction.02ec3201a716.detailsButtonLabel=Details...
+ShowDialogAction.02ec3201a716.detailsButtonLabel=Details...
+
+# ShowDialogAction.02ec3201a716.label=Re-enter EM Host
+ShowDialogAction.02ec3201a716.label=Re-enter EM Host
+
+# ShowDialogAction.02ec3201a716.narrative=The EM host cannot be null.
+ShowDialogAction.02ec3201a716.narrative=The EM host cannot be null.
+
+# ShowDialogAction.02ec3201a716.title=Enterprise Manager Host
+ShowDialogAction.02ec3201a716.title=Enterprise Manager Host
+
+# ShowDialogAction.02ec3202a717.buttonLabel=OK
+ShowDialogAction.02ec3202a717.buttonLabel=OK
+
+# ShowDialogAction.02ec3202a717.cancelButtonLabel=Cancel
+ShowDialogAction.02ec3202a717.cancelButtonLabel=Cancel
+
+# ShowDialogAction.02ec3202a717.detailsButtonLabel=Details...
+ShowDialogAction.02ec3202a717.detailsButtonLabel=Details...
+
+# ShowDialogAction.02ec3202a717.label=Re-enter EM Port
+ShowDialogAction.02ec3202a717.label=Re-enter EM Port
+
+# ShowDialogAction.02ec3202a717.narrative=A valid EM port setting is an integer from 1 to 65535. 
+ShowDialogAction.02ec3202a717.narrative=A valid EM port setting is an integer from 1 to 65535. 
+
+# ShowDialogAction.02ec3202a717.title=Enterprise Manager Port
+ShowDialogAction.02ec3202a717.title=Enterprise Manager Port
+
+# ShowDialogAction.256d2db984ed.buttonLabel=OK
+ShowDialogAction.256d2db984ed.buttonLabel=OK
+
+# ShowDialogAction.256d2db984ed.cancelButtonLabel=Cancel
+ShowDialogAction.256d2db984ed.cancelButtonLabel=Cancel
+
+# ShowDialogAction.256d2db984ed.detailsButtonLabel=Details...
+ShowDialogAction.256d2db984ed.detailsButtonLabel=Details...
+
+# ShowDialogAction.256d2db984ed.label=Re-enter Introscope Username
+ShowDialogAction.256d2db984ed.label=Re-enter Introscope Username
+
+# ShowDialogAction.256d2db984ed.narrative=The Introscope username cannot be null.
+ShowDialogAction.256d2db984ed.narrative=The Introscope username cannot be null.
+
+# ShowDialogAction.256d2db984ed.title=Introscope Username
+ShowDialogAction.256d2db984ed.title=Introscope Username
+
+# ShowDialogAction.256d2dba84ef.buttonLabel=OK
+ShowDialogAction.256d2dba84ef.buttonLabel=OK
+
+# ShowDialogAction.256d2dba84ef.cancelButtonLabel=Cancel
+ShowDialogAction.256d2dba84ef.cancelButtonLabel=Cancel
+
+# ShowDialogAction.256d2dba84ef.detailsButtonLabel=Details...
+ShowDialogAction.256d2dba84ef.detailsButtonLabel=Details...
+
+# ShowDialogAction.256d2dba84ef.label=Re-enter TESS Username
+ShowDialogAction.256d2dba84ef.label=Re-enter TESS Username
+
+# ShowDialogAction.256d2dba84ef.narrative=The TESS username cannot be null.
+ShowDialogAction.256d2dba84ef.narrative=The TESS username cannot be null.
+
+# ShowDialogAction.256d2dba84ef.title=TESS Username
+ShowDialogAction.256d2dba84ef.title=TESS Username
+
+# ShowDialogAction.4d70ff219f3e.buttonLabel=OK
+ShowDialogAction.4d70ff219f3e.buttonLabel=OK
+
+# ShowDialogAction.4d70ff219f3e.cancelButtonLabel=Cancel
+ShowDialogAction.4d70ff219f3e.cancelButtonLabel=Cancel
+
+# ShowDialogAction.4d70ff219f3e.detailsButtonLabel=Details...
+ShowDialogAction.4d70ff219f3e.detailsButtonLabel=Details...
+
+# ShowDialogAction.4d70ff219f3e.label=Re-enter Application Delivery Analysis Console Hostnames
+ShowDialogAction.4d70ff219f3e.label=Re-enter Application Delivery Analysis Console Hostnames
+
+# ShowDialogAction.4d70ff219f3e.narrative=The Application Delivery Analysis console hostnames cannot be null.
+ShowDialogAction.4d70ff219f3e.narrative=The Application Delivery Analysis console hostnames cannot be null.
+
+# ShowDialogAction.4d70ff219f3e.title=Application Delivery Analysis Console Hostnames
+ShowDialogAction.4d70ff219f3e.title=Application Delivery Analysis Console Hostnames
+
+# ShowDialogAction.916a23ee99e7.buttonLabel=OK
+ShowDialogAction.916a23ee99e7.buttonLabel=OK
+
+# ShowDialogAction.916a23ee99e7.cancelButtonLabel=Cancel
+ShowDialogAction.916a23ee99e7.cancelButtonLabel=Cancel
+
+# ShowDialogAction.916a23ee99e7.detailsButtonLabel=Details...
+ShowDialogAction.916a23ee99e7.detailsButtonLabel=Details...
+
+# ShowDialogAction.916a23ee99e7.label=Re-enter CA Performance Center Integration Pack Web Server Port
+ShowDialogAction.916a23ee99e7.label=Re-enter CA Performance Center Integration Pack Web Server Port
+
+# ShowDialogAction.916a23ee99e7.narrative=A valid CA Performance Center Integration Pack web server port setting is an integer from 1 to 65535. 
+ShowDialogAction.916a23ee99e7.narrative=A valid CA Performance Center Integration Pack web server port setting is an integer from 1 to 65535. 
+
+# ShowDialogAction.916a23ee99e7.title=CA Performance Center Integration Pack Web Server Port
+ShowDialogAction.916a23ee99e7.title=CA Performance Center Integration Pack Web Server Port
+
+# ShowDialogAction.b20bdb23a6fe.buttonLabel=OK
+ShowDialogAction.b20bdb23a6fe.buttonLabel=OK
+
+# ShowDialogAction.b20bdb23a6fe.cancelButtonLabel=Cancel
+ShowDialogAction.b20bdb23a6fe.cancelButtonLabel=Cancel
+
+# ShowDialogAction.b20bdb23a6fe.detailsButtonLabel=Details...
+ShowDialogAction.b20bdb23a6fe.detailsButtonLabel=Details...
+
+# ShowDialogAction.b20bdb23a6fe.label=Update JVM Version
+ShowDialogAction.b20bdb23a6fe.label=Update JVM Version
+
+# ShowDialogAction.b20bdb23a6fe.narrative=The Introscope Agent installer was launched using the following $prop.java.specification.version$ Java Virtual Machine: $prop.java.version$\r\n\r\nThe Introscope Agent installer requires a JVM version of 1.4.x or later.\r\n\r\nPlease relaunch the installer using a JVM that meets or exceeds the minimum requirement.
+ShowDialogAction.b20bdb23a6fe.narrative=The Introscope Agent installer was launched using the following $prop.java.specification.version$ Java Virtual Machine: $prop.java.version$\r\n\r\nThe Introscope Agent installer requires a JVM version of 1.4.x or later.\r\n\r\nPlease relaunch the installer using a JVM that meets or exceeds the minimum requirement.
+
+# ShowDialogAction.b20bdb23a6fe.title=JVM Version Check
+ShowDialogAction.b20bdb23a6fe.title=JVM Version Check
+
+# ShowDialogAction.b4d7e93ba9d1.buttonLabel=OK
+ShowDialogAction.b4d7e93ba9d1.buttonLabel=OK
+
+# ShowDialogAction.b4d7e93ba9d1.cancelButtonLabel=Cancel
+ShowDialogAction.b4d7e93ba9d1.cancelButtonLabel=Cancel
+
+# ShowDialogAction.b4d7e93ba9d1.detailsButtonLabel=Details...
+ShowDialogAction.b4d7e93ba9d1.detailsButtonLabel=Details...
+
+# ShowDialogAction.b4d7e93ba9d1.label=No Integration Pack is selected to install.
+ShowDialogAction.b4d7e93ba9d1.label=No Integration Pack is selected to install.
+
+# ShowDialogAction.b4d7e93ba9d1.narrative=Please select at least one Integration Pack to install.
+ShowDialogAction.b4d7e93ba9d1.narrative=Please select at least one Integration Pack to install.
+
+# ShowDialogAction.b4d7e93ba9d1.title=Integration Packs
+ShowDialogAction.b4d7e93ba9d1.title=Integration Packs
+
+# ShowDialogAction.c153c7698301.buttonLabel=OK
+ShowDialogAction.c153c7698301.buttonLabel=OK
+
+# ShowDialogAction.c153c7698301.cancelButtonLabel=Cancel
+ShowDialogAction.c153c7698301.cancelButtonLabel=Cancel
+
+# ShowDialogAction.c153c7698301.detailsButtonLabel=Details...
+ShowDialogAction.c153c7698301.detailsButtonLabel=Details...
+
+# ShowDialogAction.c153c7698301.label=Re-enter Install Folder
+ShowDialogAction.c153c7698301.label=Re-enter Install Folder
+
+# ShowDialogAction.c153c7698301.narrative=On Windows, the directory path cannot contain the following special characters:\r\n/ * ? \" < > |
+ShowDialogAction.c153c7698301.narrative=On Windows, the directory path cannot contain the following special characters:\r\n/ * ? \" < > |
+
+# ShowDialogAction.c153c7698301.title=Re-enter Install Folder
+ShowDialogAction.c153c7698301.title=Re-enter Install Folder
+
+# ShowDialogAction.c153c98b8301.buttonLabel=OK
+ShowDialogAction.c153c98b8301.buttonLabel=OK
+
+# ShowDialogAction.c153c98b8301.cancelButtonLabel=Cancel
+ShowDialogAction.c153c98b8301.cancelButtonLabel=Cancel
+
+# ShowDialogAction.c153c98b8301.detailsButtonLabel=Details...
+ShowDialogAction.c153c98b8301.detailsButtonLabel=Details...
+
+# ShowDialogAction.c153c98b8301.label=Re-enter Install Folder
+ShowDialogAction.c153c98b8301.label=Re-enter Install Folder
+
+# ShowDialogAction.c153c98b8301.narrative=On Windows, the directory path may not start with a single backslash.
+ShowDialogAction.c153c98b8301.narrative=On Windows, the directory path may not start with a single backslash.
+
+# ShowDialogAction.c153c98b8301.title=Re-enter Install Folder
+ShowDialogAction.c153c98b8301.title=Re-enter Install Folder
+
+# ShowDialogAction.c153cd358301.buttonLabel=OK
+ShowDialogAction.c153cd358301.buttonLabel=OK
+
+# ShowDialogAction.c153cd358301.cancelButtonLabel=Cancel
+ShowDialogAction.c153cd358301.cancelButtonLabel=Cancel
+
+# ShowDialogAction.c153cd358301.detailsButtonLabel=Details...
+ShowDialogAction.c153cd358301.detailsButtonLabel=Details...
+
+# ShowDialogAction.c153cd358301.label=Re-enter Install Folder
+ShowDialogAction.c153cd358301.label=Re-enter Install Folder
+
+# ShowDialogAction.c153cd358301.narrative=On Windows, the directory path may not contain a colon : , unless it is the second character followed by a backslash.
+ShowDialogAction.c153cd358301.narrative=On Windows, the directory path may not contain a colon : , unless it is the second character followed by a backslash.
+
+# ShowDialogAction.c153cd358301.title=Re-enter Install Folder
+ShowDialogAction.c153cd358301.title=Re-enter Install Folder
+
+# ShowDialogAction.c153d11d8301.buttonLabel=OK
+ShowDialogAction.c153d11d8301.buttonLabel=OK
+
+# ShowDialogAction.c153d11d8301.cancelButtonLabel=Cancel
+ShowDialogAction.c153d11d8301.cancelButtonLabel=Cancel
+
+# ShowDialogAction.c153d11d8301.detailsButtonLabel=Details...
+ShowDialogAction.c153d11d8301.detailsButtonLabel=Details...
+
+# ShowDialogAction.c153d11d8301.label=Re-enter Install Folder
+ShowDialogAction.c153d11d8301.label=Re-enter Install Folder
+
+# ShowDialogAction.c153d11d8301.narrative=On Unix, the directory path may not consist of a dot, two dots or a dash.
+ShowDialogAction.c153d11d8301.narrative=On Unix, the directory path may not consist of a dot, two dots or a dash.
+
+# ShowDialogAction.c153d11d8301.title=Re-enter Install Folder
+ShowDialogAction.c153d11d8301.title=Re-enter Install Folder
+
+# ShowDialogAction.c153d4598301.buttonLabel=OK
+ShowDialogAction.c153d4598301.buttonLabel=OK
+
+# ShowDialogAction.c153d4598301.cancelButtonLabel=Cancel
+ShowDialogAction.c153d4598301.cancelButtonLabel=Cancel
+
+# ShowDialogAction.c153d4598301.detailsButtonLabel=Details...
+ShowDialogAction.c153d4598301.detailsButtonLabel=Details...
+
+# ShowDialogAction.c153d4598301.label=Re-enter Install Folder
+ShowDialogAction.c153d4598301.label=Re-enter Install Folder
+
+# ShowDialogAction.c153d4598301.narrative=On Unix, the directory path may not begin with a dash.
+ShowDialogAction.c153d4598301.narrative=On Unix, the directory path may not begin with a dash.
+
+# ShowDialogAction.c153d4598301.title=Re-enter Install Folder
+ShowDialogAction.c153d4598301.title=Re-enter Install Folder
+
+# ShowDialogAction.d4176ca19fe4.buttonLabel=Choose Another Folder
+ShowDialogAction.d4176ca19fe4.buttonLabel=Choose Another Folder
+
+# ShowDialogAction.d4176ca19fe4.cancelButtonLabel=Use This Folder
+ShowDialogAction.d4176ca19fe4.cancelButtonLabel=Use This Folder
+
+# ShowDialogAction.d4176ca19fe4.detailsButtonLabel=Details...
+ShowDialogAction.d4176ca19fe4.detailsButtonLabel=Details...
+
+# ShowDialogAction.d4176ca19fe4.label=Confirm Install Folder
+ShowDialogAction.d4176ca19fe4.label=Confirm Install Folder
+
+# ShowDialogAction.d4176ca19fe4.narrative=The specified folder $USER_INSTALL_DIR$ is not recommended, because it already contains an existing installation.
+ShowDialogAction.d4176ca19fe4.narrative=The specified folder $USER_INSTALL_DIR$ is not recommended, because it already contains an existing installation.
+
+# ShowDialogAction.d4176ca19fe4.title=Confirm Install Folder
+ShowDialogAction.d4176ca19fe4.title=Confirm Install Folder
+
+# UninstallCompleteAction.a325005ba6d5.rebootNotNeededMessage=
+UninstallCompleteAction.a325005ba6d5.rebootNotNeededMessage=
+
+# UninstallCompleteAction.a325005ba6d5.rebootRecommendedMessage=You should restart the system to complete the uninstallation.
+UninstallCompleteAction.a325005ba6d5.rebootRecommendedMessage=You should restart the system to complete the uninstallation.
+
+# UninstallCompleteAction.a325005ba6d5.rebootRequiredMessage=You need to restart the system to complete the uninstallation.
+UninstallCompleteAction.a325005ba6d5.rebootRequiredMessage=You need to restart the system to complete the uninstallation.
+
+# UninstallCompleteAction.a325005ba6d5.stepTitle=Uninstall Complete
+UninstallCompleteAction.a325005ba6d5.stepTitle=Uninstall Complete
+
+# UninstallCompleteAction.a325005ba6d5.uninstallIncompleteMessage=All installed files and folders were removed.\r\nThe uninstaller did not remove:\r\n - Files or folders created after install\r\n - Locked or read-only files\r\nYou may choose to delete these files manually. 
+UninstallCompleteAction.a325005ba6d5.uninstallIncompleteMessage=All installed files and folders were removed.\r\nThe uninstaller did not remove:\r\n - Files or folders created after install\r\n - Locked or read-only files\r\nYou may choose to delete these files manually. 
+
+# UninstallCompleteAction.a325005ba6d5.uninstallSkippedMessage=Unable to uninstall $PRODUCT_NAME$.
+UninstallCompleteAction.a325005ba6d5.uninstallSkippedMessage=Unable to uninstall $PRODUCT_NAME$.
+
+# UninstallCompleteAction.a325005ba6d5.uninstallSuccessMessage=All items were successfully uninstalled.
+UninstallCompleteAction.a325005ba6d5.uninstallSuccessMessage=All items were successfully uninstalled.
+
+# UninstallCompleteActionConsole.0eb1c9399650.incompleteMessage=All installed files and folders were removed.\r\nThe uninstaller did not remove:\r\n - Files or folders created after install\r\n - Locked or read-only files\r\nYou may choose to delete these files manually. 
+UninstallCompleteActionConsole.0eb1c9399650.incompleteMessage=All installed files and folders were removed.\r\nThe uninstaller did not remove:\r\n - Files or folders created after install\r\n - Locked or read-only files\r\nYou may choose to delete these files manually. 
+
+# UninstallCompleteActionConsole.0eb1c9399650.message=All items were successfully uninstalled.
+UninstallCompleteActionConsole.0eb1c9399650.message=All items were successfully uninstalled.
+
+# UninstallCompleteActionConsole.0eb1c9399650.skippedMessage=Unable to uninstall $PRODUCT_NAME$.
+UninstallCompleteActionConsole.0eb1c9399650.skippedMessage=Unable to uninstall $PRODUCT_NAME$.
+
+# UninstallCompleteActionConsole.0eb1c9399650.title=Uninstall Complete
+UninstallCompleteActionConsole.0eb1c9399650.title=Uninstall Complete
+
+# UninstallIntroAction.a325004ba6d1.message=You have launched the APM Integration Pack for Application Delivery Analysis uninstaller.\r\nThis will remove features installed by the APM Integration Pack for Application Delivery Analysis installer.  \r\nThe uninstaller will not remove:\r\n - files and folders created after installation\r\nYou will need to manually delete these files and folders after running the uninstaller.
+UninstallIntroAction.a325004ba6d1.message=You have launched the APM Integration Pack for Application Delivery Analysis uninstaller.\r\nThis will remove features installed by the APM Integration Pack for Application Delivery Analysis installer.  \r\nThe uninstaller will not remove:\r\n - files and folders created after installation\r\nYou will need to manually delete these files and folders after running the uninstaller.
+
+# UninstallIntroAction.a325004ba6d1.stepTitle=Uninstall $PRODUCT_NAME$
+UninstallIntroAction.a325004ba6d1.stepTitle=Uninstall $PRODUCT_NAME$
+
+# UninstallIntroAction.c6fa89d5ac91.message=To proceed with uninstallation of the APM Integration Pack for Application Delivery Analysis, click Continue. 
+UninstallIntroAction.c6fa89d5ac91.message=To proceed with uninstallation of the APM Integration Pack for Application Delivery Analysis, click Continue. 
+
+# UninstallIntroAction.c6fa89d5ac91.stepTitle=Confirm Uninstallation
+UninstallIntroAction.c6fa89d5ac91.stepTitle=Confirm Uninstallation
+
+# VariablePropertyDataBiDi.03067948a96a.propertyName=Enable $displayNameSAIntegrationPack$ as Windows Service:
+VariablePropertyDataBiDi.03067948a96a.propertyName=Enable $displayNameSAIntegrationPack$ as Windows Service:
+
+# VariablePropertyDataBiDi.03067948a96a.propertyValue=$shouldConfigureSaIntgPackAsServiceDisplayString$
+VariablePropertyDataBiDi.03067948a96a.propertyValue=$shouldConfigureSaIntgPackAsServiceDisplayString$
+
+# VariablePropertyDataBiDi.03067948a96b.propertyName=$displayNameSAIntegrationPack$ Service Display Name (Windows Only):
+VariablePropertyDataBiDi.03067948a96b.propertyName=$displayNameSAIntegrationPack$ Service Display Name (Windows Only):
+
+# VariablePropertyDataBiDi.03067948a96b.propertyValue=$saIntgPackServiceDisplayNameDisplayString$
+VariablePropertyDataBiDi.03067948a96b.propertyValue=$saIntgPackServiceDisplayNameDisplayString$
+
+# VariablePropertyDataBiDi.03067949a96a.propertyName=$displayNameSAIntegrationPack$ Service Name (Windows Only):
+VariablePropertyDataBiDi.03067949a96a.propertyName=$displayNameSAIntegrationPack$ Service Name (Windows Only):
+
+# VariablePropertyDataBiDi.03067949a96a.propertyValue=$saIntgPackServiceNameDisplayString$
+VariablePropertyDataBiDi.03067949a96a.propertyValue=$saIntgPackServiceNameDisplayString$
+
+# VariablePropertyDataBiDi.03075967a970.propertyName=EM Host:
+VariablePropertyDataBiDi.03075967a970.propertyName=EM Host:
+
+# VariablePropertyDataBiDi.03075967a970.propertyValue=$saEmHost$
+VariablePropertyDataBiDi.03075967a970.propertyValue=$saEmHost$
+
+# VariablePropertyDataBiDi.03075968a96f.propertyName=Integration Pack:
+VariablePropertyDataBiDi.03075968a96f.propertyName=Integration Pack:
+
+# VariablePropertyDataBiDi.03075968a96f.propertyValue=$displayNameSAIntegrationPack$
+VariablePropertyDataBiDi.03075968a96f.propertyValue=$displayNameSAIntegrationPack$
+
+# VariablePropertyDataBiDi.03075968a970.propertyName=EM Port:
+VariablePropertyDataBiDi.03075968a970.propertyName=EM Port:
+
+# VariablePropertyDataBiDi.03075968a970.propertyValue=$saEmPort$
+VariablePropertyDataBiDi.03075968a970.propertyValue=$saEmPort$
+
+# VariablePropertyDataBiDi.031317a6a9dc.propertyName=Introscope Username:
+VariablePropertyDataBiDi.031317a6a9dc.propertyName=Introscope Username:
+
+# VariablePropertyDataBiDi.031317a6a9dc.propertyValue=$introscopeUsername$
+VariablePropertyDataBiDi.031317a6a9dc.propertyValue=$introscopeUsername$
+
+# VariablePropertyDataBiDi.031317a6a9dd.propertyName=Enable CAPC Integration Pack as Windows Service:
+VariablePropertyDataBiDi.031317a6a9dd.propertyName=Enable CAPC Integration Pack as Windows Service:
+
+# VariablePropertyDataBiDi.031317a6a9dd.propertyValue=$shouldConfigureCapcIntgPackAsServiceDisplayString$
+VariablePropertyDataBiDi.031317a6a9dd.propertyValue=$shouldConfigureCapcIntgPackAsServiceDisplayString$
+
+# VariablePropertyDataBiDi.031317a6a9de.propertyName=CAPC Integration Pack Service Display Name (Windows Only):
+VariablePropertyDataBiDi.031317a6a9de.propertyName=CAPC Integration Pack Service Display Name (Windows Only):
+
+# VariablePropertyDataBiDi.031317a6a9de.propertyValue=$capcIntgPackServiceDisplayNameDisplayString$
+VariablePropertyDataBiDi.031317a6a9de.propertyValue=$capcIntgPackServiceDisplayNameDisplayString$
+
+# VariablePropertyDataBiDi.031317a7a9dc.propertyName=TESS Username:
+VariablePropertyDataBiDi.031317a7a9dc.propertyName=TESS Username:
+
+# VariablePropertyDataBiDi.031317a7a9dc.propertyValue=$tessUsername$
+VariablePropertyDataBiDi.031317a7a9dc.propertyValue=$tessUsername$
+
+# VariablePropertyDataBiDi.031317a7a9dd.propertyName=CAPC Integration Pack Service Name (Windows Only):
+VariablePropertyDataBiDi.031317a7a9dd.propertyName=CAPC Integration Pack Service Name (Windows Only):
+
+# VariablePropertyDataBiDi.031317a7a9dd.propertyValue=$capcIntgPackServiceNameDisplayString$
+VariablePropertyDataBiDi.031317a7a9dd.propertyValue=$capcIntgPackServiceNameDisplayString$
+
+# VariablePropertyDataBiDi.031317a7a9de.propertyName=CAPC Integration Pack Web Server Port:
+VariablePropertyDataBiDi.031317a7a9de.propertyName=CAPC Integration Pack Web Server Port:
+
+# VariablePropertyDataBiDi.031317a7a9de.propertyValue=$capcIntgPackPort$
+VariablePropertyDataBiDi.031317a7a9de.propertyValue=$capcIntgPackPort$
+
+# VariablePropertyDataBiDi.0313c4fea9f0.propertyName=Integration Pack:
+VariablePropertyDataBiDi.0313c4fea9f0.propertyName=Integration Pack:
+
+# VariablePropertyDataBiDi.0313c4fea9f0.propertyValue=$displayNameCAPCIntegrationPack$
+VariablePropertyDataBiDi.0313c4fea9f0.propertyValue=$displayNameCAPCIntegrationPack$
+
+# VariablePropertyDataBiDi.1c841992bcfd.propertyName=EM Host:
+VariablePropertyDataBiDi.1c841992bcfd.propertyName=EM Host:
+
+# VariablePropertyDataBiDi.1c841992bcfd.propertyValue=$capcEmHost$
+VariablePropertyDataBiDi.1c841992bcfd.propertyValue=$capcEmHost$
+
+# VariablePropertyDataBiDi.1c841993bcfd.propertyName=EM Web Server Port:
+VariablePropertyDataBiDi.1c841993bcfd.propertyName=EM Web Server Port:
+
+# VariablePropertyDataBiDi.1c841993bcfd.propertyValue=$capcEmPort$
+VariablePropertyDataBiDi.1c841993bcfd.propertyValue=$capcEmPort$
+
+# VariablePropertyDataBiDi.2a52ea11aa5c.propertyName=Integration Pack:
+VariablePropertyDataBiDi.2a52ea11aa5c.propertyName=Integration Pack:
+
+# VariablePropertyDataBiDi.2a52ea11aa5c.propertyValue=$chosenIntegrationPackDisplayName$
+VariablePropertyDataBiDi.2a52ea11aa5c.propertyValue=$chosenIntegrationPackDisplayName$
+
+# VariablePropertyDataBiDi.878476288c6d.propertyName=Application Delivery Analysis Console Hostname:
+VariablePropertyDataBiDi.878476288c6d.propertyName=Application Delivery Analysis Console Hostname:
+
+# VariablePropertyDataBiDi.878476288c6d.propertyValue=$superAgentHostsDisplayName$
+VariablePropertyDataBiDi.878476288c6d.propertyValue=$superAgentHostsDisplayName$
+
+# VariablePropertyDataNonBiDi.03095799a976.propertyName=EM Host:
+VariablePropertyDataNonBiDi.03095799a976.propertyName=EM Host:
+
+# VariablePropertyDataNonBiDi.03095799a976.propertyValue=$saEmHost$
+VariablePropertyDataNonBiDi.03095799a976.propertyValue=$saEmHost$
+
+# VariablePropertyDataNonBiDi.0309579aa975.propertyName=Integration Pack:
+VariablePropertyDataNonBiDi.0309579aa975.propertyName=Integration Pack:
+
+# VariablePropertyDataNonBiDi.0309579aa975.propertyValue=$displayNameSAIntegrationPack$
+VariablePropertyDataNonBiDi.0309579aa975.propertyValue=$displayNameSAIntegrationPack$
+
+# VariablePropertyDataNonBiDi.0309579aa976.propertyName=EM Port:
+VariablePropertyDataNonBiDi.0309579aa976.propertyName=EM Port:
+
+# VariablePropertyDataNonBiDi.0309579aa976.propertyValue=$saEmPort$
+VariablePropertyDataNonBiDi.0309579aa976.propertyValue=$saEmPort$
+
+# VariablePropertyDataNonBiDi.031317a6a9e3.propertyName=Introscope Username:
+VariablePropertyDataNonBiDi.031317a6a9e3.propertyName=Introscope Username:
+
+# VariablePropertyDataNonBiDi.031317a6a9e3.propertyValue=$introscopeUsername$
+VariablePropertyDataNonBiDi.031317a6a9e3.propertyValue=$introscopeUsername$
+
+# VariablePropertyDataNonBiDi.031317a6a9e4.propertyName=CAPC Integration Pack Web Server Port:
+VariablePropertyDataNonBiDi.031317a6a9e4.propertyName=CAPC Integration Pack Web Server Port:
+
+# VariablePropertyDataNonBiDi.031317a6a9e4.propertyValue=$capcIntgPackPort$
+VariablePropertyDataNonBiDi.031317a6a9e4.propertyValue=$capcIntgPackPort$
+
+# VariablePropertyDataNonBiDi.031317a7a9e3.propertyName=TESS Username:
+VariablePropertyDataNonBiDi.031317a7a9e3.propertyName=TESS Username:
+
+# VariablePropertyDataNonBiDi.031317a7a9e3.propertyValue=$tessUsername$
+VariablePropertyDataNonBiDi.031317a7a9e3.propertyValue=$tessUsername$
+
+# VariablePropertyDataNonBiDi.0314abf4a9f6.propertyName=Integration Pack:
+VariablePropertyDataNonBiDi.0314abf4a9f6.propertyName=Integration Pack:
+
+# VariablePropertyDataNonBiDi.0314abf4a9f6.propertyValue=$displayNameCAPCIntegrationPack$
+VariablePropertyDataNonBiDi.0314abf4a9f6.propertyValue=$displayNameCAPCIntegrationPack$
+
+# VariablePropertyDataNonBiDi.1c847dabbd01.propertyName=EM Host:
+VariablePropertyDataNonBiDi.1c847dabbd01.propertyName=EM Host:
+
+# VariablePropertyDataNonBiDi.1c847dabbd01.propertyValue=$capcEmHost$
+VariablePropertyDataNonBiDi.1c847dabbd01.propertyValue=$capcEmHost$
+
+# VariablePropertyDataNonBiDi.1c847dacbd01.propertyName=EM Web Server Port:
+VariablePropertyDataNonBiDi.1c847dacbd01.propertyName=EM Web Server Port:
+
+# VariablePropertyDataNonBiDi.1c847dacbd01.propertyValue=$capcEmPort$
+VariablePropertyDataNonBiDi.1c847dacbd01.propertyValue=$capcEmPort$
+
+# VariablePropertyDataNonBiDi.630bf7b0b0f6.propertyName=Integration Pack:
+VariablePropertyDataNonBiDi.630bf7b0b0f6.propertyName=Integration Pack:
+
+# VariablePropertyDataNonBiDi.630bf7b0b0f6.propertyValue=$chosenIntegrationPackDisplayName$
+VariablePropertyDataNonBiDi.630bf7b0b0f6.propertyValue=$chosenIntegrationPackDisplayName$
+
+# VariablePropertyDataNonBiDi.8784ce4b8c6f.propertyName=Application Delivery Analysis Console Hostname:
+VariablePropertyDataNonBiDi.8784ce4b8c6f.propertyName=Application Delivery Analysis Console Hostname:
+
+# VariablePropertyDataNonBiDi.8784ce4b8c6f.propertyValue=$superAgentHostsDisplayName$
+VariablePropertyDataNonBiDi.8784ce4b8c6f.propertyValue=$superAgentHostsDisplayName$
+
