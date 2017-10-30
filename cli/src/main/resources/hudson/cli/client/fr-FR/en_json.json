@@ -1,0 +1,22 @@
+{
+	"login.dialog.redirecting": {
+		"id": "login.dialog.redirecting",
+		"description": "Redirecting keyword",
+		"defaultMessage": "REDIRECTING..."
+	},
+	"login.dialog.authenticate": {
+		"id": "login.dialog.authenticate",
+		"description": "Authenticate keyword",
+		"defaultMessage": "AUTHENTICATE"
+	},
+	"login.dialog.authenticate1": {
+		"id": "login.dialog.authenticate1",
+		"description": "Authenticate keyword1_updated",
+		"defaultMessage": "AUTHENTICATE _Updated"
+	}
+	
+
+
+
+}
+ 
