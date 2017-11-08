@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8'?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2" xmlns:lgtk="http://www.lingotek.com/xliff/1.2">
+  <file date="2017-11-08T09:12:30Z" original="Messages.properties" lgtk:documentUUID="3fac3926-334e-4afc-ada5-429b6a25e1b4" source-language="en-US" target-language="fr-FR" datatype="javapropertyresourcebundle">
+    <header><phase-group>
+        <phase phase-name="0" process-name="Imported"/>
+        <phase phase-name="1" process-name="Machine Translate"/>
+      </phase-group>
+      <count-group name="Lingotek Counts">
+        <count count-type="total">163</count>
+      </count-group>
+    </header>
+    <body>
+      <trans-unit id="9e166fc6-18f5-4eb3-8c62-b57e99c384e1">
+        <source>Jenkins CLI</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:18Z">Jenkins CLI</target>
+      </trans-unit>
+      <trans-unit id="1e1cd6e1-c85d-439e-84ca-95b6e1ddbee8" translate="no">
+        <source/>
+      </trans-unit>
+      <trans-unit id="280be67e-2629-4444-a863-8c745360fc9d">
+        <source>\</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:18Z">\</target>
+      </trans-unit>
+      <trans-unit id="3cdffa7a-c093-4cf3-935f-3e94e7db3868" translate="no">
+        <source/>
+      </trans-unit>
+      <trans-unit id="16237098-9b6c-4666-af4a-23af581a9479">
+        <source>java -jar jenkins-cli.jar [-s URL] command [opts...] args...</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:18Z">Java-jar jenkins cli.jar [-s URL] command [opts...] args...</target>
+      </trans-unit>
+      <trans-unit id="4cde8b77-7b0f-4d0e-8b7f-fd5d64a0606b" translate="no">
+        <source/>
+      </trans-unit>
+      <trans-unit id="b2910e42-8e13-4db2-a91b-afc43313c8a4">
+        <source>Options:</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:18Z">Options :</target>
+      </trans-unit>
+      <trans-unit id="54c7bdeb-f623-43d7-9e26-ef865e00d2e8" translate="no">
+        <source/>
+      </trans-unit>
+      <trans-unit id="362d9aba-4a12-4041-a2b3-b9592f9bdba0">
+        <source>-s URL       : the server URL (defaults to the JENKINS_URL env var)</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:18Z">URL -s : l’URL du serveur (par défaut le var JENKINS_URL env)</target>
+      </trans-unit>
+      <trans-unit id="59cb2cae-fd77-498e-8993-ca4bb28bf6c3" translate="no">
+        <source/>
+      </trans-unit>
+      <trans-unit id="b377f3ef-dd19-4120-a918-a896108e0e22">
+        <source>-i KEY       : SSH private key file used for authentication</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:18Z">i - KEY : SSH fichier de clé privée utilisée pour l’authentification</target>
+      </trans-unit>
+      <trans-unit id="7831c3b0-0263-48be-ac21-8c8932205332" translate="no">
+        <source/>
+      </trans-unit>
+      <trans-unit id="1caeb4f6-9dce-459a-88b2-697eece602e2">
+        <source>-p HOST:PORT : HTTP proxy host and port for HTTPS proxy tunneling.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:18Z">-p : PORT d’hôte : hôte proxy HTTP et le port de la tunnelisation proxy HTTPS.</target>
+      </trans-unit>
+      <trans-unit id="d9fae57c-b374-49da-9b2c-5833572b1463">
+        <source>See http://jenkins-ci.org/https-proxy-tunnel</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:18Z">Reportez-vous à la section http://jenkins-ci.org/https-proxy-tunnel</target>
+      </trans-unit>
+      <trans-unit id="a89abefb-574d-4376-b091-82cb9b4b6318" translate="no">
+        <source/>
+      </trans-unit>
+      <trans-unit id="09f7391b-0955-4634-acf8-7724e93f00c1">
+        <source>-noCertificateCheck : bypass HTTPS certificate check entirely.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:18Z">-noCertificateCheck : ignore entièrement vérification du certificat HTTPS.</target>
+      </trans-unit>
+      <trans-unit id="03617149-ef51-485e-a181-28ac98e49106">
+        <source>Use with caution</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:18Z">Utiliser avec précaution</target>
+      </trans-unit>
+      <trans-unit id="c1b5bf4d-0c07-4597-9095-21af4745b623" translate="no">
+        <source/>
+      </trans-unit>
+      <trans-unit id="b35dcd39-f48a-43a3-98f4-e2d3aca2cff0">
+        <source>-noKeyAuth   : don't try to load the SSH authentication private key.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:18Z">-noKeyAuth : n’essayez pas de charger la clé privée de l’authentification SSH.</target>
+      </trans-unit>
+      <trans-unit id="0f5932eb-eb61-4d01-89ad-fa2e334c0cbd">
+        <source>Conflicts with -i</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:18Z">Entre en conflit avec -i</target>
+      </trans-unit>
+      <trans-unit id="cc4cc68b-9e70-4019-888b-7bfb4a7f8914" translate="no">
+        <source/>
+      </trans-unit>
+      <trans-unit id="08a3ab18-6523-4984-a08d-8376a7ddd529">
+        <source>The available commands depend on the server.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:18Z">Les commandes disponibles dépendent du serveur.</target>
+      </trans-unit>
+      <trans-unit id="2050436f-8066-43ec-abc9-b78ab043785a">
+        <source>Run the 'help' command to</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:18Z">Exécutez la commande 'help' à</target>
+      </trans-unit>
+      <trans-unit id="d01e3cce-472d-4e51-b507-51734d8f6d93" translate="no">
+        <source/>
+      </trans-unit>
+      <trans-unit id="b012ae37-eada-4fd4-930f-29dfa210a83d">
+        <source>see the list.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:18Z">reportez-vous à la liste.</target>
+      </trans-unit>
+      <trans-unit id="4a59c433-2f62-4835-8b90-b1a08be5e1fc">
+        <source>Neither -s nor the JENKINS_URL env var is specified.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:18Z">Le var env JENKINS_URL ni -s est spécifié.</target>
+      </trans-unit>
+      <trans-unit id="f24ed552-b6ee-4c02-86f4-5ab87cd8b328">
+        <source>Version mismatch.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:18Z">Incohérence des versions.</target>
+      </trans-unit>
+      <trans-unit id="ee72c476-20e6-401b-a6e5-de2798744e28">
+        <source>This CLI cannot work with this Jenkins server.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:19Z">La CLI ne fonctionne pas avec ce serveur Jenkins.</target>
+      </trans-unit>
+      <trans-unit id="affd21f0-e187-4e7e-9fdf-8b58ad45f31d">
+        <source>No such file exists:</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:19Z">Aucun fichier n’existe :</target>
+      </trans-unit>
+      <trans-unit id="ed47bd67-00df-4a2b-b719-eecdb27a7dca">
+        <source>This is sentence 1.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:19Z">Il s’agit de phrase 1.</target>
+      </trans-unit>
+      <trans-unit id="87bbdc9c-3961-438a-8e21-88de1ad94b46">
+        <source>This is sentence 2.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:19Z">Il s’agit de phrase 2.</target>
+      </trans-unit>
+      <trans-unit id="2994c5a0-905d-4485-b2f0-3618267e8590">
+        <source>This is sentence 3.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:19Z">Il s’agit de phrase 3.</target>
+      </trans-unit>
+      <trans-unit id="64642725-5949-472f-83cd-83f8b878b8a5">
+        <source>This is sentence 4.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:19Z">Il s’agit de phrase 4.</target>
+      </trans-unit>
+      <trans-unit id="5bbda4a0-1341-4ec4-8d6d-500f54188904">
+        <source>This is sentence 5.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:19Z">Il s’agit de phrase 5.</target>
+      </trans-unit>
+      <trans-unit id="4781bdce-b8e9-4071-880e-1ca2b911d589">
+        <source>This is sentence 6.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:19Z">Il s’agit de phrase 6.</target>
+      </trans-unit>
+      <trans-unit id="aa86b2f2-b2c3-4339-ac78-5a4f62b2f33e">
+        <source>This is sentence 7.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:19Z">Il s’agit de phrase 7.</target>
+      </trans-unit>
+      <trans-unit id="dc6f21fe-8365-419e-97db-bb03922ce0e1" translate="no">
+        <source/>
+      </trans-unit>
+      <trans-unit id="a4dd77b0-59d3-4900-ae1f-395a7899b8a4">
+        <source>This is sentence 8.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:19Z">Il s’agit de phrase 8.</target>
+      </trans-unit>
+      <trans-unit id="4fb284af-d951-4211-b14a-6be93f5f9642">
+        <source>This is sentence 9.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:19Z">Il s’agit de phrase 9.</target>
+      </trans-unit>
+      <trans-unit id="3e7f237e-13a0-421a-95fa-eb6e3c2cd944">
+        <source>This is sentence 10.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:19Z">Il s’agit de phrase 10.</target>
+      </trans-unit>
+      <trans-unit id="985dd1b7-0e87-4c23-b374-7e1a32d6777a">
+        <source>This is sentence 11.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:19Z">Il s’agit de phrase 11.</target>
+      </trans-unit>
+      <trans-unit id="d637f309-8cbc-45f0-af6f-08ab9b1a9505">
+        <source>This is sentence 12.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:19Z">Il s’agit de phrase 12.</target>
+      </trans-unit>
+      <trans-unit id="f931578a-8db4-4a4b-99b7-ae7a8d0aa25e">
+        <source>This is sentence 12.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:19Z">Il s’agit de phrase 12.</target>
+      </trans-unit>
+      <trans-unit id="c338aa0d-326e-4507-af4f-b901ab89ca94">
+        <source>This is sentence 12.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:19Z">Il s’agit de phrase 12.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
