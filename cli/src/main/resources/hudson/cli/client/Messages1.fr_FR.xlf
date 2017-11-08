@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2" xmlns:lgtk="http://www.lingotek.com/xliff/1.2">
+  <file date="2017-11-08T09:12:46Z" original="Messages1.properties (TestProject/cli/src/main/resources/hudson/cli/client)" lgtk:documentUUID="3f8ff0d1-9657-4975-be47-1635dabb8394" source-language="en-US" target-language="fr-FR" datatype="x-properties (testproject/cli/src/main/resources/hudson/cli/client)">
+    <header><phase-group>
+        <phase phase-name="0" process-name="Imported"/>
+        <phase phase-name="1" process-name="Machine Translate"/>
+      </phase-group>
+      <count-group name="Lingotek Counts">
+        <count count-type="total">44</count>
+      </count-group>
+    </header>
+    <body>
+      <trans-unit id="2c856b14-813a-474b-9f61-6df6c498dcce">
+        <source>This is sentence 1.</source>
+        <target xml:lang="fr-FR" state="translated" state-qualifier="leveraged-inherited" phase-name="1" lgtk:modified="2017-11-08T09:01:34Z" lgtk:author="25203">Il agit de phrase 1. _ 11</target>
+      </trans-unit>
+      <trans-unit id="95da8a43-a121-45b7-ab69-97343ac26689">
+        <source>This is sentence 2.</source>
+        <target xml:lang="fr-FR" state="translated" state-qualifier="leveraged-inherited" phase-name="1" lgtk:modified="2017-11-08T09:01:34Z" lgtk:author="25203">Il s’agit de phrase 2. _12</target>
+      </trans-unit>
+      <trans-unit id="6cc4bcd5-2616-4e43-9d87-09fd68cd5025">
+        <source>This is sentence 3.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:34Z">Il s’agit de phrase 3.</target>
+      </trans-unit>
+      <trans-unit id="92b628d9-ee7f-49e7-b98a-7ba4f3a36f92">
+        <source>This is sentence 4.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:35Z">Il s’agit de phrase 4.</target>
+      </trans-unit>
+      <trans-unit id="15a63dec-65db-4c08-89c0-7cf599e88be5">
+        <source>This is sentence 5.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:35Z">Il s’agit de phrase 5.</target>
+      </trans-unit>
+      <trans-unit id="5b9ad1f5-aa0f-4bfa-8919-5760d4168ab3">
+        <source>This is sentence 6.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:35Z">Il s’agit de phrase 6.</target>
+      </trans-unit>
+      <trans-unit id="db0c7b44-8771-47ee-b837-bb40d654d5a8">
+        <source>This is sentence 7.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:35Z">Il s’agit de phrase 7.</target>
+      </trans-unit>
+      <trans-unit id="a7745ebe-ac56-4c3d-9f98-5a9763148c16" translate="no">
+        <source/>
+      </trans-unit>
+      <trans-unit id="904efe13-dec3-42ec-b54d-5fc2bfe57a42">
+        <source>This is sentence 8.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:35Z">Il s’agit de phrase 8.</target>
+      </trans-unit>
+      <trans-unit id="85ef4f21-6b81-4404-82fb-7a28563847d2">
+        <source>This is sentence 9.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:35Z">Il s’agit de phrase 9.</target>
+      </trans-unit>
+      <trans-unit id="71512991-1af0-4d30-b9ab-197c678243d2">
+        <source>This is sentence 10.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:35Z">Il s’agit de phrase 10.</target>
+      </trans-unit>
+      <trans-unit id="fdb7ac80-9c97-416b-94b7-acef3c1558f2">
+        <source>This is sentence 11.</source>
+        <target xml:lang="fr-FR" state="needs-review-translation" state-qualifier="mt-suggestion" phase-name="1" lgtk:modified="2017-11-08T09:01:35Z">Il s’agit de phrase 11.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
