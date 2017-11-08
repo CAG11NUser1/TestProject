@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2" xmlns:lgtk="http://www.lingotek.com/xliff/1.2">
+  <file date="2017-11-08T09:12:38Z" original="en_json.json" lgtk:documentUUID="f0fbf492-f99e-4e1c-a79e-c93bb4f5fd4b" source-language="en-US" target-language="fr-FR" datatype="x-json">
+    <header><phase-group>
+        <phase phase-name="0" process-name="Imported"/>
+        <phase phase-name="1" process-name="Machine Translate"/>
+      </phase-group>
+      <count-group name="Lingotek Counts">
+        <count count-type="total">14</count>
+      </count-group>
+    </header>
+    <body>
+      <trans-unit id="becfabcb-cef4-48c4-970b-52f10fc3145d">
+        <source>login.dialog.redirecting</source>
+      </trans-unit>
+      <trans-unit id="1b651011-02f6-4459-b1d0-203793eaa6ca">
+        <source>Redirecting keyword</source>
+      </trans-unit>
+      <trans-unit id="86b8dedf-0870-426c-bed8-6bfa2b86237a">
+        <source>REDIRECTING...</source>
+      </trans-unit>
+      <trans-unit id="a0e26637-9b4a-47c4-a9e9-c4a672a28939">
+        <source>login.dialog.authenticate</source>
+      </trans-unit>
+      <trans-unit id="b5fdba67-a017-4ae6-bc4b-480f3c82841d">
+        <source>Authenticate keyword</source>
+      </trans-unit>
+      <trans-unit id="032a8763-95a8-489c-a179-3e44c7cf8866">
+        <source>AUTHENTICATE</source>
+      </trans-unit>
+      <trans-unit id="3eb6b6a5-5386-4088-ba3e-0892c386bd0c">
+        <source>login.dialog.authenticate1</source>
+      </trans-unit>
+      <trans-unit id="afdd2246-e643-4b37-9a8c-217b85afe05d">
+        <source>Authenticate keyword1_updated</source>
+      </trans-unit>
+      <trans-unit id="8c42983d-245a-4204-b43d-444d53f0183a">
+        <source>AUTHENTICATE _Updated</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
