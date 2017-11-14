@@ -4,7 +4,7 @@
 			<trans-unit id="universe:0:name">
 				<source>CA ITCM 12.8.100.1000</source>
 				<seg-source><mrk mid="0" mtype="seg">CA ITCM 12.8.100.1000</mrk></seg-source>
-<target state="needs-review-translation"><mrk mid="0" mtype="seg">CA ITCM 12.8.100.1000</mrk></target>
+<target state="needs-review-translation"><mrk mid="0" mtype="seg">CA ITCM 12.8.100.1000 ___1</mrk></target>
 			</trans-unit>
 			<trans-unit id="universe:0:description">
 				<source>Version 12.8.100.1000</source>
