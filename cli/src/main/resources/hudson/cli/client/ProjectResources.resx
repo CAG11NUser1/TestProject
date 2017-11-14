@@ -1,0 +1,1243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MainTitle" xml:space="preserve">
+    <value>CA ITAM Data Importer</value>
+  </data>
+  <data name="TreeDestTitle" xml:space="preserve">
+    <value>Select Destination Field</value>
+  </data>
+  <data name="btnOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="btnCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>CA ITAM Data Importer</value>
+  </data>
+  <data name="lblMaxThreshold" xml:space="preserve">
+    <value>&amp;Maximum Error Threshold:</value>
+  </data>
+  <!--<data name="lblDebugLevel" xml:space="preserve">
+    <value>API &amp;Debug Level:</value>
+  </data>-->
+  <data name="lblPercentSign" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="lblChangerStamp" xml:space="preserve">
+    <value>&amp;Changer Stamp</value>
+  </data>
+  <data name="lblLogViewerApp" xml:space="preserve">
+    <value>&amp;Log Viewer Application:</value>
+  </data>
+  <data name="chkEnableAudits" xml:space="preserve">
+    <value>Enable &amp;Audits</value>
+  </data>
+  <data name="chkEnableEvents" xml:space="preserve">
+    <value>Enable &amp;Events</value>
+  </data>
+  <data name="chkEnableScripts" xml:space="preserve">
+    <value>Enable &amp;Scripts</value>
+  </data>
+  <data name="chkErrorSubError" xml:space="preserve">
+    <value>E&amp;rror on Secondary Lookup Object Errors</value>
+  </data>
+  <data name="chkCreateDropdowns" xml:space="preserve">
+    <!--<value>A&amp;utomatically create new Secondary Lookup objects</value>-->
+    <value>&amp;Create Secondary Lookup Objects</value>
+  </data>
+  <data name="LoginTitle" xml:space="preserve">
+    <value>CA ITAM Data Importer</value>
+  </data>
+  <data name="lblDatabaseType" xml:space="preserve">
+    <value>Database &amp;Type:</value>
+  </data>
+  <data name="lblUserID" xml:space="preserve">
+    <value>&amp;User Name:</value>
+  </data>
+  <data name="lblPassword" xml:space="preserve">
+    <value>&amp;Password:</value>
+  </data>
+  <data name="lblServerName" xml:space="preserve">
+    <value>&amp;Server Name:</value>
+  </data>
+  <data name="lblDBName" xml:space="preserve">
+    <value>&amp;Database Name:</value>
+  </data>
+  <data name="lblTableOwner" xml:space="preserve">
+    <value>Table &amp;Owner Name:</value>
+  </data>
+  <data name="lblAppUser" xml:space="preserve">
+    <value>&amp;Application User:</value>
+  </data>
+  <data name="chkIntegrated" xml:space="preserve">
+    <value>Use &amp;Integrated Security</value>
+  </data>
+  <data name="DSNName" xml:space="preserve">
+    <value>&amp;DSN Name:</value>
+  </data>
+  <data name="ServiceName" xml:space="preserve">
+    <value>&amp;Service Name:</value>
+  </data>
+  <data name="FieldNameDefault" xml:space="preserve">
+    <value>Field </value>
+  </data>
+  <data name="ProcessingRecord" xml:space="preserve">
+    <value>Processing record %1$ of %2$.</value>
+  </data>
+  <data name="ImportLookup" xml:space="preserve">
+    <value>Lookup</value>
+  </data>
+  <data name="ImportNew" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="ImportUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="ProcessorDetails" xml:space="preserve">
+    <value>(Processor %1$) %2$</value>
+  </data>
+  <data name="ImportResults" xml:space="preserve">
+    <value>Results: Total Records=%1$; Records Processed = %2$ (Inserted = %3$ / Updated = %4$); Processed Successfully = %5$; Errors = %6$; Secondary Errors = %7$; Warnings = %8$; Filtered = %9$</value>
+  </data>
+  <data name="TodaysDate" xml:space="preserve">
+    <value>Todays Date</value>
+  </data>
+  <data name="DelimComma" xml:space="preserve">
+    <value>{Comma}</value>
+  </data>
+  <data name="DelimSemiColon" xml:space="preserve">
+    <value>{Semi-colon}</value>
+  </data>
+  <data name="DelimTab" xml:space="preserve">
+    <value>{Tab}</value>
+  </data>
+  <data name="mnuFile" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="mnuOpen" xml:space="preserve">
+    <value>&amp;Open Mapping...</value>
+  </data>
+  <data name="mnuSave" xml:space="preserve">
+    <value>&amp;Save Mapping</value>
+  </data>
+  <data name="mnuSaveAs" xml:space="preserve">
+    <value>Save Mapping &amp;As...</value>
+  </data>
+  <data name="mnuNew" xml:space="preserve">
+    <value>&amp;Restart Wizard</value>
+  </data>
+  <data name="mnuExit" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="mnuTools" xml:space="preserve">
+    <value>&amp;Tools</value>
+  </data>
+  <data name="mnuLoadSourceFields" xml:space="preserve">
+    <value>&amp;Load Source Fields from Import File</value>
+  </data>
+  <data name="mnuViewLog" xml:space="preserve">
+    <value>&amp;View Log File</value>
+  </data>
+  <data name="mnuSettings" xml:space="preserve">
+    <value>&amp;Advanced Settings</value>
+  </data>
+  <data name="lblFileName" xml:space="preserve">
+    <value>Data Fi&amp;le:</value>
+  </data>
+  <data name="TooltipInputFile" xml:space="preserve">
+    <value>Click here to select the file you want to import from</value>
+  </data>
+  <data name="lblDelimiter" xml:space="preserve">
+    <value>&amp;Delimiter:</value>
+  </data>
+  <data name="chkHeaderLine" xml:space="preserve">
+    <value>F&amp;irst row has column names</value>
+  </data>
+  <data name="lblObject" xml:space="preserve">
+    <value>&amp;Main Destination Object:</value>
+  </data>
+  <data name="btnOpenMap" xml:space="preserve">
+    <value>&amp;Open existing Map file...</value>
+  </data>
+  <data name="btnBack" xml:space="preserve">
+    <value>&lt; &amp;Back</value>
+  </data>
+  <data name="btnNext" xml:space="preserve">
+    <value>&amp;Next &gt;</value>
+  </data>
+  <data name="btnExit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="lblRules" xml:space="preserve">
+    <value>Column Mapping Rules for:</value>
+    <comment>Anderson 3 update </comment>
+  </data>
+  <data name="lblSourceField" xml:space="preserve">
+    <value>Source Field</value>
+  </data>
+  <data name="lblDestField" xml:space="preserve">
+    <value>Destination Field</value>
+  </data>
+  <data name="lblKey" xml:space="preserve">
+    <value>Primary Lookup</value>
+    <comment>phase 2 edit</comment>
+  </data>
+  <data name="btnAddRule" xml:space="preserve">
+    <value>&amp;Add Rule</value>
+  </data>
+  <data name="lblFilterRules" xml:space="preserve">
+    <value>Exclusion Filter Rules:</value>
+  </data>
+  <data name="lblFilterType" xml:space="preserve">
+    <value>Fi&amp;lter Type:</value>
+  </data>
+  <data name="lblFilterSource" xml:space="preserve">
+    <value>Source Field</value>
+  </data>
+  <data name="lblOperator" xml:space="preserve">
+    <value>Operator</value>
+  </data>
+  <data name="lblFilterValue" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="lblFilterWildcard" xml:space="preserve">
+    <value>(use * as wildcard)</value>
+  </data>
+  <data name="optRun" xml:space="preserve">
+    <value>Start the &amp;import now...</value>
+  </data>
+  <data name="optSave" xml:space="preserve">
+    <value>Save this import for &amp;later...</value>
+  </data>
+  <!-- <data name="btnViewLog" xml:space="preserve">
+    <value>&amp;View Log File</value>
+  </data>-->
+  <data name="lblHeadTotal" xml:space="preserve">
+    <value>Total Records:</value>
+  </data>
+  <data name="lblHeadProcessed" xml:space="preserve">
+    <value>Records Processed:</value>
+  </data>
+  <data name="lblHeadSuccess" xml:space="preserve">
+    <value>Processed Successfully:</value>
+  </data>
+  <data name="lblHeadError" xml:space="preserve">
+    <value>Processed with Errors:</value>
+  </data>
+  <data name="lblHeadSubError" xml:space="preserve">
+    <value>Secondary Errors:</value>
+  </data>
+  <data name="lblHeadWarning" xml:space="preserve">
+    <value>Processed with Warnings:</value>
+  </data>
+  <data name="MapFileType" xml:space="preserve">
+    <value>CA ITAM Data Importer Map File (*.map)</value>
+  </data>
+  <data name="MapAllFiles" xml:space="preserve">
+    <value>All Files (*.*)</value>
+  </data>
+  <data name="FilterAnd" xml:space="preserve">
+    <value>And</value>
+  </data>
+  <data name="FilterOr" xml:space="preserve">
+    <value>Or</value>
+  </data>
+  <data name="Header1Map" xml:space="preserve">
+    <value>Map Columns</value>
+  </data>
+  <data name="Header2Map" xml:space="preserve">
+    <value>Perform the column mapping below. Map the fields from your input file to fields in the MDB database.</value>
+  </data>
+  <data name="Header1Filter" xml:space="preserve">
+    <value>Exclusion Filter</value>
+  </data>
+  <data name="Header2Filter" xml:space="preserve">
+    <value>Create an exclusion filter if you want to exclude specific records in your input file from the import.</value>
+  </data>
+  <data name="Header1RunSave" xml:space="preserve">
+    <value>Start import or Save for later</value>
+  </data>
+  <data name="Header2RunSave" xml:space="preserve">
+    <value>Choose whether you want to run the import now or save it for later.</value>
+  </data>
+  <data name="btnAnother" xml:space="preserve">
+    <value>&amp;Another</value>
+  </data>
+  <data name="Header1Complete" xml:space="preserve">
+    <value>Import Complete</value>
+  </data>
+  <data name="Header2Complete" xml:space="preserve">
+    <value>Click “Another” to import another file or “Exit” to exit the CA ITAM Data Importer.</value>
+  </data>
+  <data name="Header1Running" xml:space="preserve">
+    <value>Import Running</value>
+  </data>
+  <data name="Header2Running" xml:space="preserve">
+    <value>The import is running...</value>
+  </data>
+  <data name="btnStop" xml:space="preserve">
+    <value>&amp;Stop</value>
+  </data>
+  <data name="Header1Saved" xml:space="preserve">
+    <value>Import Saved</value>
+  </data>
+  <data name="Header2Saved" xml:space="preserve">
+    <value>The import has been saved. Click 'Another' to import another file or 'Exit' to exit the import tool.</value>
+  </data>
+  <data name="Header1File" xml:space="preserve">
+    <value>Select a Flat File to Import</value>
+  </data>
+  <data name="Header2File" xml:space="preserve">
+    <value>What file would you like to import from? Select the file below and also specify the delimiter and main destination object.</value>
+  </data>
+  <data name="StopWarning" xml:space="preserve">
+    <value>Are you sure you want to stop the import?</value>
+  </data>
+  <data name="lblImportStopped" xml:space="preserve">
+    <value>Import Stopped.</value>
+  </data>
+  <data name="InsertSourceField" xml:space="preserve">
+    <value>Insert Source Field</value>
+  </data>
+  <data name="DeleteRule" xml:space="preserve">
+    <value>Delete Rule</value>
+  </data>
+  <data name="InsertField" xml:space="preserve">
+    <value>Insert Field/Variable</value>
+  </data>
+  <data name="SelectDestField" xml:space="preserve">
+    <value>Select the ITAM Field you want to map to</value>
+  </data>
+  <data name="SelectKey" xml:space="preserve">
+    <value>Identifies fields to perform a lookup and determine if the main destination object exists or should be created</value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="btnStart" xml:space="preserve">
+    <value>&amp;Start</value>
+  </data>
+  <data name="FileImportStarting" xml:space="preserve">
+    <value>*** Import Tool starting ***</value>
+  </data>
+  <data name="FileStars" xml:space="preserve">
+    <value>***</value>
+  </data>
+  <data name="FileConnectInfo" xml:space="preserve">
+    <value>Logged in using: LoginID=%1$; Database Type=%2$; Database Source=%3$; Database Name=%4$; Table Owner=%5$</value>
+  </data>
+  <data name="FileMapFileName" xml:space="preserve">
+    <value>Map file name: %1$</value>
+  </data>
+  <data name="FileParameters" xml:space="preserve">
+    <value>Parameters: Run Now=%1$; Silent=%2$</value>
+  </data>
+  <data name="FileImportFailed" xml:space="preserve">
+    <value>*** Import Tool ended with validation errors ***</value>
+  </data>
+  <data name="FileImportCompleted" xml:space="preserve">
+    <value>*** Import Tool ended ***</value>
+  </data>
+  <data name="FilteredOut" xml:space="preserve">
+    <value>Filtering Records... %1$ record(s) filtered out of %2$ records in the file.</value>
+  </data>
+  <data name="FilterComplete" xml:space="preserve">
+    <value>Filter Complete. %1$ record(s) filtered out of %2$ records in the file.</value>
+  </data>
+  <data name="ImportRunningWait" xml:space="preserve">
+    <value>Import Running. Please Wait...</value>
+  </data>
+  <data name="ImportRunningProcessing" xml:space="preserve">
+    <value>Import Running.  Processing Records...</value>
+  </data>
+  <data name="ImportRunningSaving" xml:space="preserve">
+    <value>Import Running.  Saving Batch...</value>
+  </data>
+  <data name="ImportTerminating" xml:space="preserve">
+    <value>Import Terminating.  Please Wait...</value>
+  </data>
+  <data name="MetaDataSubclass" xml:space="preserve">
+    <value>Subclass</value>
+  </data>
+  <data name="MetaDataNoteType" xml:space="preserve">
+    <value>Note Type</value>
+  </data>
+  <data name="MetaDataBillingCode" xml:space="preserve">
+    <value>Billing Code</value>
+  </data>
+  <data name="MetaDataPasswordInfo" xml:space="preserve">
+    <value>Password Information</value>
+  </data>
+  <data name="MetaDataCostType" xml:space="preserve">
+    <value>Cost Type</value>
+  </data>
+  <data name="MetaDataCurrencyType" xml:space="preserve">
+    <value>Currency Type</value>
+  </data>
+  <data name="MetaDataLegalStatus" xml:space="preserve">
+    <value>Legal Status</value>
+  </data>
+  <data name="MetaDataDocumentLocation" xml:space="preserve">
+    <value>Document Location</value>
+  </data>
+  <data name="APILogNone" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="APILogMinimum" xml:space="preserve">
+    <value>Minimum</value>
+  </data>
+  <data name="APILogMedium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="APILogHigh" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="APILogMaximum" xml:space="preserve">
+    <value>Maximum</value>
+  </data>
+  <data name="notepad" xml:space="preserve">
+    <value>Notepad</value>
+  </data>
+  <data name="SelectSubObjectKey" xml:space="preserve">
+    <value>Identifies fields to perform a lookup and determine if the secondary object exists or should be created</value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="UpgradeMapperFileSuccess" xml:space="preserve">
+    <value>You have successfully upgraded your map file.</value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="mnuUpgrade" xml:space="preserve">
+    <value>&amp;Upgrade Mapping</value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="lblKey2" xml:space="preserve">
+    <value>Secondary Lookup</value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="radioInsertOnly" xml:space="preserve">
+    <value>Insert Only</value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="radioInsertUpdate" xml:space="preserve">
+    <value>Insert or Update</value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="radioUpdateOnly" xml:space="preserve">
+    <value>Update Only</value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="groupBoxProcessingType" xml:space="preserve">
+    <value>Primary Lookup Object Processing Type</value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="DATABASENAME_LABEL" xml:space="preserve">
+    <value>Database Name</value>
+  </data>
+  <data name="DNSNAME_LABEL" xml:space="preserve">
+    <value>DNS Name</value>
+  </data>
+  <data name="LOGIN_MISSING_VALUES" xml:space="preserve">
+    <value>%1$ is missing a value!</value>
+  </data>
+  <data name="SERVER_LABEL" xml:space="preserve">
+    <value>Server Name</value>
+  </data>
+  <data name="SERVICE_LABEL" xml:space="preserve">
+    <value>Service Name</value>
+  </data>
+  <data name="TABLEOWNER_LABEL" xml:space="preserve">
+    <value>Table Owner</value>
+  </data>
+  <data name="USERID_LABEL" xml:space="preserve">
+    <value>User ID</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>ITAM Login</value>
+    <comment>phase 2 addition, Anderson 3 update</comment>
+  </data>
+  <data name="SELECT_PRODUCT" xml:space="preserve">
+    <value>Select destination product:</value>
+    <comment>**UNUSED**</comment>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="UAPM" xml:space="preserve">
+    <value>CA Asset Portfolio Management</value>
+    <comment>**UNUSED**</comment>
+  </data>
+  <data name="SWCM" xml:space="preserve">
+    <value>CA Software Compliance Manager</value>
+    <comment>**UNUSED**</comment>
+  </data>
+  <data name="INVALID_DATE" xml:space="preserve">
+    <value>The date value is invalid:  %1$.</value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="radioDeleteDependent" xml:space="preserve">
+    <value>Delete Relationships Only</value>
+    <comment>Anderson 3 addition </comment>
+  </data>
+  <data name="radioDeletePrimary" xml:space="preserve">
+    <value>Delete Primary Objects and Associated Relationships</value>
+    <comment>Anderson 3 addition</comment>
+  </data>
+  <data name="WebException" xml:space="preserve">
+    <value>Web Service Exception (%1$)</value>
+  </data>
+  <data name="WebExceptionWithStatusCode" xml:space="preserve">
+    <value>Web Service Exception (%1$) with code '%2$' and description '%3$'</value>
+  </data>
+  <data name="FatalWebException" xml:space="preserve">
+    <value>Fatal Web Service Exception - See log for additional information</value>
+  </data>
+  <data name="FatalWebExceptionCaption" xml:space="preserve">
+    <value>Fatal Web Service Exception</value>
+  </data>
+  <data name="ImportFailure" xml:space="preserve">
+    <value>Import Failure</value>
+  </data>
+  <data name="ImportNoRecordsFound" xml:space="preserve">
+    <value>*** Import Tool complete but some records not found in database. ***</value>
+  </data>
+  <data name="RecordWithError" xml:space="preserve">
+    <value>**** Error at record %1$ : %2$</value>
+  </data>
+  <data name="RecordNotFoundError" xml:space="preserve">
+    <value>**** No record found at %1$ : %2$</value>
+  </data>
+  <data name="LoadHeaderFieldsEmptyInput" xml:space="preserve">
+    <value>The import file does not contain any header field definitions.</value>
+  </data>
+  <data name="LoginFailedTitle" xml:space="preserve">
+    <value>Login failed for user name: %1$ </value>
+  </data>
+  <data name="HierarchyParentNotPopulated" xml:space="preserve">
+    <value>Parent attribute in hierarchy must be specified.</value>
+  </data>
+  <data name="HierarchyParentNotPopulatedTitle" xml:space="preserve">
+    <value>Parent attribute not specified</value>
+  </data>
+  <data name="OpenSettingsFileErr" xml:space="preserve">
+    <value>The application cannot open the settings file: %1$.  %2$</value>
+  </data>
+  <data name="SaveSettingsFileErr" xml:space="preserve">
+    <value>The application cannot save the settings file: %1$.  %2$</value>
+  </data>
+  <data name="CreateDropdownsWarning" xml:space="preserve">
+    <value>By selecting this option, all secondary objects that do not already exist in your database will be automatically created by the import. To avoid importing invalid data, verify that your source data contains the correct values for all secondary objects.</value>
+  </data>
+  <data name="OpenImportFileErr" xml:space="preserve">
+    <value>The application cannot open the specified data file: %1$.  %2$</value>
+  </data>
+  <data name="OpenMapperFileErr" xml:space="preserve">
+    <value>The application cannot open the specified map file: %1$.  %2$</value>
+  </data>
+  <data name="SaveMapperFileErr" xml:space="preserve">
+    <value>The application cannot save the map file: %1$.  %2$</value>
+  </data>
+  <data name="ImportErrInvalidFields" xml:space="preserve">
+    <value>Line %1$ is invalid because it contains an incorrect number of fields.  Verify that you have specified the correct fields.</value>
+  </data>
+  <data name="ImportComplete" xml:space="preserve">
+    <value>Import Tool Complete.</value>
+  </data>
+  <data name="ImportStoppedByUser" xml:space="preserve">
+    <value>The data import was stopped by the user.</value>
+  </data>
+  <data name="ImportFailed" xml:space="preserve">
+    <value>The import tool operation failed because the maximum number of errors was reached.  Fix the errors and run the data import again.</value>
+  </data>
+  <data name="ExitWarning" xml:space="preserve">
+    <value>Do you want to save the changes to this map file?</value>
+  </data>
+  <data name="RestartWarn" xml:space="preserve">
+    <value>Do you want to save the changes to this map file?</value>
+  </data>
+  <data name="InvalidFileErr" xml:space="preserve">
+    <value>Select a Data File to import.</value>
+  </data>
+  <data name="NotFoundFileErr" xml:space="preserve">
+    <value>The application cannot find the specified Data File: %1$.  Verify the specified path.</value>
+  </data>
+  <data name="InvalidDelimiterErr" xml:space="preserve">
+    <value>Select or enter a delimiter.</value>
+  </data>
+  <data name="InvalidObjectErr" xml:space="preserve">
+    <value>Select a Main Destination Object.</value>
+  </data>
+  <data name="BlankDestErr" xml:space="preserve">
+    <value>Enter a Destination Field for each Source Field.</value>
+  </data>
+  <data name="InvalidDestErr" xml:space="preserve">
+    <value>The Destination Field (%1$) is not valid for the Main Destination Object you selected for import.</value>
+  </data>
+  <data name="SameDestErr" xml:space="preserve">
+    <value>You cannot specify the same Destination Field (%1$) for more than one Source Field.</value>
+  </data>
+  <data name="BlankSourceErr" xml:space="preserve">
+    <value>Enter or select a Source Field.</value>
+  </data>
+  <data name="OpenWarn" xml:space="preserve">
+    <value>Do you want to save the changes to this map file?</value>
+  </data>
+  <data name="LogFileNotExist" xml:space="preserve">
+    <value>The log file does not exist for this session because no import has happened.</value>
+  </data>
+  <data name="LogViewerErr" xml:space="preserve">
+    <value>The configured Log Viewer “%1$" encountered an error while opening the log file.  %2$</value>
+  </data>
+  <data name="LoadHeaderFieldsWarn" xml:space="preserve">
+    <value>All existing Source Field values will be overwritten with the header fields from the data import file. Do you want to continue?</value>
+  </data>
+  <data name="MapFileWarning" xml:space="preserve">
+    <value>Are you sure you want to select this map file as your Data File?</value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="DataFileWarning" xml:space="preserve">
+    <value>Are you sure you want to select this file as your Data File?</value>
+  </data>
+  <data name="UpgradeMapperFileErr" xml:space="preserve">
+    <value>The application cannot upgrade the specified map file because one or more lines contain secondary object details.  Define a new map file that does not contain secondary object details.</value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="UpgradeWarn" xml:space="preserve">
+    <value>The upgraded file will use the same name, appended with “_v2".  Do you want to continue?  If you select No,  the upgrade will be canceled.</value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="UpgradeMapRequired" xml:space="preserve">
+    <value>You must upgrade the selected map file �‘%1$’ using the Upgrade Mapping menu option before you can continue with the import.</value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="MappingRuleError" xml:space="preserve">
+    <value>The following Destination Fields have been specified incorrectly: </value>
+    <comment>Anderson 3 addition</comment>
+  </data>
+  <data name="NoAccessPrivilege" xml:space="preserve">
+    <value>The user does not have access permissions to map the following field: </value>
+    <comment>Anderson 3 addition</comment>
+  </data>
+  <data name="DeleteBothKeyRequired" xml:space="preserve">
+    <value>   %1$  -  Both Primary and Secondary Lookup options must be selected to delete this object.</value>
+    <comment>Anderson 3 addition</comment>
+  </data>
+  <data name="DeleteKeysNotAllowed" xml:space="preserve">
+    <value>   %1$  -  The Delete Primary and Dependent Objects option is selected.  Therefore, mapping rules are not allowed for dependent objects.  All dependent objects will be deleted when you specify a parent object. To continue, remove the dependent object rules.</value>
+    <comment>Anderson 3 addition</comment>
+  </data>
+  <data name="DeleteNoPrimaryKey" xml:space="preserve">
+    <value>   %1$  -  The Delete Dependent Objects Only option is selected.  Therefore, you cannot select the Primary Lookup option to delete this dependent object.</value>
+    <comment>Anderson 3 addition</comment>
+  </data>
+  <data name="DeletePrimaryKeyRequired" xml:space="preserve">
+    <value>   %1$  -  The Primary Lookup option must be selected for this rule to identify objects to delete.</value>
+    <comment>Anderson 3 addition</comment>
+  </data>
+  <data name="DeleteSecondaryKeyRequired" xml:space="preserve">
+    <value>   %1$  -  The Delete Dependent Objects Only option is selected.  Therefore, you must select the Secondary Lookup option for this rule to identify dependent objects to delete.</value>
+    <comment>Anderson 3 addition</comment>
+  </data>
+  <data name="InvalidRootClass" xml:space="preserve">
+    <value>   %1$  -  The Destination Field root object is not valid for the selected Main Destination Object.</value>
+  </data>
+  <data name="InvalidAttribute" xml:space="preserve">
+    <value>   %1$  -  Destination Field object ‘%2$’  with map value ‘%3$’ is not valid for ‘%4$’.</value>
+  </data>
+  <data name="SubTypeViolation" xml:space="preserve">
+    <value>   %1$  -  Destination Field object ‘%2$’ cannot specify ‘%3$’.</value>
+  </data>
+  <data name="EmptyImportFile" xml:space="preserve">
+    <value>The map file you specified is empty: %1$.  Verify that you specified a valid file and open the map file again.</value>
+  </data>
+  <data name="AssetInvalidmapping" xml:space="preserve">
+    <value>Invalid mapping rules : Cannot map (%1$) when asset type is %2$ .</value>
+  </data>
+  <data name="DeletionComplete" xml:space="preserve">
+    <value>Delete Operation Complete</value>
+  </data>
+  <data name="DeletionFailure" xml:space="preserve">
+    <value>Unable to complete requested deletions</value>
+  </data>
+  <data name="MainTitleDeleteMode" xml:space="preserve">
+    <value>CA ITAM Data Importer -- Deletion Mode --</value>
+  </data>
+  <data name="chkApplyManuftrNormRules" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="chkApplyModelNormRules" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="chkApplyOSNormRules" xml:space="preserve">
+    <value>Operating System</value>
+  </data>
+  <data name="Normalization" xml:space="preserve">
+    <value>Normalization</value>
+  </data>
+  <data name="radioNormWithError" xml:space="preserve">
+    <value>Error on Normalization</value>
+  </data>
+  <data name="radioApplyNormWithOutError" xml:space="preserve">
+    <value>Apply Normalization without Error</value>
+  </data>
+  <data name="ActionNamePlaceHolder" xml:space="preserve">
+    <value>Action Name PlaceHolder</value>
+  </data>
+  <!--<data name="APIDebugLevel" xml:space="preserve">
+    <value>API &amp;Debug Level:</value>
+  </data>-->
+  <data name="ApplyNormalizationRulesFor" xml:space="preserve">
+    <value>Apply Normalization Rules for:</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ChangerStamp" xml:space="preserve">
+    <value>&amp;Changer Stamp</value>
+  </data>
+  <data name="ColumnMappingRulesFor" xml:space="preserve">
+    <value>Column Mapping Rules for:</value>
+  </data>
+  <data name="ConfigSettingErrorForSubPrimaryObjCreation" xml:space="preserve">
+    <value>Exception thrown! No records found for class {0} and your configuration setting does not allow secondary objects to be created</value>
+    <comment>**UNUSED**</comment>
+  </data>
+  <!--<data name="CreateSecondaryLookupObjs" xml:space="preserve">
+    <value>A&amp;utomatically create new Secondary Lookup objects</value>
+  </data>-->
+  <data name="DataFile" xml:space="preserve">
+    <value>Data File:</value>
+  </data>
+  <data name="DataFileLocale" xml:space="preserve">
+    <value>Data File Locale :</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete:</value>
+  </data>
+  <data name="DeleteDependentObjs" xml:space="preserve">
+    <value>Delete Relationships Only</value>
+  </data>
+  <data name="DeletePrimayAndDependentObjs" xml:space="preserve">
+    <value>Delete Primary Objects and Associated Relationships</value>
+  </data>
+  <data name="DestinationField" xml:space="preserve">
+    <value>Destination Field</value>
+  </data>
+  <data name="EnableAudits" xml:space="preserve">
+    <value>Enable &amp;Audits</value>
+  </data>
+  <data name="EnableEvents" xml:space="preserve">
+    <value>Enable &amp;Events</value>
+  </data>
+  <data name="EnableScripts" xml:space="preserve">
+    <value>Enable &amp;Scripts</value>
+  </data>
+  <data name="EncodedPasswordInvalid" xml:space="preserve">
+    <value>Encoded password invalid\n</value>
+  </data>
+  <data name="ErrorOnNormalization" xml:space="preserve">
+    <value>Error on Normalization</value>
+  </data>
+  <!--<data name="ErrorOnSubObjErrors" xml:space="preserve">
+    <value>E&amp;rror on Secondary Lookup Object Errors</value>
+  </data> -->
+  <data name="ExclusionFilterRules" xml:space="preserve">
+    <value>Exclusion Filter Rules:</value>
+  </data>
+  <data name="FailedToCreateRecordInDB" xml:space="preserve">
+    <value>Failed to Create Record in Database for class {0} The exception message is: {1}</value>
+    <comment>**UNUSED**</comment>
+  </data>
+  <data name="ImporterExeExample" xml:space="preserve">
+    <value>\"ITAM Data Importer.exe example</value>
+  </data>
+  <data name="ImporterExeExampleMsg" xml:space="preserve">
+    <value>\"ITAM Data Importer.exe\" \"-fC:\\My Documents\\Contact.map\" -usrsa –pwdca123 -s -ip1 -is1 -u0</value>
+  </data>
+  <data name="ImporterExeSyntaxHelp" xml:space="preserve">
+    <value>\"-h\" \"/?\" \" -H\" \"-?\" \"/h\" - displays this help information</value>
+  </data>
+  <data name="ImporterExeSyntaxHelp1" xml:space="preserve">
+    <value>-f   (Required) Specifies the map file to be used</value>
+  </data>
+  <data name="ImporterExeSyntaxHelp10" xml:space="preserve">
+    <value>-nm Specifies whether or not to Apply Model normalization rules, 0 - Not Apply, 1 - Apply</value>
+  </data>
+  <data name="ImporterExeSyntaxHelp11" xml:space="preserve">
+    <value>-no Specifies whether or not to Apply Operating System normalization rules, 0 - Not Apply, 1 - Apply</value>
+  </data>
+  <data name="ImporterExeSyntaxHelp12" xml:space="preserve">
+    <value>-ne Specifies whether or not to Error on Normalization, 0 - Apply Normalization without Error , 1 - Error on Normalization</value>
+  </data>
+  <data name="ImporterExeSyntaxHelp2" xml:space="preserve">
+    <value>-usr (Required) Specifies User name for ITAM</value>
+  </data>
+  <data name="ImporterExeSyntaxHelp3" xml:space="preserve">
+    <value>-pwd (Required) Specifies Password for ITAM</value>
+  </data>
+  <data name="ImporterExeSyntaxHelp4" xml:space="preserve">
+    <value>-s   Flag indicating silent mode (no UI)</value>
+  </data>
+  <data name="ImporterExeSyntaxHelp5" xml:space="preserve">
+    <value>-ip  Specifies the processing type 0 - Insert Or Update, 1 - Insert Only, 2 - Update only, 3 - Primary Delete, 4 - Dependent Delete Only.  The default is 0.</value>
+  </data>
+  <data name="ImporterExeSyntaxHelp6" xml:space="preserve">
+    <value>-is  Specifies if secondary objects should be created. 0 - Do not create secondary objects, 1 - Create secondary objects. The default is 0.</value>
+  </data>
+  <data name="ImporterExeSyntaxHelp7" xml:space="preserve">
+    <value>-u  Specifies if an existing secondary object should be updated. 0 - Do not update secondary objects, 1 - Update secondary objects. The default is 0.</value>
+  </data>
+  <data name="ImporterExeSyntaxHelp8" xml:space="preserve">
+    <value>-ts  Flag for trouble shooting, all the parameters will be recorded in the log file when this flag present</value>
+  </data>
+  <data name="ImporterExeSyntaxHelp9" xml:space="preserve">
+    <value>-nc Specifies whether or not to apply Company normalization rules, 0 - Not Apply, 1 - Apply</value>
+  </data>
+  <data name="ImporterExeSysntax" xml:space="preserve">
+    <value>The syntax of \"ITAM Data Importer.exe\" is</value>
+  </data>
+  <data name="ImporterExeSysntaxMsg" xml:space="preserve">
+    <value>\"ITAM Data Importer.exe\" -f[pathToMapfile] -pwd[password] -s -ip[processingtype] -is[subobjetCreation] -ts</value>
+  </data>
+  <data name="ImporterReturnsWithErrorCode" xml:space="preserve">
+    <value>CA ITAM Data Importer returns with Error Code:  %1$</value>
+  </data>
+  <data name="ImporterSettings" xml:space="preserve">
+    <value>CA ITAM Data Importer - Settings</value>
+  </data>
+  <data name="ImportToolExeFileNotFound" xml:space="preserve">
+    <value>Ensure the UAPM application is installed on this machine and the 'APM Import Tool.exe' file is located in the CONSOLE folder of the UAPM installation folder.</value>
+    <comment>**UNUSED**</comment>    
+  </data>
+  <data name="Insert/Update" xml:space="preserve">
+    <value>Insert/Update:</value>
+  </data>
+  <data name="InsertOnly" xml:space="preserve">
+    <value>Insert Only</value>
+  </data>
+  <data name="InsertOrUpdate" xml:space="preserve">
+    <value>Insert or Update</value>
+  </data>
+  <data name="InvalidMapping" xml:space="preserve">
+    <value>Invalid mapping detected, return without execution</value>
+  </data>
+  <data name="InvalidMappingAndSeeLog" xml:space="preserve">
+    <value>Invalid mapping detected, return without execution. Please see the log file for details</value>
+  </data>
+  <data name="ITAMLogin" xml:space="preserve">
+    <value>ITAM login</value>
+  </data>
+  <data name="LicenseError" xml:space="preserve">
+    <value>License Error</value>
+  </data>
+  <data name="LoadImportableClasses" xml:space="preserve">
+    <value>Load Importable Classes:</value>
+  </data>
+  <data name="LogViewerApp" xml:space="preserve">
+    <value>&amp;Log Viewer App:</value>
+  </data>
+  <data name="Manufacturer" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="MaxErrorThreshold" xml:space="preserve">
+    <value>&amp;Max Error Threshold:</value>
+  </data>
+  <data name="MDBLoadingFailed" xml:space="preserve">
+    <value>Loading from MDB failed! Please check your config file and try again</value>
+  </data>
+  <data name="MetadataNotLoaded" xml:space="preserve">
+    <value>Metadata is not loaded because neither APM nor SwCM is installed. Please check the ca_application_registration table in the MDB.</value>
+  </data>
+  <data name="Model" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="MultiplerecordsFoundForClass" xml:space="preserve">
+    <value>Multiple records found for class {0}</value>
+    <comment>**UNUSED**</comment>
+  </data>
+  <data name="NoKeysSpecifiedForClass" xml:space="preserve">
+    <value>No lookup values specified for class {0}</value>
+    <comment>**UNUSED**</comment>    
+  </data>
+  <data name="NoRecordsFoundForClass" xml:space="preserve">
+    <value>No records found for class {0}</value>
+    <comment>**UNUSED**</comment>
+  </data>
+  <data name="NoResponseFromWS" xml:space="preserve">
+    <value>No response from Web Service</value>
+  </data>
+  <data name="NormalizationBehavior" xml:space="preserve">
+    <value>Normalization Behavior</value>
+  </data>
+  <data name="NormalizationRules" xml:space="preserve">
+    <value>Normalization rules</value>
+  </data>
+  <data name="NormalizationValidationException" xml:space="preserve">
+    <value>Normalization Validation Exception :{0} to {1}</value>
+  </data>
+  <data name="NormalizationWithoutError" xml:space="preserve">
+    <value>Apply Normalization without Error</value>
+  </data>
+  <data name="ObjCreationFailedForClass" xml:space="preserve">
+    <value>Creating Objects for class {0} is not allowed</value>
+    <comment>**UNUSED**</comment>
+  </data>
+  <data name="ObjectsCreationNotAllowed" xml:space="preserve">
+    <value>Creating Objects for class {0} is not allowed</value>
+    <comment>**UNUSED**</comment>    
+  </data>
+  <data name="ObjProcessingOptions" xml:space="preserve">
+    <value>Object Processing Options</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OperatingSystem" xml:space="preserve">
+    <value>Operating System</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="PressEnterToExit" xml:space="preserve">
+    <value>Please press Enter to exit</value>
+  </data>
+  <data name="PressKeyToExit" xml:space="preserve">
+    <value>Please press any key to exit</value>
+  </data>
+  <data name="ProcessCantBeProcessedForInsertOnly" xml:space="preserve">
+    <value>Cannot process this record because current operation type is InsertOnly!</value>
+  </data>
+  <data name="ProcessCantBeProcessedForUpdateOnly" xml:space="preserve">
+    <value>Cannot process this record because current operation type is UpdateOnly</value>
+  </data>
+  <data name="ProcessedSuccessfully" xml:space="preserve">
+    <value>Processed Successfully:</value>
+  </data>
+  <data name="ProcessedWithErrors" xml:space="preserve">
+    <value>Processed with Errors:</value>
+  </data>
+  <data name="ProcessedWithWarnings" xml:space="preserve">
+    <value>Processed with Warnings:</value>
+  </data>
+  <data name="RecordNotFoundInClassBasedOnKey" xml:space="preserve">
+    <value>The record is not found based on lookup value(s) in the class {0} for Record</value>
+    <comment>**UNUSED**</comment>    
+  </data>
+  <data name="RecordsProcessed" xml:space="preserve">
+    <value>Records Processed:</value>
+  </data>
+  <data name="ReturnWithOutCreatingObj" xml:space="preserve">
+    <value>Exception thrown! Return without creating object for class {0}</value>
+  </data>
+  <data name="SaveImport" xml:space="preserve">
+    <value>Save this import for &amp;later...</value>
+  </data>
+  <data name="SaveMapping" xml:space="preserve">
+    <value>&amp;Save Mapping</value>
+  </data>
+  <data name="SaveMappingAs" xml:space="preserve">
+    <value>Save Mapping &amp;As...</value>
+  </data>
+  <data name="SelectDestProduct" xml:space="preserve">
+    <value>Select destination product</value>
+  </data>
+  <data name="SelectFileToImport" xml:space="preserve">
+    <value>What file would you like to import from? Select the file below and also specify the delimiter and primary object.</value>
+  </data>
+  <data name="SelectFlatFileToImport" xml:space="preserve">
+    <value>Select a Flat File to Import</value>
+  </data>
+  <data name="SeondaryLookUpObjNotExists" xml:space="preserve">
+    <value>Secondary Lookup Object doesn't exist!</value>
+  </data>
+  <data name="SeondaryLookUpObjNotExistsForClass" xml:space="preserve">
+    <value>Secondary Lookup Object doesn't exist for class!</value>
+    <comment>**UNUSED**</comment>
+  </data>
+  <data name="SkipUpdateOnly" xml:space="preserve">
+    <value>Skipped UpdateOnly operation for the record</value>
+  </data>
+  <data name="SourceField" xml:space="preserve">
+    <value>Source Field</value>
+  </data>
+  <data name="StartImport" xml:space="preserve">
+    <value>Start the &amp;import now...</value>
+  </data>
+  <data name="SubObjErrorSettingException" xml:space="preserve">
+    <value>Exception is thrown because of the Secondary Object Error setting</value>
+  </data>
+  <data name="SubPrimayObjCreationNotAllowed" xml:space="preserve">
+    <value>No records found for class {0} and secondary objects are not allowed to be created</value>
+    <comment>**UNUSED**</comment>
+  </data>
+  <data name="SWCMDestinationField" xml:space="preserve">
+    <value>Select SwCM Destination Field</value>
+  </data>
+  <data name="SWCMSecondaryAuthError" xml:space="preserve">
+    <value>Error during secondary SwCM authentication:</value>
+  </data>
+  <data name="TotalRecords" xml:space="preserve">
+    <value>Total Records:</value>
+  </data>
+  <data name="TranslationListNotImplemented" xml:space="preserve">
+    <value>Translation list {0} not implemented"</value>
+  </data>
+  <data name="UpdateOnly" xml:space="preserve">
+    <value>Update Only</value>
+  </data>
+  <data name="UpdateSecondaryLookUpObjs" xml:space="preserve">
+    <value>&amp;Update Secondary Lookup Objects</value>
+  </data>
+  <data name="UserHasNoCreateOrUpdatePermission" xml:space="preserve">
+    <value>User does not have permission to Create/Update class {0}</value>
+    <comment>**UNUSED**</comment>
+  </data>
+  <data name="UserHasNoCreatePermission" xml:space="preserve">
+    <value>User does not have Create permissions for class</value>
+  </data>
+  <data name="UserHasNoDeletePermission" xml:space="preserve">
+    <value>User does not have Delete permission for class</value>
+  </data>
+  <data name="UserHasNoWriteAndCreatePermissions" xml:space="preserve">
+    <value>User does not have both Write and Create permissions for class</value>
+  </data>
+  <data name="UserHasNoWritePermission" xml:space="preserve">
+    <value>User does not have Write permission for class</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>User Name:</value>
+  </data>
+  <data name="UserTicketNull" xml:space="preserve">
+    <value>User ticket is null</value>
+  </data>
+  <data name="UseTheExistingRecordFound" xml:space="preserve">
+    <value>Use the existing record found</value>
+  </data>
+  <data name="WebServiceAuthFailed" xml:space="preserve">
+    <value>Web Service authentication failed for user name:</value>
+  </data>
+  <data name="WebServiceException" xml:space="preserve">
+    <value>Web Service threw exception {0}</value>
+  </data>
+  <data name="WebServiceURLNotUp" xml:space="preserve">
+    <value>Web Service is not up at URL</value>
+  </data>
+  <data name="WSConnectProblem" xml:space="preserve">
+    <value>Web Service connect problem</value>
+  </data>
+  <data name="WSLoginProblem" xml:space="preserve">
+    <value>Web Service login problem</value>
+  </data>
+  <data name="WSReadException" xml:space="preserve">
+    <value>Web Service read exception {0}</value>
+  </data>
+  <data name="ReadOnlyField" xml:space="preserve">
+    <value>Cannot insert/update value for read-only field {0}</value>
+  </data>
+  <data name="NoWritePrivilege" xml:space="preserve">
+    <value>User does not have write permissions to the following fields. Its value will not be overwritten.</value>
+  </data>
+  <data name="GenericSubtype" xml:space="preserve">
+    <value>All Families</value>
+  </data>
+  <data name="GenericSubtypeForLegalDoc" xml:space="preserve">
+    <value>All Templates</value>
+  </data>
+  <data name="AcrossTenants" xml:space="preserve">
+    <value>All Tenants</value>
+  </data>
+  <data name="TenantMappingIsRequiredOnMainObject" xml:space="preserve">
+    <value>Tenant Name Mapping is Required on Main Object</value>
+  </data>
+  <data name="lblTenantField" xml:space="preserve">
+    <value>&amp;Tenant Info:</value>
+  </data>
+  <data name="MapFileName" xml:space="preserve">
+    <value>Map file name is %1$</value>
+  </data>
+  <data name="SilentMode" xml:space="preserve">
+    <value>Program run in silent mode, no UI</value>
+  </data>
+  <data name="RunNow" xml:space="preserve">
+    <value>Program run immediately</value>
+  </data>
+  <data name="PasswordIs" xml:space="preserve">
+    <value>Password is %1$</value>
+  </data>
+  <data name="LoginIDIs" xml:space="preserve">
+    <value>Login ID is %1$</value>
+  </data>
+  <data name="DataFileNameIs" xml:space="preserve">
+    <value>Data File Name is %1$</value>
+  </data>
+  <data name="SWCMWebServiceURLIs" xml:space="preserve">
+    <value>SWCM Web Service URL is %1$</value>
+  </data>  
+  <data name="DoValidation" xml:space="preserve">
+    <value>Executing DoValidation() from directory:  "%1$"</value>
+  </data>
+  <data name="SetCurrentDirectory" xml:space="preserve">
+    <value>Set current directory to "%1$" for data file "%2$"</value>
+  </data>
+  <data name="LoadSourceFields" xml:space="preserve">
+    <value>Executing LoadSourceFields() from directory "%1$" from file "%2$"</value>
+  </data>
+  <data name="LinesInFile" xml:space="preserve">
+    <value>Executing LinesInFile() from directory "%1$" from file "%2$"</value>
+  </data>
+  <data name="ProcessFile" xml:space="preserve">
+    <value>Executing ProcessFile() from directory "%1$" from file "%2$"</value>
+  </data>
+  <data name="LoadPreCommandLineArgs" xml:space="preserve">
+    <value>Executing LoadPreCommandLineArgs()</value>
+  </data>
+  <data name="lblHeadInserted" xml:space="preserve">
+    <value>Inserted Successfully:</value>
+  </data>
+  <data name="lblHeadUpdated" xml:space="preserve">
+    <value>Updated Successfully:</value>
+  </data>
+  <data name="ImportFailureReview" xml:space="preserve">
+    <value>Review the log file, your input data and column mapping to identify and correct the issue.  Then import the file again.</value>
+  </data>
+  <data name="BlankFilterValueErr" xml:space="preserve">
+    <value>Enter a Value.</value>
+  </data>
+  <data name="FailedToConvert" xml:space="preserve">
+    <value>Failed to convert a source field.</value>
+  </data>
+  <data name="MapFileNotProvided" xml:space="preserve">
+    <value>\nError: map file is not provided. Use -h argument to display help info \nPlease Press Enter to exit</value>
+  </data>
+  <data name="FileDataFileName" xml:space="preserve">
+    <value>Data file name: %1$</value>
+  </data>
+  <data name="InvalidMainDestinationObject" xml:space="preserve">
+    <value>The 'Main Destination Object' must be specified.</value>
+  </data>  
+  <data name="RecordNotFoundInTableBasedOnKey" xml:space="preserve">
+    <value>The record is not found based on lookup value(s) in the table {0} for Record</value>
+  </data>
+  <data name="OracleDatabase" xml:space="preserve">
+    <value>Oracle</value>
+  </data>
+  <data name="SQLDatabase" xml:space="preserve">
+    <value>SQL Server</value>
+  </data>
+</root>
