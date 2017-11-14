@@ -1,0 +1,1243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element msdata:IsDataSet="true" name="root">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" name="value" type="xsd:string"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string"/>
+                <xsd:element minOccurs="0" msdata:Ordinal="2" name="comment" type="xsd:string"/>
+              </xsd:sequence>
+              <xsd:attribute msdata:Ordinal="1" name="name" type="xsd:string" use="required"/>
+              <xsd:attribute msdata:Ordinal="3" name="type" type="xsd:string"/>
+              <xsd:attribute msdata:Ordinal="4" name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MainTitle" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="TreeDestTitle" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="btnOK" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="btnCancel" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblMaxThreshold" xml:space="preserve">
+    <value> </value>
+  </data>
+  <!--<data name="lblDebugLevel" xml:space="preserve">
+    <value>API &amp;Debug Level:</value>
+  </data>-->
+  <data name="lblPercentSign" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblChangerStamp" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblLogViewerApp" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="chkEnableAudits" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="chkEnableEvents" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="chkEnableScripts" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="chkErrorSubError" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="chkCreateDropdowns" xml:space="preserve">
+    <!--<value>A&amp;utomatically create new Secondary Lookup objects</value>-->
+    <value> </value>
+  </data>
+  <data name="LoginTitle" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblDatabaseType" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblUserID" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblPassword" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblServerName" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblDBName" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblTableOwner" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblAppUser" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="chkIntegrated" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="DSNName" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ServiceName" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="FieldNameDefault" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="ProcessingRecord" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ImportLookup" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ImportNew" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ImportUpdate" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ProcessorDetails" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ImportResults" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="TodaysDate" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="DelimComma" xml:space="preserve">
+    <value>{Comma}</value>
+  </data>
+  <data name="DelimSemiColon" xml:space="preserve">
+    <value>{Semi-colon}</value>
+  </data>
+  <data name="DelimTab" xml:space="preserve">
+    <value>{Tab}</value>
+  </data>
+  <data name="mnuFile" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="mnuOpen" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="mnuSave" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="mnuSaveAs" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="mnuNew" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="mnuExit" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="mnuTools" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="mnuLoadSourceFields" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="mnuViewLog" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="mnuSettings" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblFileName" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="TooltipInputFile" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblDelimiter" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="chkHeaderLine" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblObject" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="btnOpenMap" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="btnBack" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="btnNext" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="btnExit" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblRules" xml:space="preserve">
+    <value> </value>
+    <comment>Anderson 3 update </comment>
+  </data>
+  <data name="lblSourceField" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblDestField" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblKey" xml:space="preserve">
+    <value> </value>
+    <comment>phase 2 edit</comment>
+  </data>
+  <data name="btnAddRule" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblFilterRules" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblFilterType" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblFilterSource" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblOperator" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblFilterValue" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblFilterWildcard" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="optRun" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="optSave" xml:space="preserve">
+    <value> </value>
+  </data>
+  <!-- <data name="btnViewLog" xml:space="preserve">
+    <value>&amp;View Log File</value>
+  </data>-->
+  <data name="lblHeadTotal" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblHeadProcessed" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblHeadSuccess" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblHeadError" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblHeadSubError" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblHeadWarning" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="MapFileType" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="MapAllFiles" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="FilterAnd" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="FilterOr" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Header1Map" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Header2Map" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="Header1Filter" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Header2Filter" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Header1RunSave" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Header2RunSave" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="btnAnother" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Header1Complete" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Header2Complete" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Header1Running" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Header2Running" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="btnStop" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Header1Saved" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Header2Saved" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="Header1File" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Header2File" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="StopWarning" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblImportStopped" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="InsertSourceField" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="DeleteRule" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="InsertField" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="SelectDestField" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="SelectKey" xml:space="preserve">
+    <value> </value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="btnStart" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="FileImportStarting" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="FileStars" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="FileConnectInfo" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="FileMapFileName" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="FileParameters" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="FileImportFailed" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="FileImportCompleted" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="FilteredOut" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="FilterComplete" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="ImportRunningWait" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="ImportRunningProcessing" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="ImportRunningSaving" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="ImportTerminating" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="MetaDataSubclass" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="MetaDataNoteType" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="MetaDataBillingCode" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="MetaDataPasswordInfo" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="MetaDataCostType" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="MetaDataCurrencyType" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="MetaDataLegalStatus" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="MetaDataDocumentLocation" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="APILogNone" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="APILogMinimum" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="APILogMedium" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="APILogHigh" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="APILogMaximum" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="notepad" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="SelectSubObjectKey" xml:space="preserve">
+    <value> </value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="UpgradeMapperFileSuccess" xml:space="preserve">
+    <value> </value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="mnuUpgrade" xml:space="preserve">
+    <value> </value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="lblKey2" xml:space="preserve">
+    <value> </value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="radioInsertOnly" xml:space="preserve">
+    <value> </value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="radioInsertUpdate" xml:space="preserve">
+    <value> </value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="radioUpdateOnly" xml:space="preserve">
+    <value> </value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="groupBoxProcessingType" xml:space="preserve">
+    <value> </value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="DATABASENAME_LABEL" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="DNSNAME_LABEL" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="LOGIN_MISSING_VALUES" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="SERVER_LABEL" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="SERVICE_LABEL" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="TABLEOWNER_LABEL" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="USERID_LABEL" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value> </value>
+    <comment>phase 2 addition, Anderson 3 update</comment>
+  </data>
+  <data name="SELECT_PRODUCT" xml:space="preserve">
+    <value> </value>
+    <comment>**UNUSED**</comment>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value> </value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="UAPM" xml:space="preserve">
+    <value> </value>
+    <comment>**UNUSED**</comment>
+  </data>
+  <data name="SWCM" xml:space="preserve">
+    <value> </value>
+    <comment>**UNUSED**</comment>
+  </data>
+  <data name="INVALID_DATE" xml:space="preserve">
+    <value> </value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="radioDeleteDependent" xml:space="preserve">
+    <value> </value>
+    <comment>Anderson 3 addition </comment>
+  </data>
+  <data name="radioDeletePrimary" xml:space="preserve">
+    <value> </value>
+    <comment>Anderson 3 addition</comment>
+  </data>
+  <data name="WebException" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="WebExceptionWithStatusCode" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="FatalWebException" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="FatalWebExceptionCaption" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ImportFailure" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ImportNoRecordsFound" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="RecordWithError" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="RecordNotFoundError" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="LoadHeaderFieldsEmptyInput" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="LoginFailedTitle" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="HierarchyParentNotPopulated" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HierarchyParentNotPopulatedTitle" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="OpenSettingsFileErr" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="SaveSettingsFileErr" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="CreateDropdownsWarning" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="OpenImportFileErr" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="OpenMapperFileErr" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="SaveMapperFileErr" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="ImportErrInvalidFields" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="ImportComplete" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ImportStoppedByUser" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ImportFailed" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="ExitWarning" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="RestartWarn" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="InvalidFileErr" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="NotFoundFileErr" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="InvalidDelimiterErr" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="InvalidObjectErr" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="BlankDestErr" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="InvalidDestErr" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="SameDestErr" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="BlankSourceErr" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="OpenWarn" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="LogFileNotExist" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="LogViewerErr" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="LoadHeaderFieldsWarn" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="MapFileWarning" xml:space="preserve">
+    <value> </value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="DataFileWarning" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="UpgradeMapperFileErr" xml:space="preserve">
+    <value>  </value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="UpgradeWarn" xml:space="preserve">
+    <value>  </value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="UpgradeMapRequired" xml:space="preserve">
+    <value> </value>
+    <comment>phase 2 addition</comment>
+  </data>
+  <data name="MappingRuleError" xml:space="preserve">
+    <value>  </value>
+    <comment>Anderson 3 addition</comment>
+  </data>
+  <data name="NoAccessPrivilege" xml:space="preserve">
+    <value>  </value>
+    <comment>Anderson 3 addition</comment>
+  </data>
+  <data name="DeleteBothKeyRequired" xml:space="preserve">
+    <value> </value>
+    <comment>Anderson 3 addition</comment>
+  </data>
+  <data name="DeleteKeysNotAllowed" xml:space="preserve">
+    <value>    </value>
+    <comment>Anderson 3 addition</comment>
+  </data>
+  <data name="DeleteNoPrimaryKey" xml:space="preserve">
+    <value>  </value>
+    <comment>Anderson 3 addition</comment>
+  </data>
+  <data name="DeletePrimaryKeyRequired" xml:space="preserve">
+    <value> </value>
+    <comment>Anderson 3 addition</comment>
+  </data>
+  <data name="DeleteSecondaryKeyRequired" xml:space="preserve">
+    <value>  </value>
+    <comment>Anderson 3 addition</comment>
+  </data>
+  <data name="InvalidRootClass" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="InvalidAttribute" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="SubTypeViolation" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="EmptyImportFile" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="AssetInvalidmapping" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="DeletionComplete" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="DeletionFailure" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="MainTitleDeleteMode" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="chkApplyManuftrNormRules" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="chkApplyModelNormRules" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="chkApplyOSNormRules" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Normalization" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="radioNormWithError" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="radioApplyNormWithOutError" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ActionNamePlaceHolder" xml:space="preserve">
+    <value> </value>
+  </data>
+  <!--<data name="APIDebugLevel" xml:space="preserve">
+    <value>API &amp;Debug Level:</value>
+  </data>-->
+  <data name="ApplyNormalizationRulesFor" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ChangerStamp" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ColumnMappingRulesFor" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ConfigSettingErrorForSubPrimaryObjCreation" xml:space="preserve">
+    <value> </value>
+    <comment>**UNUSED**</comment>
+  </data>
+  <!--<data name="CreateSecondaryLookupObjs" xml:space="preserve">
+    <value>A&amp;utomatically create new Secondary Lookup objects</value>
+  </data>-->
+  <data name="DataFile" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="DataFileLocale" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="DeleteDependentObjs" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="DeletePrimayAndDependentObjs" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="DestinationField" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="EnableAudits" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="EnableEvents" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="EnableScripts" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="EncodedPasswordInvalid" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ErrorOnNormalization" xml:space="preserve">
+    <value> </value>
+  </data>
+  <!--<data name="ErrorOnSubObjErrors" xml:space="preserve">
+    <value>E&amp;rror on Secondary Lookup Object Errors</value>
+  </data> -->
+  <data name="ExclusionFilterRules" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="FailedToCreateRecordInDB" xml:space="preserve">
+    <value> {1}</value>
+    <comment>**UNUSED**</comment>
+  </data>
+  <data name="ImporterExeExample" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ImporterExeExampleMsg" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ImporterExeSyntaxHelp" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ImporterExeSyntaxHelp1" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ImporterExeSyntaxHelp10" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ImporterExeSyntaxHelp11" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ImporterExeSyntaxHelp12" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ImporterExeSyntaxHelp2" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ImporterExeSyntaxHelp3" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ImporterExeSyntaxHelp4" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ImporterExeSyntaxHelp5" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="ImporterExeSyntaxHelp6" xml:space="preserve">
+    <value>   </value>
+  </data>
+  <data name="ImporterExeSyntaxHelp7" xml:space="preserve">
+    <value>   </value>
+  </data>
+  <data name="ImporterExeSyntaxHelp8" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ImporterExeSyntaxHelp9" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ImporterExeSysntax" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ImporterExeSysntaxMsg" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ImporterReturnsWithErrorCode" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ImporterSettings" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ImportToolExeFileNotFound" xml:space="preserve">
+    <value> </value>
+    <comment>**UNUSED**</comment>    
+  </data>
+  <data name="Insert/Update" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="InsertOnly" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="InsertOrUpdate" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="InvalidMapping" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="InvalidMappingAndSeeLog" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="ITAMLogin" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="LicenseError" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="LoadImportableClasses" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="LogViewerApp" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Manufacturer" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="MaxErrorThreshold" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="MDBLoadingFailed" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="MetadataNotLoaded" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="Model" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="MultiplerecordsFoundForClass" xml:space="preserve">
+    <value> {0}</value>
+    <comment>**UNUSED**</comment>
+  </data>
+  <data name="NoKeysSpecifiedForClass" xml:space="preserve">
+    <value> {0}</value>
+    <comment>**UNUSED**</comment>    
+  </data>
+  <data name="NoRecordsFoundForClass" xml:space="preserve">
+    <value> {0}</value>
+    <comment>**UNUSED**</comment>
+  </data>
+  <data name="NoResponseFromWS" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="NormalizationBehavior" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="NormalizationRules" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="NormalizationValidationException" xml:space="preserve">
+    <value> {1}</value>
+  </data>
+  <data name="NormalizationWithoutError" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ObjCreationFailedForClass" xml:space="preserve">
+    <value> </value>
+    <comment>**UNUSED**</comment>
+  </data>
+  <data name="ObjectsCreationNotAllowed" xml:space="preserve">
+    <value> </value>
+    <comment>**UNUSED**</comment>    
+  </data>
+  <data name="ObjProcessingOptions" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="OperatingSystem" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PressEnterToExit" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PressKeyToExit" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ProcessCantBeProcessedForInsertOnly" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ProcessCantBeProcessedForUpdateOnly" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ProcessedSuccessfully" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ProcessedWithErrors" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ProcessedWithWarnings" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="RecordNotFoundInClassBasedOnKey" xml:space="preserve">
+    <value> </value>
+    <comment>**UNUSED**</comment>    
+  </data>
+  <data name="RecordsProcessed" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ReturnWithOutCreatingObj" xml:space="preserve">
+    <value> {0}</value>
+  </data>
+  <data name="SaveImport" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="SaveMapping" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="SaveMappingAs" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="SelectDestProduct" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="SelectFileToImport" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="SelectFlatFileToImport" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="SeondaryLookUpObjNotExists" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="SeondaryLookUpObjNotExistsForClass" xml:space="preserve">
+    <value> </value>
+    <comment>**UNUSED**</comment>
+  </data>
+  <data name="SkipUpdateOnly" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="SourceField" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="StartImport" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="SubObjErrorSettingException" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="SubPrimayObjCreationNotAllowed" xml:space="preserve">
+    <value> </value>
+    <comment>**UNUSED**</comment>
+  </data>
+  <data name="SWCMDestinationField" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="SWCMSecondaryAuthError" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="TotalRecords" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="TranslationListNotImplemented" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="UpdateOnly" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="UpdateSecondaryLookUpObjs" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="UserHasNoCreateOrUpdatePermission" xml:space="preserve">
+    <value> {0}</value>
+    <comment>**UNUSED**</comment>
+  </data>
+  <data name="UserHasNoCreatePermission" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="UserHasNoDeletePermission" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="UserHasNoWriteAndCreatePermissions" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="UserHasNoWritePermission" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="UserTicketNull" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="UseTheExistingRecordFound" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="WebServiceAuthFailed" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="WebServiceException" xml:space="preserve">
+    <value> {0}</value>
+  </data>
+  <data name="WebServiceURLNotUp" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="WSConnectProblem" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="WSLoginProblem" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="WSReadException" xml:space="preserve">
+    <value> {0}</value>
+  </data>
+  <data name="ReadOnlyField" xml:space="preserve">
+    <value> {0}</value>
+  </data>
+  <data name="NoWritePrivilege" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="GenericSubtype" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="GenericSubtypeForLegalDoc" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="AcrossTenants" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="TenantMappingIsRequiredOnMainObject" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblTenantField" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="MapFileName" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="SilentMode" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="RunNow" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PasswordIs" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="LoginIDIs" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="DataFileNameIs" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="SWCMWebServiceURLIs" xml:space="preserve">
+    <value> </value>
+  </data>  
+  <data name="DoValidation" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="SetCurrentDirectory" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="LoadSourceFields" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="LinesInFile" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ProcessFile" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="LoadPreCommandLineArgs" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblHeadInserted" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblHeadUpdated" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ImportFailureReview" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="BlankFilterValueErr" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="FailedToConvert" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="MapFileNotProvided" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="FileDataFileName" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="InvalidMainDestinationObject" xml:space="preserve">
+    <value> </value>
+  </data>  
+  <data name="RecordNotFoundInTableBasedOnKey" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="OracleDatabase" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="SQLDatabase" xml:space="preserve">
+    <value> </value>
+  </data>
+</root>
