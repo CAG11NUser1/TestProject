@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	 <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+	    <xsd:element name="root" msdata:IsDataSet="true">
+	      <xsd:complexType>
+	        <xsd:choice maxOccurs="unbounded">
+	          <xsd:element name="metadata">
+	            <xsd:complexType>
+	              <xsd:sequence>
+	                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+	              </xsd:sequence>
+	              <xsd:attribute name="name" use="required" type="xsd:string" />
+	              <xsd:attribute name="type" type="xsd:string" />
+	              <xsd:attribute name="mimetype" type="xsd:string" />
+	              <xsd:attribute ref="xml:space" />
+	            </xsd:complexType>
+	          </xsd:element>
+	          <xsd:element name="assembly">
+	            <xsd:complexType>
+	              <xsd:attribute name="alias" type="xsd:string" />
+	              <xsd:attribute name="name" type="xsd:string" />
+	            </xsd:complexType>
+	          </xsd:element>
+	          <xsd:element name="data">
+	            <xsd:complexType>
+	              <xsd:sequence>
+	                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+	                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+	              </xsd:sequence>
+	              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+	              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+	              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+	              <xsd:attribute ref="xml:space" />
+	            </xsd:complexType>
+	          </xsd:element>
+	          <xsd:element name="resheader">
+	            <xsd:complexType>
+	              <xsd:sequence>
+	                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+	              </xsd:sequence>
+	              <xsd:attribute name="name" type="xsd:string" use="required" />
+	            </xsd:complexType>
+	          </xsd:element>
+	        </xsd:choice>
+	      </xsd:complexType>
+	    </xsd:element>
+	  </xsd:schema>
+	  <resheader name="resmimetype">
+	    <value>text/microsoft-resx</value>
+	  </resheader>
+	  <resheader name="version">
+	    <value>2.0</value>
+	  </resheader>
+	  <resheader name="reader">
+	    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	  </resheader>
+	  <resheader name="writer">
+	    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	  </resheader>
+	<data name="SwcmProductName">
+	  <value>CA Software Compliance Manager</value>
+	</data>
+	<data name="SwcmProductDescription">
+	  <value />
+	</data>
+	<data name="SwcmComponentDbName">
+	  <value>Database</value>
+	</data>
+	<data name="SwcmComponentDbDescription">
+	  <value>This component will be used as the main data repository for the CA ITAM application.</value>
+	</data>
+	<data name="SwcmComponentWebName">
+	  <value>Web Server</value>
+	</data>
+	<data name="SwcmComponentWebDescription">
+	  <value>CA ITAM Web Application</value>
+	</data>
+	<data name="SwcmComponentAppName">
+	  <value>Application Server</value>
+	</data>
+	<data name="SwcmComponentAppDescription">
+	  <value>CA ITAM Application Server</value>
+	</data>
+	<data name="SwcmComponentHardwareEngineName">
+	  <value>Hardware Engine</value>
+	</data>
+	<data name="SwcmComponentHardwareEngineDescription">
+	  <value>Compliance Engine service to monitor the level of compliance based on license findings</value>
+	</data>
+	<data name="SwcmComponentAcsName">
+	  <value>Central Configuration Controller</value>
+	</data>
+	<data name="SwcmComponentAcsDescription">
+	  <value>Automation Configuration Server (ACS)  - main communication component between servers</value>
+	</data>
+	<data name="UapmComponentImportSyncName">
+	  <value>LDAP Import Sync Service</value>
+	</data>
+	<data name="UapmComponentImportSyncDescription">
+	  <value>The service which will automatically Import and Sync EEM users to  contacts</value>
+	</data>
+	<data name="CommonComponentCoraName">
+	  <value>CORA</value>
+	</data>
+	<data name="CommonComponentCoraDescription">
+	  <value>CA Cora</value>
+	</data>
+	<data name="SwcmComponentDataImporterName">
+	  <value>Data Importer</value>
+	</data>
+	<data name="SwcmComponentDataImporterDescription">
+	  <value>ITAM Data Importer</value>
+	</data>
+	<data name="SwcmComponentWCFName">
+	  <value>WCF Service</value>
+	</data>
+	<data name="SwcmComponentWCFDescription">
+	  <value>CA ITAM WCF Server</value>
+	</data>
+	<data name="UapmComponentSMSName">
+	  <value>Storage Manager Service</value>
+	</data>
+	<data name="UapmComponentSMSDescription">
+	  <value>Storage Management Service</value>
+	</data>
+	<data name="UapmComponentCASMName">
+	  <value>CASM</value>
+	</data>
+	<data name="UapmComponentCASMDescription">
+	  <value>Common Administration for Service Management</value>
+	</data>
+	<data name="UapmComponentEventName">
+	  <value>Event Service</value>
+	</data>
+	<data name="UapmComponentEventDescription">
+	  <value>ITAM Event Service</value>
+	</data>
+	<data name="UapmComponentAMSName">
+	  <value>AMS</value>
+	</data>
+	<data name="UapmComponentAMSDescription">
+	  <value>Asset Common Viewer</value>
+	</data>
+	<data name="SwcmComponentEiamName">
+	  <value>EEM</value>
+	</data>
+	<data name="SwcmComponentEiamDescription">
+	  <value>Embedded Identity Access Management</value>
+	</data>
+	<data name="SwcmComponentBoName">
+	  <value>Business Objects</value>
+	</data>
+	<data name="SwcmComponentBoDescription">
+	  <value>Business Objects provides reporting tools</value>
+	</data>
+	<data name="SwcmComponentExportName">
+	  <value>Export Service</value>
+	</data>
+	<data name="SwcmComponentExportDescription">
+	  <value>ITAM Export Service</value>
+	</data>
+	<data name="SwcmComponentAcaName">
+	  <value>Central Configuration Agent</value>
+	</data>
+	<data name="SwcmComponentAcaDescription">
+	  <value />
+	</data>
+	<data name="BoxNameName">
+	  <value>Server</value>
+	</data>
+	<data name="BoxNameDescription">
+	  <value>Server where component will be installed</value>
+	</data>
+	<data name="BoxUserName">
+	  <value>Username</value>
+	</data>
+	<data name="BoxUserDescription">
+	  <value>Windows login ID for ?ThisBox.Box?</value>
+	</data>
+	<data name="BoxPasswordName">
+	  <value>Password</value>
+	</data>
+	<data name="BoxPasswordDescription">
+	  <value>Windows password for ?ThisBox.Box?</value>
+	</data>
+	<data name="LocalPathName">
+	  <value>LocalPath</value>
+	</data>
+	<data name="LocalPathDescription">
+	  <value>Local path for ITAM files</value>
+	</data>
+	<data name="EngineWebServiceBatchSizeName">
+	  <value>Web Service Batch Size</value>
+	</data>
+	<data name="EngineWebServiceBatchSizeDescription">
+	  <value>Web Service Batch Size</value>
+	</data>
+	<data name="EngineWebServiceAuthMethodName">
+	  <value>Web Service Auth Method</value>
+	</data>
+	<data name="EngineWebServiceAuthMethodDescription">
+	  <value>Web Service Authorization Method</value>
+	</data>
+	<data name="EngineAuthenticationIdleTimeOutName">
+	  <value>Web Service Authentication Timeout (in milli seconds)</value>
+	</data>
+	<data name="EngineAuthenticationIdleTimeOutDescription">
+	  <value>Web Service Authentication Timeout</value>
+	</data>
+	<data name="EngineProcessingModeName">
+	  <value>Processing Mode</value>
+	</data>
+	<data name="EngineProcessingModeDescription">
+	  <value>Processing Mode (0=Continuous  1=Batch Only  2=Mixed)</value>
+	</data>
+	<data name="CoordinationInstallCheckTimeName">
+	  <value>Coordination Service Install Check Time (in milli seconds)</value>
+	</data>
+	<data name="CoordinationInstallCheckTimeDescription">
+	  <value>Coordination Service:  Install Check Time in Milliseconds</value>
+	</data>
+	<data name="AcsBoxName">
+	  <value>AcsBox</value>
+	</data>
+	<data name="AcsBoxDescription">
+	  <value>Box the ACS is installed on</value>
+	</data>
+	<data name="ExportScheduledRequestPeriodName">
+	  <value>Scheduled Requests Period (in milli seconds)</value>
+	</data>
+	<data name="ExportScheduledRequestPeriodDescription">
+	  <value>Scheduled requests processing cycle frequency</value>
+	</data>
+	<data name="ExportSMTPClientName">
+	  <value>SMTP Server</value>
+	</data>
+	<data name="ExportSMTPClientDescription">
+	  <value>SMTP Server</value>
+	</data>
+	<data name="ExportAuthIdleTimeoutName">
+	  <value>Authentication Timeout (in milli seconds)</value>
+	</data>
+	<data name="ExportAuthIdleTimeoutDescription">
+	  <value>ITAM Web Server authentication timeout</value>
+	</data>
+	<data name="ExportPurgeStartTimeName">
+	  <value>Purge Start Time (in hours)</value>
+	</data>
+	<data name="ExportPurgeStartTimeDescription">
+	  <value>Time of day in hours (GMT) to start the purge thread</value>
+	</data>
+	<data name="ExportOnDemandRequestName">
+	  <value>On Demand Request Period (in seconds)</value>
+	</data>
+	<data name="ExportOnDemandRequestDescription">
+	  <value>Period between on demand requests processing cycles</value>
+	</data>
+	<data name="ExportOnDemandMaxThreadsName">
+	  <value>On Demand Maximum Threads</value>
+	</data>
+	<data name="ExportOnDemandMaxThreadsDescription">
+	  <value>Number of on demand requests processing threads</value>
+	</data>
+	<data name="DbTcpIpPortName">
+	  <value>MS SQL Server TCP/IP port</value>
+	</data>
+	<data name="DbTcpIpPortDescription">
+	  <value>SQL Server TCP/IP Port</value>
+	</data>
+	<data name="AuthTypeName">
+	  <value>Authentication Type</value>
+	</data>
+	<data name="AuthTypeDescription">
+	  <value>Authentication Type(Windows Integrated or Form) for ITAM</value>
+	</data>
+	<data name="AuthTimeoutName">
+	  <value>Authentication Timeout (in milli seconds)</value>
+	</data>
+	<data name="AuthTimeoutDescription">
+	  <value>Authentication Timeout in milliseconds</value>
+	</data>
+	<data name="OracleVersionName">
+	  <value>Oracle Server Version</value>
+	</data>
+	<data name="OracleVersionDescription">
+	  <value>Oracle Server Version</value>
+	</data>
+	<data name="OracleDBServerNameName">
+	  <value>Oracle Host Name</value>
+	</data>
+	<data name="OracleDBServerNameDescription">
+	  <value>Oracle Server name</value>
+	</data>
+	<data name="OracleNetServiceNameName">
+	  <value>Oracle Net Service Name</value>
+	</data>
+	<data name="OracleNetServiceNameDescription">
+	  <value>Oracle Net Service Name</value>
+	</data>
+	<data name="OracleDbaIdName">
+	  <value>DBA User Name</value>
+	</data>
+	<data name="OracleDbaIdDescription">
+	  <value>Oracle DBA Username</value>
+	</data>
+	<data name="OracleDbaPwName">
+	  <value>DBA Password</value>
+	</data>
+	<data name="OracleDbaPwDescription">
+	  <value>Oracle DBA Password</value>
+	</data>
+	<data name="OracleListenPortName">
+	  <value>Listen Port</value>
+	</data>
+	<data name="OracleListenPortDescription">
+	  <value>Oracle Listen Port</value>
+	</data>
+	<data name="OracleTablespacePathName">
+	  <value>Tablespace Path</value>
+	</data>
+	<data name="OracleTablespacePathDescription">
+	  <value>Oracle Tablespace Path</value>
+	</data>
+	<data name="OracleDataTablespaceNameName">
+	  <value>Data Tablespace Name</value>
+	</data>
+	<data name="OracleDataTablespaceNameDescription">
+	  <value>Oracle Data Tablespace Name</value>
+	</data>
+	<data name="OracleDataTablespaceSizeName">
+	  <value>Data Tablespace Size</value>
+	</data>
+	<data name="OracleDataTablespaceSizeDescription">
+	  <value>Oracle Data Tablespace Size</value>
+	</data>
+	<data name="OracleIndexTablespaceNameName">
+	  <value>Index Tablespace Name</value>
+	</data>
+	<data name="OracleIndexTablespaceNameDescription">
+	  <value>Oracle Index Tablespace Name</value>
+	</data>
+	<data name="OracleIndexTablespaceSizeName">
+	  <value>Index Tablespace Size</value>
+	</data>
+	<data name="OracleIndexTablespaceSizeDescription">
+	  <value>Oracle Index Tablespace Size</value>
+	</data>
+	<data name="AcsPortNumberName">
+	  <value>ACS Port Number</value>
+	</data>
+	<data name="AcsPortNumberDescription">
+	  <value>Port to use for ACS component</value>
+	</data>
+	<data name="AcsServerNameName">
+	  <value>ACS Server Name</value>
+	</data>
+	<data name="AcsServerNameDescription">
+	  <value>Windows server where ACS is located</value>
+	</data>
+	<data name="SqlServerVersionName">
+	  <value>MS SQL Server Version</value>
+	</data>
+	<data name="SqlServerVersionDescription">
+	  <value>Tell whether the MDB is running on Sql Server 2000 or not</value>
+	</data>
+	<data name="DbLoginName">
+	  <value>MS SQL Server Login</value>
+	</data>
+	<data name="DbLoginDescription">
+	  <value>Any database user with 'sa' authority.</value>
+	</data>
+	<data name="DbPasswordName">
+	  <value>MS SQL Server Password</value>
+	</data>
+	<data name="DbPasswordDescription">
+	  <value>Database server password</value>
+	</data>
+	<data name="AppServerName">
+	  <value>Application Server or Load Balancer IP/Host</value>
+	</data>
+	<data name="AppServerDescription">
+	  <value>Windows server name and optional port number for application server</value>
+	</data>
+	<data name="BoServerAndPortName">
+	  <value>Business Objects Reporting Server</value>
+	</data>
+	<data name="BoServerAndPortDescription">
+	  <value>Windows server name and optional port number for the Business Objects Server</value>
+	</data>
+	<data name="DbTypeName">
+	  <value>Database Type</value>
+	</data>
+	<data name="DbTypeDescription">
+	  <value>Sql or Oracle</value>
+	</data>
+	<data name="SqlServerHostNameName">
+	  <value>SQL Server Host Name</value>
+	</data>
+	<data name="SqlServerHostNameDescription">
+	  <value>Host for Sql Server</value>
+	</data>
+	<data name="OracleServiceNameName">
+	  <value>Oracle Service Name</value>
+	</data>
+	<data name="OracleServiceNameDescription">
+	  <value>Service name for Oracle</value>
+	</data>
+	<data name="DbNameName">
+	  <value>Database Name</value>
+	</data>
+	<data name="DbNameDescription">
+	  <value>Name of master database - MDB</value>
+	</data>
+	<data name="DbOwnerName">
+	  <value>Database Owner</value>
+	</data>
+	<data name="DbOwnerDescription">
+	  <value>Owner of database</value>
+	</data>
+	<data name="EiamAdminPwName">
+	  <value>EEM Admin Password</value>
+	</data>
+	<data name="EiamAdminPwDescription">
+	  <value>Password for EEM admin user</value>
+	</data>
+	<data name="EngineSnoozeTimeName">
+	  <value>Engine Snooze Time (in milli seconds)</value>
+	</data>
+	<data name="EngineSnoozeTimeDescription">
+	  <value>Snooze Alarm Time in Milliseconds</value>
+	</data>
+	<data name="EngineConnectionRetryTimeName">
+	  <value>Connection Retry Time (in milli seconds)</value>
+	</data>
+	<data name="EngineConnectionRetryTimeDescription">
+	  <value>Connection retry time in milliseconds</value>
+	</data>
+	<data name="EngineDebugLevelName">
+	  <value>Engine Debug Level</value>
+	</data>
+	<data name="EngineDebugLevelDescription">
+	  <value>Debug Level for Engine Message Queue (FATAL, ERROR, WARNING, INFO, DEBUG)</value>
+	</data>
+	<data name="EngineMessageQueueRetentionName">
+	  <value>Message Queue Retention</value>
+	</data>
+	<data name="EngineMessageQueueRetentionDescription">
+	  <value>Retention period for arg_reconcile_msg_queue in days</value>
+	</data>
+	<data name="EngineRefreshLockEveryNumRecordsName">
+	  <value>Refresh Lock Record Count</value>
+	</data>
+	<data name="EngineRefreshLockEveryNumRecordsDescription">
+	  <value>Refresh Lock Every n Records</value>
+	</data>
+	<data name="EngineLockStaleIntervalName">
+	  <value>Lock Stale Interval (in seconds)</value>
+	</data>
+	<data name="EngineLockStaleIntervalDescription">
+	  <value>Lock is stale after n seconds</value>
+	</data>
+	<data name="EiamServerName">
+	  <value>EEM Server</value>
+	</data>
+	<data name="EiamServerDescription">
+	  <value>Windows server where EEM is installed</value>
+	</data>
+	<data name="BoTomcatConnectionPortName">
+	  <value>BOXI Tomcat Connection Port</value>
+	</data>
+	<data name="BoTomcatConnectionPortDescription">
+	  <value>Business Objects Tomcat Connection Port</value>
+	</data>
+	<data name="BoTomcatRedirectPortName">
+	  <value>BOXI Tomcat Redirect Port</value>
+	</data>
+	<data name="BoTomcatRedirectPortDescription">
+	  <value>Business Objects Tomcat Redirect Port</value>
+	</data>
+	<data name="BoTomcatShutdownPortName">
+	  <value>BOXI Tomcat Shutdown Port</value>
+	</data>
+	<data name="BoTomcatShutdownPortDescription">
+	  <value>Business Objects Tomcat Shutdown Port</value>
+	</data>
+	<data name="WCFBaseAddressName">
+	  <value>WCF Base Address</value>
+	</data>
+	<data name="WCFBaseAddressDescription">
+	  <value>WCF Base Address</value>
+	</data>
+	<data name="WCFSecurityModeName">
+	  <value>WCF Security Mode</value>
+	</data>
+	<data name="WCFSecurityModeDescription">
+	  <value>WCF Security Mode</value>
+	</data>
+	<data name="CoraLogPathName">
+	  <value>CORA Logs Path</value>
+	</data>
+	<data name="CoraLogPathDescription">
+	  <value>CORA logs path</value>
+	</data>
+	<data name="ESFailureEmailTimeIntervalName">
+	  <value>Interval between Failure Notifications (in milli seconds)</value>
+	</data>
+	<data name="ESFailureEmailTimeIntervalDescription">
+	  <value>Interval between Failure Notifications (in milli seconds)</value>
+	</data>
+	<data name="WebServicePassName">
+	  <value>Web Service Password</value>
+	</data>
+	<data name="WebServicePassDescription">
+	  <value>WebService Password</value>
+	</data>
+	<data name="ESEventBatchSizeName">
+	  <value>Number of Events to be Processed</value>
+	</data>
+	<data name="ESEventBatchSizeDescription">
+	  <value>Batch Size</value>
+	</data>
+	<data name="ESAuthenticationIdleTimeOutName">
+	  <value>Authentication Timeout (in milli seconds)</value>
+	</data>
+	<data name="ESAuthenticationIdleTimeOutDescription">
+	  <value>Authentication Timeout (in milli seconds)</value>
+	</data>
+	<data name="ESPurgeStartTimeName">
+	  <value>Time of the day for Event purge (in hours,GMT)</value>
+	</data>
+	<data name="ESPurgeStartTimeDescription">
+	  <value>Time of the day for Event purge (in hours,GMT)</value>
+	</data>
+	<data name="ESEventOccurrenceIntervalName">
+	  <value>Interval between Event Occurrence check (in milli seconds)</value>
+	</data>
+	<data name="ESEventOccurrenceIntervalDescription">
+	  <value>Interval between Event Occurrence check ( in millisec)</value>
+	</data>
+	<data name="ESEventOccurrenceBetweenIntervalName">
+	  <value>Interval between triggering events Check(in milli seconds)</value>
+	</data>
+	<data name="ESEventOccurrenceBetweenIntervalDescription">
+	  <value>Interval between firing events Check( in millisec)</value>
+	</data>
+	<data name="ESEventStatusUpdateIntervalName">
+	  <value>Interval between Triggered events status update (in milli seconds)</value>
+	</data>
+	<data name="ESEventStatusUpdateIntervalDescription">
+	  <value>Interval between Fired events status update (in millisec)</value>
+	</data>
+	<data name="ESEventAssetContactIntervalName">
+	  <value>Interval between asset contact update (in milli seconds)</value>
+	</data>
+	<data name="ESEventAssetContactIntervalDescription">
+	  <value>Interval between asset contact update ( in millisec)</value>
+	</data>
+	<data name="ESSMTPServerName">
+	  <value>SMTP Server Value</value>
+	</data>
+	<data name="ESSMTPServerDescription">
+	  <value>SMTP Server Value</value>
+	</data>
+	<data name="EnginePendingModRetentionName">
+	  <value>Pending Modification Retention  (in days)</value>
+	</data>
+	<data name="EnginePendingModRetentionDescription">
+	  <value>Pending Modification Retention in days</value>
+	</data>
+	<data name="ESUpdateAuditBatchSizeName">
+	  <value>Event Service Audit Batch Size</value>
+	</data>
+	<data name="ESUpdateAuditBatchSizeDescription">
+	  <value>The batch size for audits that needs to be processed for audit sharing with CMDB</value>
+	</data>
+	<data name="AMSTomcatPortName">
+	  <value>Tomcat Port</value>
+	</data>
+	<data name="AMSTomcatPortDescription">
+	  <value>Tomcat Port</value>
+	</data>
+	<data name="WCFServiceProtocolName">
+	  <value>WCF Service Protocol</value>
+	</data>
+	<data name="WCFServiceProtocolDescription">
+	  <value>WCF Service Protocol</value>
+	</data>
+	<data name="WCFServiceUrlName">
+	  <value>WCF Service Url</value>
+	</data>
+	<data name="WCFServiceUrlDescription">
+	  <value>WCF Service Url</value>
+	</data>
+	<data name="WCFServerName">
+	  <value>WCF Service Server or Load Balancer IP/Host</value>
+	</data>
+	<data name="WCFServerDescription">
+	  <value>Windows server name and optional port number for WCF Service server</value>
+	</data>
+	<data name="WCFAuthenticationIdleTimeoutName">
+	  <value>Authentication Timeout (in milli seconds)</value>
+	</data>
+	<data name="WCFAuthenticationIdleTimeoutDescription">
+	  <value>Authentication Timeout in milliseconds</value>
+	</data>
+	<data name="WCFCachePathName">
+	  <value>WCF Service Cache Folder</value>
+	</data>
+	<data name="WCFCachePathDescription">
+	  <value>Cache path for WCF Service on ?ThisBox.Box?</value>
+	</data>
+	<data name="HWAppServerName">
+	  <value>Application Server</value>
+	</data>
+	<data name="HWAppServerDescription">
+	  <value>Application Server Associated to Hardware Enginer</value>
+	</data>
+	<data name="ApplicationInstallPathName">
+	  <value>Application Install Path</value>
+	</data>
+	<data name="ApplicationInstallPathDescription">
+	  <value>ITAM root install path for ?ThisBox.Box?</value>
+	</data>
+	<data name="EiamAdminUserName">
+	  <value>EEM Admin User</value>
+	</data>
+	<data name="EiamAdminUserDescription">
+	  <value>UserId for EEM admin user</value>
+	</data>
+	<data name="WebServerUrlName">
+	  <value>Web Server Url</value>
+	</data>
+	<data name="WebServerUrlDescription">
+	  <value>Web Server Url</value>
+	</data>
+	<data name="WebServerPagesUrlName">
+	  <value>Web Server Pages Url</value>
+	</data>
+	<data name="WebServerPagesUrlDescription">
+	  <value>Web Server Pages Url</value>
+	</data>
+	<data name="WebServiceUrlName">
+	  <value>Web Service Url</value>
+	</data>
+	<data name="WebServiceUrlDescription">
+	  <value>Web Service Url</value>
+	</data>
+	<data name="SMSServerName">
+	  <value>SM Service Server</value>
+	</data>
+	<data name="SMSServerDescription">
+	  <value>SMS Service Host</value>
+	</data>
+	<data name="SMSPortName">
+	  <value>SM Service Port</value>
+	</data>
+	<data name="SMSPortDescription">
+	  <value>SMS Service Port</value>
+	</data>
+	<data name="SMSNameName">
+	  <value>SM Service Name</value>
+	</data>
+	<data name="SMSNameDescription">
+	  <value>SMS Service Name</value>
+	</data>
+	<data name="SMSUrlName">
+	  <value>SM Service Url</value>
+	</data>
+	<data name="SMSUrlDescription">
+	  <value>SMS Service Url</value>
+	</data>
+	<data name="SMSProtocolName">
+	  <value>SM Service Protocol</value>
+	</data>
+	<data name="SMSProtocolDescription">
+	  <value>SMS Service Protocol</value>
+	</data>
+	<data name="WebServerProtocolName">
+	  <value>Web Server Protocol</value>
+	</data>
+	<data name="WebServerProtocolDescription">
+	  <value>Web Server Protocol</value>
+	</data>
+	<data name="WebServiceProtocolName">
+	  <value>Web Service Protocol</value>
+	</data>
+	<data name="WebServiceProtocolDescription">
+	  <value>Web Service Protocol</value>
+	</data>
+	<data name="CoraPathName">
+	  <value>CORA Install Path</value>
+	</data>
+	<data name="CoraPathDescription">
+	  <value>CORA Install Path for ?ThisBox.Box?</value>
+	</data>
+	<data name="InventoryWebServiceUrlName">
+	  <value>Inventory Web Service Url</value>
+	</data>
+	<data name="InventoryWebServiceUrlDescription">
+	  <value>Inventory Web Service Url</value>
+	</data>
+	<data name="BoAdminIdName">
+	  <value>BO Admin</value>
+	</data>
+	<data name="BoAdminIdDescription">
+	  <value>Business Objects administrative user</value>
+	</data>
+	<data name="BoAdminPwName">
+	  <value>BO Admin Password</value>
+	</data>
+	<data name="BoAdminPwDescription">
+	  <value>Business Objects administrative user password</value>
+	</data>
+	<data name="BoCmsPortName">
+	  <value>CMS Port</value>
+	</data>
+	<data name="BoCmsPortDescription">
+	  <value>Business Objects CMS port</value>
+	</data>
+	<data name="BoItamIdName">
+	  <value>BO ITAM id</value>
+	</data>
+	<data name="BoItamIdDescription">
+	  <value>ITAM id used by BO</value>
+	</data>
+	<data name="DbInstanceName">
+	  <value>MS SQL Server Instance</value>
+	</data>
+	<data name="DbInstanceDescription">
+	  <value>SQL Server Instance</value>
+	</data>
+	<data name="OracleInstanceNameName">
+	  <value>Oracle Instance Name</value>
+	</data>
+	<data name="OracleInstanceNameDescription">
+	  <value>Oracle Instance Name</value>
+	</data>
+	<data name="DBCheckTimeName">
+	  <value>DB Check Time (in milli seconds)</value>
+	</data>
+	<data name="DBCheckTimeDescription">
+	  <value>Database Checktime for ImportSync Service</value>
+	</data>
+	<data name="WebServiceUserNameName">
+	  <value>Web Service User Name</value>
+	</data>
+	<data name="WebServiceUserNameDescription">
+	  <value>WebService Username</value>
+	</data>
+	<data name="WebServicePasswordName">
+	  <value>Web Service Password</value>
+	</data>
+	<data name="WebServicePasswordDescription">
+	  <value>WebService Password</value>
+	</data>
+	<data name="ItamRootPathName">
+	  <value>ITAM Root Path</value>
+	</data>
+	<data name="ItamRootPathDescription">
+	  <value>ITAM root install path for ?ThisBox.Box?</value>
+	</data>
+	<data name="ThisComponent_NameName">
+	  <value>Component name</value>
+	</data>
+	<data name="ThisComponent_NameDescription">
+	  <value>ThisComponent.Name in get_parameters_for_substitutiontext</value>
+	</data>
+	<data name="ItamRootPath_ComponentIdName">
+	  <value>ITAM Root Path ComponentId</value>
+	</data>
+	<data name="ItamRootPath_ComponentIdDescription">
+	  <value>First component to set value of ITAM root path is the "owner" - the only one that can change the value</value>
+	</data>
+	<data name="DbManifestName">
+	  <value>Manifest</value>
+	</data>
+	<data name="DbManifestDescription">
+	  <value>Manifest</value>
+	</data>
+	<data name="DbMdbAdminIdName">
+	  <value>mdbadmin User Name</value>
+	</data>
+	<data name="DbMdbAdminIdDescription">
+	  <value>mdbadmin User Name</value>
+	</data>
+	<data name="DbMdbAdminPwName">
+	  <value>mdbadmin Password</value>
+	</data>
+	<data name="DbMdbAdminPwDescription">
+	  <value>mdbadmin Password</value>
+	</data>
+	<data name="DbuapmAdminIdName">
+	  <value>Database uapmadmin User Name</value>
+	</data>
+	<data name="DbuapmAdminIdDescription">
+	  <value>mdbadmin User Name</value>
+	</data>
+	<data name="DbUapmAdminPwName">
+	  <value>Database uapmadmin Password</value>
+	</data>
+	<data name="DbUapmAdminPwDescription">
+	  <value>uapmadmin Password</value>
+	</data>
+	<data name="DbUapmBatchPwName">
+	  <value>uapmbatch Password</value>
+	</data>
+	<data name="DbUapmBatchPwDescription">
+	  <value>uapmbatch Password</value>
+	</data>
+	<data name="DbUapmReportingPwName">
+	  <value>uapmreporting Password</value>
+	</data>
+	<data name="DbUapmReportingPwDescription">
+	  <value>uapmreporting Password</value>
+	</data>
+	<data name="DbWorkspaceName">
+	  <value>Workspace Name</value>
+	</data>
+	<data name="DbWorkspaceDescription">
+	  <value>Workspace Name</value>
+	</data>
+	<data name="EEMuapmAdminIdName">
+	  <value>EEM uapmadmin User Name</value>
+	</data>
+	<data name="EEMuapmAdminIdDescription">
+	  <value>EEM UapmAdmin User Name</value>
+	</data>
+	<data name="EEMUapmAdminPwName">
+	  <value>EEM uapmadmin Password</value>
+	</data>
+	<data name="EEMUapmAdminPwDescription">
+	  <value>EEM uapmadmin Password</value>
+	</data>
+	<data name="WebServerName">
+	  <value>Web Server or Load Balancer IP/Host</value>
+	</data>
+	<data name="WebServerDescription">
+	  <value>BIG/ IP Host Name for Web Server</value>
+	</data>
+	<data name="WebServiceUserName">
+	  <value>Web Service User Name</value>
+	</data>
+	<data name="WebServiceUserDescription">
+	  <value>WebService Username</value>
+	</data>
+	<data name="WebServicePassName">
+	  <value>Web Service Password</value>
+	</data>
+	<data name="WebServicePassDescription">
+	  <value>WebService Password</value>
+	</data>
+	<data name="BoItamPwName">
+	  <value>BO ITAM id password</value>
+	</data>
+	<data name="BoItamPwDescription">
+	  <value>Password for ITAM id used by BO</value>
+	</data>
+	<data name="BoOracleNsnName">
+	  <value>Oracle Net Service Name</value>
+	</data>
+	<data name="BoOracleNsnDescription">
+	  <value>Oracle NSN used by BO to connect to MDB</value>
+	</data>
+	<data name="WebAuthenticationIdleTimeOutName">
+	  <value>Authentication Timeout (in milli seconds)</value>
+	</data>
+	<data name="WebAuthenticationIdleTimeOutDescription">
+	  <value>Authentication Timeout in milliseconds</value>
+	</data>
+	<data name="WebServiceAuthenticationIdleTimeOutName">
+	  <value>Authentication Timeout (in milli seconds)</value>
+	</data>
+	<data name="WebServiceAuthenticationIdleTimeOutDescription">
+	  <value>Authentication Timeout in milliseconds</value>
+	</data>
+	<data name="ImporterAuthenticationIdleTimeOutName">
+	  <value>Authentication Timeout (in milli seconds)</value>
+	</data>
+	<data name="ImporterAuthenticationIdleTimeOutDescription">
+	  <value>Authentication Timeout in milliseconds</value>
+	</data>
+	<data name="ImporterMaxBatchRecordSizeName">
+	  <value>Maximum Batch Record Size</value>
+	</data>
+	<data name="ImporterMaxBatchRecordSizeDescription">
+	  <value>Maximum Batch Record Size</value>
+	</data>
+	<data name="SMSAuthentication Idle TimeoutName">
+	  <value>Authentication Timeout (in milli seconds)</value>
+	</data>
+	<data name="SMSAuthentication Idle TimeoutDescription">
+	  <value>Authentication Timeout in milliseconds</value>
+	</data>
+	<data name="SMSPurgeStartTimeName">
+	  <value>Purge Start Time (in hours)</value>
+	</data>
+	<data name="SMSPurgeStartTimeDescription">
+	  <value>Purge Start Time</value>
+	</data>
+	<data name="CoraActivationName">
+	  <value>CORA Activation</value>
+	</data>
+	<data name="CoraActivationDescription">
+	  <value>CORA State</value>
+	</data>
+	<data name="DbConnStrName">
+	  <value>MS SQL Server Connection String</value>
+	</data>
+	<data name="DbConnStrDescription">
+	  <value>SQL Server connection string</value>
+	</data>
+	<data name="DbTypeVersionName">
+	  <value>Database type/version</value>
+	</data>
+	<data name="DbTypeVersionDescription">
+	  <value>A concatenation of the database Type and Version values with a ~ in between</value>
+	</data>
+	<data name="SearchBatchSizeName">
+	  <value>Search Batch Size</value>
+	</data>
+	<data name="SearchBatchSizeDescription">
+	  <value>Export Service Search Batch Size</value>
+	</data>
+	<data name="SMTempPathName">
+	  <value>Storage  Manager Temporary Folder</value>
+	</data>
+	<data name="SMTempPathDescription">
+	  <value>Temporary install path for SM Service on ?ThisBox.Box?</value>
+	</data>
+	<data name="ITPamProviderName">
+	  <value>Provider</value>
+	</data>
+	<data name="ITPamProviderDescription">
+	  <value>Provider Name</value>
+	</data>
+	<data name="ITPamUrlName">
+	  <value>Provider URL</value>
+	</data>
+	<data name="ITPamUrlDescription">
+	  <value>Provider Web Service URL</value>
+	</data>
+	<data name="ITPamProviderAuthTypeName">
+	  <value>Provider Authentication Type</value>
+	</data>
+	<data name="ITPamProviderAuthTypeDescription">
+	  <value>Provider Authentication type</value>
+	</data>
+	<data name="ITPamUsetNameName">
+	  <value>Provider User Name</value>
+	</data>
+	<data name="ITPamUsetNameDescription">
+	  <value>Provider Username</value>
+	</data>
+	<data name="ITPamPasswordName">
+	  <value>Provider Password</value>
+	</data>
+	<data name="ITPamPasswordDescription">
+	  <value>Provider Password</value>
+	</data>
+	<data name="ITPamProviderProcessPathName">
+	  <value>Provider Process Path</value>
+	</data>
+	<data name="ITPamProviderProcessPathDescription">
+	  <value>Process Path inside Provider</value>
+	</data>
+	<data name="WebServiceUserName">
+	  <value>Web Service User Name</value>
+	</data>
+	<data name="WebServiceUserDescription">
+	  <value>WebService Username</value>
+	</data>
+<root>
