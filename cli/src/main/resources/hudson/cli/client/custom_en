@@ -37,6 +37,8 @@ ASCIIFileManipulator.62edd400ab84.additionalText=The Introscope and TESS usernam
 # ASCIIFileManipulator.62f3078dac13.additionalText=The Application Delivery Analysis hostnames cannot be null.
 ASCIIFileManipulator.62f3078dac13.additionalText=The Application Delivery Analysis hostnames cannot be null.
 
+Key1=value1
+
 # ASCIIFileManipulator.908624f2b40a.additionalText=Invalid CA EULA Specified\r\n----------------------\r\nNo value was entered for the CA EULA file.\r\nEdit the responsefile so that the ca-eulaFile property refers to a valid End User License Agreement whose terms have been accepted, then rerun the silent installer.
 ASCIIFileManipulator.908624f2b40a.additionalText=Invalid CA EULA Specified\r\n----------------------\r\nNo value was entered for the CA EULA file.\r\nEdit the responsefile so that the ca-eulaFile property refers to a valid End User License Agreement whose terms have been accepted, then rerun the silent installer.
 
